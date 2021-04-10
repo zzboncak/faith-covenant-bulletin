@@ -15,7 +15,12 @@ export const Section: React.FC<SectionProps> = ({ title }) => {
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
   return (
     <section className="section">
-      <h2 onClick={() => setIsExpanded(!isExpanded)}>{title}</h2>
+      <h2
+        className="section-title"
+        onClick={() => setIsExpanded(!isExpanded)}
+      >
+        {title}
+      </h2>
       {isExpanded && <div>I am more content!</div>}
     </section>
   );
