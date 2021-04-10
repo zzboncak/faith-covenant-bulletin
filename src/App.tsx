@@ -6,14 +6,14 @@ function App(): JSX.Element {
     <div className="App">
       <nav className="nav-bar">
         <header className="App-header">
-          <p>Weekend Bulletin</p>
+          <p>React Project</p>
           <a
             className="App-link"
-            href="https://www.faithecc.org"
+            href="https://www.starwars.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Church Website
+            Go read some Star Wars
           </a>
         </header>
       </nav>
