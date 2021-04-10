@@ -1,7 +1,8 @@
 import React from "react";
+import { Section } from "./components/Section";
 import "./App.css";
 
-function App(): JSX.Element {
+export const App: React.FC = () => {
   return (
     <div className="App">
       <nav className="nav-bar">
@@ -17,8 +18,8 @@ function App(): JSX.Element {
           </a>
         </header>
       </nav>
+      <Section title="First Section" />
+      <Section title="Second Section" />
     </div>
   );
-}
-
-export default App;
+};
