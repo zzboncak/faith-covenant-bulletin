@@ -1,14 +1,12 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App(): JSX.Element {
   return (
     <div className="App">
       <nav className="nav-bar">
         <header className="App-header">
-          <p>
-            Weekend Bulletin
-          </p>
+          <p>Weekend Bulletin</p>
           <a
             className="App-link"
             href="https://www.faithecc.org"
