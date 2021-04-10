@@ -9,7 +9,7 @@ function App(): JSX.Element {
           <p>Weekend Bulletin</p>
           <a
             className="App-link"
-            href="https://www.starwars.com"
+            href="https://www.faithecc.org"
             target="_blank"
             rel="noopener noreferrer"
           >
