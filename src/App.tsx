@@ -1,6 +1,7 @@
 import React from "react";
-import { Section } from "./components/Section";
+import { Section } from "./components/section/Section";
 import "./App.css";
+import { section1 } from "./testData";
 
 export const App: React.FC = () => {
   return (
@@ -18,8 +19,16 @@ export const App: React.FC = () => {
           </a>
         </header>
       </nav>
-      <Section title="First Section" />
+      {[section1].map((section, i) => (
+        <Section
+          key={i}
+          title={section.title}
+          subsections={section.subsections}
+        />
+      ))}
+      {/* <Section title="First Section" />
       <Section title="Second Section" />
+      <Section title="Third Section" /> */}
     </div>
   );
 };

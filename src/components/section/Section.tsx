@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { SectionProps } from "../../types";
+import { Subsection } from "../subsection/Subsection";
+import "./Section.css";
 
 /**
  * A Section should be collapsable
@@ -7,12 +10,18 @@ import React, { useState } from "react";
  * A Section contains other elements of the service
  * Some of those (like songs) may also be collapsable
  */
-type SectionProps = {
-  title: string;
-};
-
-export const Section: React.FC<SectionProps> = ({ title }) => {
+export const Section: React.FC<SectionProps> = ({
+  title,
+  subsections
+}) => {
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
+  const content = subsections.map((subsection, i) => (
+    <Subsection
+      key={i}
+      title={subsection.title}
+      subjects={subsection.subjects}
+    />
+  ));
   return (
     <section className="section">
       <h2
@@ -21,7 +30,7 @@ export const Section: React.FC<SectionProps> = ({ title }) => {
       >
         {title}
       </h2>
-      {isExpanded && <div>I am more content!</div>}
+      {isExpanded && content}
     </section>
   );
 };
