@@ -10,8 +10,7 @@ export const Subject: React.FC<SubjectProps> = ({
 
   return (
     <div onClick={() => setExpanded(!isExpanded)}>
-      I am a subject {title}
-      <br />
+      <p>{title}</p>
       {content && isExpanded && content}
     </div>
   );

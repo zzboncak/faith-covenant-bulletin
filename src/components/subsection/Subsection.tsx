@@ -9,6 +9,8 @@ export const Subsection: React.FC<SubsectionProps> = ({
   person
 }) => {
   return (
+    // consider removing the Subject component for just a name, and what the content is.
+    // Might be better for layout.
     <div className="subsection">
       <h4>{title}</h4>
       {subjects.map((subject, i) => (
