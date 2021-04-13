@@ -1,5 +1,9 @@
 .subsection {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: auto auto;
   align-items: center;
+}
+
+.subsection-title {
+  grid-column: 1 / span 1;
 }

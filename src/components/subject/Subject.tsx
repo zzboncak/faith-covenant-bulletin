@@ -9,9 +9,21 @@ export const Subject: React.FC<SubjectProps> = ({
   const [isExpanded, setExpanded] = useState<boolean>(false);
 
   return (
-    <div onClick={() => setExpanded(!isExpanded)}>
-      <p>{title}</p>
-      {content && isExpanded && content}
-    </div>
+    <>
+      <p
+        className="subject-title"
+        onClick={() => setExpanded(!isExpanded)}
+      >
+        {title}
+      </p>
+      {content && isExpanded && (
+        <p
+          className="subject-content"
+          style={{ gridColumn: "1 / span 2" }}
+        >
+          {content}
+        </p>
+      )}
+    </>
   );
 };
