@@ -4,7 +4,8 @@ import "./Subject.css";
 
 export const Subject: React.FC<SubjectProps> = ({
   title,
-  content
+  content,
+  isExpandable
 }) => {
   const [isExpanded, setExpanded] = useState<boolean>(false);
   const contentArray = content
@@ -24,7 +25,7 @@ export const Subject: React.FC<SubjectProps> = ({
   return (
     <>
       <p
-        className="subject-title"
+        className={`subject-title${isExpandable ? " clickable" : ""}`}
         onClick={() => setExpanded(!isExpanded)}
       >
         {title}

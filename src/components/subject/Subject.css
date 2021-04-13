@@ -28,3 +28,8 @@
 .bold {
   font-weight: 900;
 }
+
+.clickable {
+  color: blue;
+  font-style: italic;
+}
