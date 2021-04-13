@@ -169,9 +169,15 @@ const s2_subsection1: SubsectionProps = {
   title: "Scripture Reading",
   subjects: [
     {
-      title: "Thy Word",
+      title: "Colossians 1:13-23",
       isExpandable: true,
-      content: `Colossians 1:13-23`
+      type: "scripture",
+      content: `Thy Word is a lamp unto my feet and a light unto my path
+      
+      He has delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son, in whom we have redemption, the forgiveness of sins. He is the image of the invisible God, the firstborn of all creation. For by him all things were created, in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities—all things were created through him and for him. And he is before all things, and in him all things hold together. And he is the head of the body, the church. He is the beginning, the firstborn from the dead, that in everything he might be preeminent. For in him all the fullness of God was pleased to dwell, and through him to reconcile to himself all things, whether on earth or in heaven, making peace by the blood of his cross. And you, who once were alienated and hostile in mind, doing evil deeds, he has now reconciled in his body of flesh by his death, in order to present you holy and blameless and above reproach before him, if indeed you continue in the faith, stable and steadfast, not shifting from the hope of the gospel that you heard, which has been proclaimed in all creation under heaven, and of which I, Paul, became a minister.
+
+      Colossians 1:13-23
+      `
     }
   ]
 };
@@ -181,7 +187,11 @@ const s2_subsection2: SubsectionProps = {
   subjects: [
     {
       title: "Jesus Loves Me",
-      isExpandable: false
+      isExpandable: true,
+      content: `Jesus loves me this I know for the Bible tells me so
+      Little ones to Him belong, they are weak but He is strong.
+      Yes, Jesus loves me! Yes, Jesus loves me!
+      Yes, Jesus loves me! The Bible tells me so.`
     }
   ],
   person: "Angela Broman"

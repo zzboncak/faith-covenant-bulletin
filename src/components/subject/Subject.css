@@ -29,6 +29,10 @@
   font-weight: 900;
 }
 
+.italics {
+  font-style: italic;
+}
+
 .clickable {
   color: blue;
   font-style: italic;
