@@ -18,7 +18,7 @@ export const Subsection: React.FC<SubsectionProps> = ({
           <span className="subsection-person">{person}</span>
         )}
       </div>
-      {subjects.map((subject, i) => (
+      {subjects?.map((subject, i) => (
         <Subject
           key={i}
           title={subject.title}

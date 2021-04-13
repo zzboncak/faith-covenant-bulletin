@@ -10,12 +10,17 @@ export const Subject: React.FC<SubjectProps> = ({
   const contentArray = content
     ?.split(/\n/)
     .map((entry) => entry.trim())
-    .map((entry, i) => (
-      <p key={`${title}-content-${i}`} className="content-line">
-        {entry}
-      </p>
-    ));
-  console.log("readableContent", contentArray);
+    .map((entry, i) => {
+      const boldClass = entry.startsWith("Leader: ") ? " bold" : "";
+      return (
+        <p
+          key={`${title}-content-${i}`}
+          className={`content-line${boldClass}`}
+        >
+          {entry}
+        </p>
+      );
+    });
   return (
     <>
       <p
@@ -25,7 +30,17 @@ export const Subject: React.FC<SubjectProps> = ({
         {title}
       </p>
       {content && isExpanded && (
-        <div className="subject-content">{contentArray}</div>
+        <>
+          <div className="subject-content">
+            {contentArray}
+            <p
+              className="collapse"
+              onClick={() => setExpanded(!isExpanded)}
+            >
+              Collapse
+            </p>
+          </div>
+        </>
       )}
     </>
   );

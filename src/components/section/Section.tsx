@@ -31,7 +31,17 @@ export const Section: React.FC<SectionProps> = ({
       >
         {title}
       </h2>
-      {isExpanded && content}
+      {isExpanded && (
+        <>
+          {content}
+          <p
+            className="collapse"
+            onClick={() => setIsExpanded(!isExpanded)}
+          >
+            Collapse Section
+          </p>
+        </>
+      )}
     </section>
   );
 };

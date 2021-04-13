@@ -1,11 +1,18 @@
 .subject-title {
   text-align: right;
   grid-column: 2 / span 1;
+  cursor: pointer;
 }
 
-.subject-content {
+.subject-content,
+.collapse {
   grid-column: 1 / span 2;
   text-align: left;
+}
+
+.collapse {
+  cursor: pointer;
+  color: blue;
 }
 
 .subject-content,
@@ -13,6 +20,11 @@
   font-size: 20px;
 }
 
-.content-line {
+.content-line,
+.collapse {
   padding-left: 10px;
+}
+
+.bold {
+  font-weight: 900;
 }
