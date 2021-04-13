@@ -325,7 +325,16 @@ export const section3: SectionProps = {
 };
 
 const s4_subsection1: SubsectionProps = {
-  title: "Announcements"
+  title: "Announcements",
+  subjects: [
+    {
+      title: "Click here to see",
+      isExpandable: true,
+      content: `I am a very important announcement
+      
+      I am a second very important announcement`
+    }
+  ]
 };
 
 const s4_subsection2: SubsectionProps = {
