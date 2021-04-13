@@ -14,7 +14,9 @@ export const Subsection: React.FC<SubsectionProps> = ({
     <div className="subsection">
       <div className="subsection-title">
         <h4>{title}</h4>
-        {person && <p>{person}</p>}
+        {!!person && (
+          <span className="subsection-person">{person}</span>
+        )}
       </div>
       {subjects.map((subject, i) => (
         <Subject

@@ -20,6 +20,7 @@ export const Section: React.FC<SectionProps> = ({
       key={i}
       title={subsection.title}
       subjects={subsection.subjects}
+      person={subsection.person}
     />
   ));
   return (

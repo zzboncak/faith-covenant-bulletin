@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  padding: 20px;
 }
 
 .App-header {
