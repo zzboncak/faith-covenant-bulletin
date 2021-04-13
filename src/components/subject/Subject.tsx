@@ -4,7 +4,9 @@ import "./Subject.css";
 
 export const Subject: React.FC<SubjectProps> = ({
   title,
-  content
+  content,
+  isExpandable,
+  type
 }) => {
   const [isExpanded, setExpanded] = useState<boolean>(false);
   const contentArray = content
@@ -12,10 +14,12 @@ export const Subject: React.FC<SubjectProps> = ({
     .map((entry) => entry.trim())
     .map((entry, i) => {
       const boldClass = entry.startsWith("Leader: ") ? " bold" : "";
+      const classes =
+        type === "scripture" && i === 0 ? " bold italics" : "";
       return (
         <p
           key={`${title}-content-${i}`}
-          className={`content-line${boldClass}`}
+          className={`content-line${boldClass}${classes}`}
         >
           {entry}
         </p>
@@ -24,7 +28,7 @@ export const Subject: React.FC<SubjectProps> = ({
   return (
     <>
       <p
-        className="subject-title"
+        className={`subject-title${isExpandable ? " clickable" : ""}`}
         onClick={() => setExpanded(!isExpanded)}
       >
         {title}

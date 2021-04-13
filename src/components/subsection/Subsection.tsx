@@ -22,6 +22,7 @@ export const Subsection: React.FC<SubsectionProps> = ({
           title={subject.title}
           isExpandable={true}
           content={subject.content}
+          type={subject.type}
         />
       ))}
     </div>

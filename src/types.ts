@@ -1,7 +1,10 @@
+type SubjectTypes = "song" | "scripture" | "sermon" | "liturgy";
+
 export type SubjectProps = {
   title: string;
   isExpandable: boolean;
   content?: string;
+  type?: SubjectTypes;
 };
 
 export type SubsectionProps = {

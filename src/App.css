@@ -2,6 +2,8 @@
   text-align: center;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   padding: 20px;
+  min-height: 97vh;
+  margin-bottom: -50px;
 }
 
 .App-header {
@@ -14,5 +16,11 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: blue;
+}
+
+footer,
+.push {
+  height: 50px;
+  text-align: center;
 }
