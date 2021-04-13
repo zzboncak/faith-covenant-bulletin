@@ -1,5 +1,22 @@
 .subsection {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 50% 50%;
   align-items: center;
+}
+
+.subsection-title {
+  position: relative;
+  grid-column: 1 / span 1;
+}
+
+.subsection-title {
+  font-size: 20px;
+  text-align: left;
+}
+
+.subsection-person {
+  position: absolute;
+  bottom: 5px;
+  font-size: 15px;
+  font-style: italic;
 }

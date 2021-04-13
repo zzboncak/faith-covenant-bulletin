@@ -6,7 +6,7 @@ export type SubjectProps = {
 
 export type SubsectionProps = {
   title: string;
-  subjects: SubjectProps[];
+  subjects?: SubjectProps[];
   person?: string;
 };
 

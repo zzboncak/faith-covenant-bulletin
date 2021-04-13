@@ -9,11 +9,14 @@ export const Subsection: React.FC<SubsectionProps> = ({
   person
 }) => {
   return (
-    // consider removing the Subject component for just a name, and what the content is.
-    // Might be better for layout.
     <div className="subsection">
-      <h4>{title}</h4>
-      {subjects.map((subject, i) => (
+      <div className="subsection-title">
+        <h4>{title}</h4>
+        {!!person && (
+          <span className="subsection-person">{person}</span>
+        )}
+      </div>
+      {subjects?.map((subject, i) => (
         <Subject
           key={i}
           title={subject.title}
@@ -21,7 +24,6 @@ export const Subsection: React.FC<SubsectionProps> = ({
           content={subject.content}
         />
       ))}
-      {person && <p>{person}</p>}
     </div>
   );
 };
