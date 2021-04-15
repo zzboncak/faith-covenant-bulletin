@@ -1,5 +1,52 @@
 import { SubjectProps } from "./types";
 
+export const countingEveryBlessing: SubjectProps = {
+  title: "Counting Every Blessing",
+  type: "song",
+  isExpandable: true,
+  content: `I was blind, now I'm seeing in colour
+  I was dead, now I'm living forever
+  I had failed, but You were my Redeemer
+  I've been blessed beyond all measure
+  
+  I was lost, now I'm found by the Father
+  I've been changed from a ruin to treasure
+  I've been given a hope and a future
+  I've been blessed beyond all measure
+
+  I am counting every blessing, counting every blessing
+  Letting go and trusting when I cannot see
+  I am counting every blessing, counting every blessing
+  Surely every season You are good to me
+
+  Oh-oh-ooh, oh-oh-ooh-oooh (You are good to me)
+  Oh-oh-ooh, oh-oh-ooh-oooh (You are good to me)
+
+  You were there in the valley of shadows
+  You were there in the depth of my sorrows
+  You're my strength, my hope for tomorrow
+  I've been blessed beyond all measure
+
+  I am counting every blessing, counting every blessing
+  Letting go and trusting when I cannot see
+  I am counting every blessing, counting every blessing
+  Surely every season You are good to me
+
+  Oh-oh-ooh, oh-oh-ooh-oooh (You are good to me)
+  Oh-oh-ooh, oh-oh-ooh-oooh (You are good to me)
+
+  Surely Your goodness pursues me
+  Surely Your heart is still for me
+  I will remember Your mercies all my days
+  Through every storm and gale
+
+  I am counting every blessing, counting every blessing
+  Letting go and trusting when I cannot see
+  I am counting every blessing, counting every blessing
+  Surely every season You are good to me
+  `
+};
+
 export const christIsRisen: SubjectProps = {
   title: "Christ is Risen",
   type: "song",

@@ -21,18 +21,13 @@ import {
   howGreatIsOurGod,
   foreverWeSingHallelujah,
   speakOLord,
-  thineIsTheGlory
+  thineIsTheGlory,
+  countingEveryBlessing
 } from "./songs";
 
 const gatheringSong: SubsectionProps = {
   title: "Gathering Song",
-  subjects: [
-    {
-      title: "Counting Every Blessing",
-      isExpandable: true,
-      content: `Here are some words`
-    }
-  ]
+  subjects: [countingEveryBlessing]
 };
 
 const songsOfWorship: SubsectionProps = {
