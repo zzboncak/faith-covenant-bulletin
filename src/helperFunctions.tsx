@@ -48,13 +48,14 @@ export function generateScriptureReading(
 export function generateAnnouncements(
   announcements: (string | JSX.Element)[]
 ): SubsectionProps {
-  let content: any;
+  let content: string | JSX.Element = "";
   if (typeof announcements[0] === "string") {
     announcements.forEach(
-      (announcement) => (content = content + announcement + "\n")
+      (announcement) =>
+        (content = (content as string) + announcement + "\n")
     );
   } else {
-    content = <>{announcements}</>;
+    content = <>{announcements as JSX.Element[]}</>;
   }
   const announcementsSection: SubsectionProps = {
     title: "Announcements",

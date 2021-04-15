@@ -1,6 +1,9 @@
 .subject-title {
   text-align: right;
   grid-column: 2 / span 1;
+}
+
+.subject-title.clickable {
   cursor: pointer;
 }
 
@@ -13,11 +16,7 @@
 .collapse {
   cursor: pointer;
   color: blue;
-}
-
-.subject-content,
-.subject-title {
-  font-size: 20px;
+  text-align: center;
 }
 
 .content-line,

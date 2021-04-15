@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: center;
+  font-size: 20px;
 }
 
 .subsection-title {
@@ -10,7 +11,6 @@
 }
 
 .subsection-title {
-  font-size: 20px;
   text-align: left;
 }
 
