@@ -9,22 +9,27 @@ export const Subject: React.FC<SubjectProps> = ({
   type
 }) => {
   const [isExpanded, setExpanded] = useState<boolean>(false);
-  const contentArray = content
-    ?.split(/\n/)
-    .map((entry) => entry.trim())
-    .map((entry, i) => {
-      const boldClass = entry.startsWith("Leader: ") ? " bold" : "";
-      const classes =
-        type === "scripture" && i === 0 ? " bold italics" : "";
-      return (
-        <p
-          key={`${title}-content-${i}`}
-          className={`content-line${boldClass}${classes}`}
-        >
-          {entry}
-        </p>
-      );
-    });
+  let contentArray;
+  if (typeof content === "string") {
+    contentArray = content
+      ?.split(/\n/)
+      .map((entry) => entry.trim())
+      .map((entry, i) => {
+        const boldClass = entry.startsWith("Leader: ") ? " bold" : "";
+        const classes =
+          type === "scripture" && i === 0 ? " bold italics" : "";
+        return (
+          <p
+            key={`${title}-content-${i}`}
+            className={`content-line${boldClass}${classes}`}
+          >
+            {entry}
+          </p>
+        );
+      });
+  } else {
+    contentArray = content;
+  }
   return (
     <>
       <p

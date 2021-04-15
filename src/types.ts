@@ -3,7 +3,7 @@ type SubjectTypes = "song" | "scripture" | "sermon" | "liturgy";
 export type SubjectProps = {
   title: string;
   isExpandable: boolean;
-  content?: string;
+  content?: string | JSX.Element;
   type?: SubjectTypes;
 };
 
