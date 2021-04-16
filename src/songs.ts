@@ -209,9 +209,9 @@ export const speakOLord: SubjectProps = {
   Your majestic love and authority
   Words of power that can never fail
   Let their truth prevail over unbelief
+
   Speak O Lord and renew our minds
   Help us grasp the heights of Your plans for us
-
   Truths unchanged from the dawn of time
   That will echo down through eternity
   And by grace we'll stand on Your promises
@@ -224,27 +224,27 @@ export const thineIsTheGlory: SubjectProps = {
   title: "Thine is the Glory",
   isExpandable: true,
   type: "song",
-  content: `Thine is the glory, Resurrected One!
-  Endless is the victr’y now for us begun!
-  Angels clothed in glory rolled the stone away,
-  leaving only graveclothes where his body lay.
+  content: `Thine is the glory, risen, conquering Son;
+  endless is the victory thou o'er death hast won.
+  Angels in bright raiment rolled the stone away,
+  kept the folded grave clothes where thy body lay.
+
+  Thine is the glory, risen, conquering Son;
+  endless is the victory thou o'er death hast won.
   
-  Thine is the glory, Resurrected One!
-  Endless is the victr'y now for us begun!
-
-  Lo! Jesus meets us. Risen from the tomb, 
+  Lo! Jesus meets us, risen from the tomb;
   lovingly he greets us, scatters fear and gloom.
-  Let our doubting spirits find a voice to sing:
-  Christ who died is living; death has lost its sting
-
-  Thine is the glory, Resurrected One!
-  Endless is the victr'y now for us begun!
-
-  Thine was the suff’ring, mine the endless life.
-  Sin holds no dominion; love wins over strife.
-  What then shall I shall I offer? Songs that never cease!
-  Thou hast won the vict’ry, glorious Prince of Peace!
-
-  Thine is the glory, Resurrected One!
-  Endless is the victr'y now for us begun!`
+  Let his church with gladness hymn of triumph sing,
+  for her Lord now liveth death hath lost its sting.
+  
+  Thine is the glory, risen, conquering Son;
+  endless is the victory thou o'er death hast won.
+  
+  No more we doubt thee, glorious Prince of life!
+  Life is nought without thee; aid us in our strife.
+  Make us more than conquerors, through thy deathless love:
+  bring us safe through Jordan to thy home above.
+  
+  Thine is the glory, risen, conquering Son;
+  endless is the victory thou o'er death hast won.`
 };

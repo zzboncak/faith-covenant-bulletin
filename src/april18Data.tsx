@@ -46,11 +46,8 @@ const scriptureReading = generateScriptureReading(
   `Paul’s Labor for the Church
   24 Now I rejoice in what I am suffering for you, and I fill up in my flesh what is still lacking in regard to Christ’s afflictions, for the sake of his body, which is the church. 25 I have become its servant by the commission God gave me to present to you the word of God in its fullness—26 the mystery that has been kept hidden for ages and generations, but is now disclosed to the Lord’s people. 27 To them God has chosen to make known among the Gentiles the glorious riches of this mystery, which is Christ in you, the hope of glory. 
   28 He is the one we proclaim, admonishing and teaching everyone with all wisdom, so that we may present everyone fully mature in Christ. 29 To this end I strenuously contend with all the energy Christ so powerfully works in me. 
-  1 I want you to know how hard I am contending for you and for those at Laodicea, and for all who have not met me personally. 2 My goal is that they may be encouraged in heart and united in love, so that they may have the full riches of complete understanding, in order that they may know the mystery of God, namely, Christ, 3 in whom are hidden all the treasures of wisdom and knowledge. 4 I tell you this so that no one may deceive you by fine-sounding arguments. 5 For though I am absent from you in body, I am present with you in spirit and delight to see how disciplined you are and how firm your faith in Christ is. 
-  Spiritual Fullness in Christ
-  6 So then, just as you received Christ Jesus as Lord, continue to live your lives in him, 7 rooted and built up in him, strengthened in the faith as you were taught, and overflowing with thankfulness. 
-  8 See to it that no one takes you captive through hollow and deceptive philosophy, which depends on human tradition and the elemental spiritual forces of this world rather than on Christ.`,
-  "Colossians 1:24-2:8"
+  1 I want you to know how hard I am contending for you and for those at Laodicea, and for all who have not met me personally. 2 My goal is that they may be encouraged in heart and united in love, so that they may have the full riches of complete understanding, in order that they may know the mystery of God, namely, Christ, 3 in whom are hidden all the treasures of wisdom and knowledge.`,
+  "Colossians 1:24-2:3"
 );
 
 const ministryToChildren = generateMinistryToChildren("Wendy Smith");
