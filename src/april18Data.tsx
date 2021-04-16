@@ -80,22 +80,22 @@ const section3 = generate3rdSection([
 // Probably need to create a generateAnnouncements section
 const announcements = generateAnnouncements([
   <p key={1}>
-    Save the Date: Mark your calendars for Faith Covenant&#39;s
-    All-Church Retreat! It will be held at Covenant Harbor in Lake
-    Geneva, Wisconsin. The dates are August 6-8, 2021. More details to
-    come in the next few weeks.
+    <strong>Save the Date:</strong> Mark your calendars for Faith
+    Covenant&#39;s All-Church Retreat! It will be held at Covenant
+    Harbor in Lake Geneva, Wisconsin. The dates are August 6-8, 2021.
+    More details to come in the next few weeks.
   </p>,
   <p key={2}>
-    Welcome Lunch, April 25, 12:00 pm: Are you new to Faith Covenant?
-    We would love to get to know you. Please join us for a Welcome
-    Lunch following the 10:30 am Worship Service. You will enjoy a box
-    lunch and get acquainted with others who are new to the church.
-    Meet Pastor Nate in a smaller setting and hear the dream God has
-    given the church for ministry in South Wheaton. (We will social
-    distance and wear masks when not eating.) Please sign up by April
-    21. Click{" "}
+    <strong>Welcome Lunch, April 25, 12:00 pm:</strong> Are you new to
+    Faith Covenant? We would love to get to know you. Please join us
+    for a Welcome Lunch following the 10:30 am Worship Service. You
+    will enjoy a box lunch and get acquainted with others who are new
+    to the church. Meet Pastor Nate in a smaller setting and hear the
+    dream God has given the church for ministry in South Wheaton. (We
+    will social distance and wear masks when not eating.) Please sign
+    up by April 21. Click{" "}
     <a
-      href="https://faithecc.us2.list-manage.com/track/click?u=5ebbfcca2268fc238d4964e8a&id=c1ecfee6ec&e=ce13a0b3e9"
+      href="https://faithecc.breezechms.com/form/WelcomeLunch4.25.21"
       target="_blank"
       rel="noreferrer"
     >
