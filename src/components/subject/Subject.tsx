@@ -16,12 +16,22 @@ export const Subject: React.FC<SubjectProps> = ({
       .map((entry) => entry.trim())
       .map((entry, i) => {
         const boldClass = entry.startsWith("Leader: ") ? " bold" : "";
-        const classes =
+        const styleClasses =
           type === "scripture" && i === 0 ? " bold italics" : "";
+        const paragraphClass =
+          entry !== "" && type === "song" ? " paragraph" : "";
+        const classes = [
+          boldClass,
+          styleClasses,
+          paragraphClass
+        ].join(" ");
+        if (entry === "") {
+          return <br />;
+        }
         return (
           <p
             key={`${title}-content-${i}`}
-            className={`content-line${boldClass}${classes}`}
+            className={`content-line${classes}`}
           >
             {entry}
           </p>

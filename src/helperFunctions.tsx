@@ -34,10 +34,8 @@ export function generateScriptureReading(
         isExpandable: true,
         type: "scripture",
         content: `Thy Word is a lamp unto my feet and a light unto my path
-
         ${passage}
-        ${reference}
-        `
+        ${reference}`
       }
     ]
   };

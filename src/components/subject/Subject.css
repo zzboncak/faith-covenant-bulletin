@@ -36,3 +36,7 @@
   color: blue;
   font-style: italic;
 }
+
+.paragraph {
+  margin: 2.5px 0;
+}
