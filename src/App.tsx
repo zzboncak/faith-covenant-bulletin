@@ -10,6 +10,7 @@ export const App: React.FC = () => {
         <nav className="nav-bar">
           <header className="App-header">
             <h1>Worship Bulletin</h1>
+            <p className="date">April 18, 2021</p>
           </header>
         </nav>
         <div className="helper-text-container">
