@@ -20,7 +20,7 @@ export const Subsection: React.FC<SubsectionProps> = ({
         <Subject
           key={i}
           title={subject.title}
-          isExpandable={true}
+          isExpandable={subject.isExpandable}
           content={subject.content}
           type={subject.type}
         />
