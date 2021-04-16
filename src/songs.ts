@@ -43,8 +43,7 @@ export const countingEveryBlessing: SubjectProps = {
   I am counting every blessing, counting every blessing
   Letting go and trusting when I cannot see
   I am counting every blessing, counting every blessing
-  Surely every season You are good to me
-  `
+  Surely every season You are good to me`
 };
 
 export const christIsRisen: SubjectProps = {
@@ -55,32 +54,34 @@ export const christIsRisen: SubjectProps = {
   Inside the lie of inward shame
   But fix our eyes upon the cross
   And run to Him who showed great love
+
   And bled for us
   Freely You've bled for us
   
   Christ is risen from the dead
   Trampling over death by death
-  Come awake come awake
+  Come awake, come awake
   Come and rise up from the grave
   Christ is risen from the dead
   We are one with Him again
-  Come awake come awake
+  Come awake, come awake
   Come and rise up from the grave
 
   Beneath the weight of all our sin
   You bowed to none but heaven's will
   No scheme of hell no scoffer's crown
   No burden great can hold You down
+
   In strength You reign
   Forever let Your church proclaim
 
   Christ is risen from the dead
   Trampling over death by death
-  Come awake come awake
+  Come awake, come awake
   Come and rise up from the grave
   Christ is risen from the dead
   We are one with Him again
-  Come awake come awake
+  Come awake, come awake
   Come and rise up from the grave
 
   O death where is your sting
@@ -90,15 +91,23 @@ export const christIsRisen: SubjectProps = {
   Singing O death where is your sting
   O hell where is your victory
   O church come stand in the light
-  Our God is not dead He's alive He's alive
-  `
+  Our God is not dead He's alive He's alive!
+
+  Christ is risen from the dead
+  Trampling over death by death
+  Come awake, come awake
+  Come and rise up from the grave
+  Christ is risen from the dead
+  We are one with Him again
+  Come awake, come awake
+  Come and rise up from the grave`
 };
 
 export const howGreatIsOurGod: SubjectProps = {
   title: "How Great is Our God",
   type: "song",
   isExpandable: true,
-  content: `The splendor of the King
+  content: `The splendor of a King
   Clothed in majesty
   Let all the earth rejoice
   All the earth rejoice
@@ -134,8 +143,7 @@ export const howGreatIsOurGod: SubjectProps = {
   Name above all names
   Worthy of all praise
   My heart will sing
-  How great is our God
-  `
+  How great is our God`
 };
 
 export const foreverWeSingHallelujah: SubjectProps = {
@@ -176,8 +184,7 @@ export const foreverWeSingHallelujah: SubjectProps = {
 
   We sing hallelujah
   We sing hallelujah
-  We sing hallelujah
-  `
+  We sing hallelujah`
 };
 
 export const speakOLord: SubjectProps = {
@@ -210,8 +217,7 @@ export const speakOLord: SubjectProps = {
   And by grace we'll stand on Your promises
   And by faith we'll walk as You walk with us
   Speak O Lord till Your church is built
-  And the earth is filled with Your glory
-  `
+  And the earth is filled with Your glory`
 };
 
 export const thineIsTheGlory: SubjectProps = {
