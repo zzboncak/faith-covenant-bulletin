@@ -1,7 +1,7 @@
 import React from "react";
 import { Section } from "./components/section/Section";
 import "./App.css";
-import { april18Service } from "./april18Data";
+import { may2Service } from "./may2Data";
 
 export const App: React.FC = () => {
   return (
@@ -18,7 +18,7 @@ export const App: React.FC = () => {
             <i>Click on an element of the service to expand it.</i>
           </p>
         </div>
-        {april18Service.map((section, i) => (
+        {may2Service.map((section, i) => (
           <Section
             key={i}
             title={section.title}

@@ -248,3 +248,60 @@ export const thineIsTheGlory: SubjectProps = {
   Thine is the glory, risen, conquering Son;
   endless is the victory thou o'er death hast won.`
 };
+
+export const resurrectionPower: SubjectProps = {
+  title: "Resurrection Power",
+  isExpandable: true,
+  type: "song",
+  content: `You called me from the grave by name
+  You called me out of all my shame
+  I see the old has passed away
+  The new has come
+  
+  Now I have resurrection power
+  Living on the inside
+  Jesus, You have given us freedom
+  No longer bound by sin and darkness
+  Living in the light of Your goodness
+  You have given us freedom
+  
+  That I'm dressed in Your royalty
+  Your Holy Spirit lives in me
+  And I see my past has been redeemed
+  The new has come
+  
+  Now I have resurrection power
+  Living on the inside
+  Jesus, You have given us freedom
+  I'm no longer bound by sin and darkness
+  Living in the light of Your goodness
+  You have given us freedom
+  
+  Freedom, You have given us freedom
+  You have given us freedom, my chains are gone
+  Freedom, You have given us freedom
+  You have given us freedom, hallelujah
+  Freedom, You have given us freedom
+  You have given us freedom, my chains are gone
+  Freedom, You have given us freedom
+  You have given us freedom, hallelujah
+  
+  Now I have resurrection power
+  Living on the inside
+  Now, I'm no longer bound by sin and darkness
+  Living in the light of Your goodness
+  You have given us freedom
+  Now I have resurrection power
+  Living on the inside
+  Jesus, You have given us freedom
+  Now, I'm no longer bound by sin and darkness
+  Living in the light of Your goodness
+  You have given us freedom
+  
+  I have resurrection power
+  Living on the inside
+  Living on the inside
+  No longer bound by sin and darkness
+  You have given us freedom
+  You have given us freedom`
+};
