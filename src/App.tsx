@@ -13,6 +13,14 @@ export const App: React.FC = () => {
           <header className="App-header">
             <h1>Worship Bulletin</h1>
             <p className="date">May 2, 2021</p>
+            <a
+              href="https://faithecc.breezechms.com/form/Worship_Check_In"
+              target="_blank"
+              rel="noreferrer"
+              className="register-link"
+            >
+              Click Here to Register
+            </a>
           </header>
         </nav>
         <div className="helper-text-container">
