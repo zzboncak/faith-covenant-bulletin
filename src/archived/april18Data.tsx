@@ -1,13 +1,13 @@
 /* eslint-disable no-irregular-whitespace */
 import React from "react";
-import { SubsectionProps } from "./types";
+import { SubsectionProps } from "../types";
 import {
   callToWorship,
   prayersOfThePeople,
   offeringDedication,
   prayerOfDedication,
   benediction
-} from "./commonElements";
+} from "../commonElements";
 import {
   generate1stSection,
   generate2ndSection,
@@ -16,7 +16,7 @@ import {
   generateAnnouncements,
   generateMinistryToChildren,
   generateScriptureReading
-} from "./helperFunctions";
+} from "../helperFunctions";
 import {
   christIsRisen,
   howGreatIsOurGod,
@@ -24,7 +24,7 @@ import {
   speakOLord,
   thineIsTheGlory,
   countingEveryBlessing
-} from "./songs";
+} from "../songs";
 
 const gatheringSong: SubsectionProps = {
   title: "Gathering Song",

@@ -5,6 +5,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -ms-overflow-style: none;
+  width: 90vw;
+  margin-left: 5vw;
+  max-width: 400px;
+}
+
+@media only screen and (min-width: 400px) {
+  body {
+    margin-left: calc(50vw - 200px);
+  }
 }
 
 body::-webkit-scrollbar {
@@ -14,7 +23,6 @@ body::-webkit-scrollbar {
 html,
 body {
   height: 100%;
-  margin: 0;
 }
 
 code {

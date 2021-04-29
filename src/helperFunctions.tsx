@@ -22,6 +22,22 @@ export function generateMinistryToChildren(
   return ministryToChildren;
 }
 
+export function generateSermon(
+  person: string,
+  title: string
+): SubsectionProps {
+  return {
+    title: "Sermon",
+    person,
+    subjects: [
+      {
+        title,
+        isExpandable: false
+      }
+    ]
+  };
+}
+
 export function generateScriptureReading(
   passage: string,
   reference: string

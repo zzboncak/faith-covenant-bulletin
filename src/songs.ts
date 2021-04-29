@@ -248,3 +248,214 @@ export const thineIsTheGlory: SubjectProps = {
   Thine is the glory, risen, conquering Son;
   endless is the victory thou o'er death hast won.`
 };
+
+export const resurrectionPower: SubjectProps = {
+  title: "Resurrection Power",
+  isExpandable: true,
+  type: "song",
+  content: `You called me from the grave by name
+  You called me out of all my shame
+  I see the old has passed away
+  The new has come
+  
+  Now I have resurrection power
+  Living on the inside
+  Jesus, You have given us freedom
+  No longer bound by sin and darkness
+  Living in the light of Your goodness
+  You have given us freedom
+  
+  That I'm dressed in Your royalty
+  Your Holy Spirit lives in me
+  And I see my past has been redeemed
+  The new has come
+  
+  Now I have resurrection power
+  Living on the inside
+  Jesus, You have given us freedom
+  I'm no longer bound by sin and darkness
+  Living in the light of Your goodness
+  You have given us freedom
+  
+  Freedom, You have given us freedom
+  You have given us freedom, my chains are gone
+  Freedom, You have given us freedom
+  You have given us freedom, hallelujah
+  Freedom, You have given us freedom
+  You have given us freedom, my chains are gone
+  Freedom, You have given us freedom
+  You have given us freedom, hallelujah
+  
+  Now I have resurrection power
+  Living on the inside
+  Now, I'm no longer bound by sin and darkness
+  Living in the light of Your goodness
+  You have given us freedom
+  Now I have resurrection power
+  Living on the inside
+  Jesus, You have given us freedom
+  Now, I'm no longer bound by sin and darkness
+  Living in the light of Your goodness
+  You have given us freedom
+  
+  I have resurrection power
+  Living on the inside
+  Living on the inside
+  No longer bound by sin and darkness
+  You have given us freedom
+  You have given us freedom`
+};
+
+export const ourGodSaves: SubjectProps = {
+  title: "Our God Saves",
+  isExpandable: true,
+  type: "song",
+  content: `In the name of the Father, in the name of the Son
+  In the name of the Spirit, Lord, we come
+  We're gathered together to lift up Your Name
+  To call on our Savior to fall on Your grace
+  
+  In the name of the Father, in the name of the Son
+  In the name of the Spirit, Lord, we come
+  We're gathered together to lift up Your Name
+  To call on our Savior to fall on Your grace
+  To call on our Savior, to fall on Your grace
+  
+  Hear the joyful sound of our offering
+  As Your saints bow down, as Your people sing
+  We will rise with You, lifted on Your wings
+  And the world will see that
+  
+  Our God saves, our God saves
+  There is hope in Your name
+  Our God saves, our God saves
+  There is hope in Your name
+  
+  Mourning turns to songs of praise
+  Our God saves, our God saves`
+};
+
+export const jesusSonOfGod: SubjectProps = {
+  title: "Jesus Son of God",
+  isExpandable: true,
+  type: "song",
+  content: `You came down from heaven's throne
+  This earth you formed was not your home
+  A love like this the world had never known
+  A crown of thorns to mock your name
+  Forgiveness fell upon your face
+  A love like this the world had never known
+  
+  On the altar of our praise
+  Let there be no higher name
+  Jesus Son of God
+  You laid down your perfect life
+  You are the sacrifice
+  Jesus Son of God
+  You are Jesus Son of God
+  
+  You took our sin, You bore our shame
+  You rose to life, You defeated the grave
+  Love like this the world has never known
+  You took our sin, You bore our shame
+  You rose to life, You defeated the grave
+  Love like this the world has never known
+  
+  Be lifted higher than all You've overcome
+  Your name be louder than any other song
+  There is no power that can come against your love
+  The cross was enough
+  The cross was enough
+  The cross was enough
+  The cross was enough`
+};
+
+export const thisIBelieveCreed: SubjectProps = {
+  title: "This I Believe (The Creed)",
+  isExpandable: true,
+  type: "song",
+  content: `Our Father everlasting
+  The all creating One
+  God Almighty
+  Through Your Holy Spirit
+  Conceiving Christ the Son
+  Jesus our Savior
+  
+  I believe in God our Father
+  I believe in Christ the Son
+  I believe in the Holy Spirit
+  Our God is three in one
+  I believe in the resurrection
+  That we will rise again
+  For I believe in the name of Jesus
+  
+  Our Judge and our Defender
+  Suffered and crucified
+  Forgiveness is in You
+  Descended into darkness
+  You rose in glorious life
+  Forever seated high
+  
+  I believe in God our Father
+  I believe in Christ the Son
+  I believe in the Holy Spirit
+  Our God is three in one
+  I believe in the resurrection
+  That we will rise again
+  For I believe in the name of Jesus
+  
+  I believe in life eternal
+  I believe in the virgin birth
+  I believe in the saints' communion
+  And in Your holy Church
+  I believe in the resurrection
+  When Jesus comes again
+  For I believe in the name of Jesus`
+};
+
+export const helpUsAcceptEachOther: SubjectProps = {
+  title: "Help Us Accept Each Other",
+  isExpandable: true,
+  type: "song",
+  content: `Help us accept each other as Christ accepted us;
+  teach us as sister, brother, each person to embrace.
+  Be present, Lord, among us, and bring us to believe
+  we are ourselves accepted and meant to love and live.
+  
+  Teach us, O Lord, your lessons, as in our daily life
+  we struggle to be human and search for hope and faith.
+  Teach us to care for people, for all, not just for some,
+  to love them as we find them, or as they may become.
+  
+  Let your acceptance change us, so that we may be moved
+  in living situations to do the truth in love;
+  to practice your acceptance, until we know by heart
+  the table of forgiveness and laughter's healing art.
+  
+  Lord, for today's encounters with all who are in need,
+  who hunger for acceptance, for righteousness and bread,
+  we need new eyes for seeing, new hands for holding on;
+  renew us with your Spirit; Lord, free us, make us one!`
+};
+
+export const godBlessYourChurchWithStrength: SubjectProps = {
+  title: "God Bless Your Church with Strength!",
+  isExpandable: true,
+  type: "song",
+  content: `God bless your church with strength! Wherever we may be,
+  build up your servants as we work in common ministry.
+  Urge us from fledgling faith to venture and to soar 
+  through open skies to sing the praise of Christ, whom we adore.
+  
+  God bless your church with life! May all our branches thrive
+  unblemished, wholesome, bearing fruit, abundantly alive.
+  From you, one holy vine, in freedom may we grow,
+  sustain us in our mission, Lord, your love and peace to show.
+  
+  God bless your church with hope! Despite chaotic days,
+  may we in darkness shine to light a pathway through life's maze.
+  May justice be our aim and kindness ours to share,
+  in humbleness O may we walk, assured our God is there!
+  
+  Amen.`
+};
