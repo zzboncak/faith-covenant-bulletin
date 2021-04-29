@@ -1,4 +1,4 @@
-import { SubsectionProps, SectionProps } from "./types";
+import { SubsectionProps, SectionProps } from "../types";
 
 const s1_subsection1: SubsectionProps = {
   title: "Gathering Song",

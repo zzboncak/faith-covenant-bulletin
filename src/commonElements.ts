@@ -20,6 +20,7 @@ export const prayersOfThePeople: SubsectionProps = {
   ]
 };
 
+// need to add the giving link in the content
 export const offeringDedication: SubsectionProps = {
   title: "Offering Dedication",
   subjects: [
@@ -41,4 +42,21 @@ export const prayerOfDedication: SubsectionProps = {
 
 export const benediction: SubsectionProps = {
   title: "The Benediction, Greeting, Postlude"
+};
+
+export const communion: SubsectionProps = {
+  title: "Holy Communion",
+  subjects: [
+    {
+      title: "Liturgy",
+      type: "liturgy",
+      isExpandable: true,
+      content: `Leader: The Lord be with you.
+      People: And also with you.
+      Leader: Lift up your hearts!
+      People: We lift them up to the Lord.
+      Leader: Let us give thanks to the Lord our God.
+      People: It is right for us to give thanks and praise.`
+    }
+  ]
 };
