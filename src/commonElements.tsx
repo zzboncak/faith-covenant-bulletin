@@ -31,9 +31,10 @@ const givingContent: JSX.Element = (
       Give Here
     </a>
     <p>
-      Praise God from whom all blessing flow Praise Him all creatures
-      here below Praise Him above ye heavenly hosts Praise Father,
-      Holy Ghost Amen.
+      Praise God from whom all blessing flow <br />
+      Praise Him all creatures here below <br />
+      Praise Him above ye heavenly hosts <br />
+      Praise Father, Holy Ghost Amen.
     </p>
   </>
 );
