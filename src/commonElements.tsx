@@ -1,3 +1,4 @@
+import React from "react";
 import { SubsectionProps } from "./types";
 
 export const callToWorship: SubsectionProps = {
@@ -20,6 +21,23 @@ export const prayersOfThePeople: SubsectionProps = {
   ]
 };
 
+const givingContent: JSX.Element = (
+  <>
+    <a
+      href="https://faithecc.breezechms.com/give/online"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Give Here
+    </a>
+    <p>
+      Praise God from whom all blessing flow Praise Him all creatures
+      here below Praise Him above ye heavenly hosts Praise Father,
+      Holy Ghost Amen.
+    </p>
+  </>
+);
+
 // need to add the giving link in the content
 export const offeringDedication: SubsectionProps = {
   title: "Offering Dedication",
@@ -27,11 +45,7 @@ export const offeringDedication: SubsectionProps = {
     {
       title: "The Doxology",
       isExpandable: true,
-      content: `Praise God from whom all blessing flow
-      Praise Him all creatures here below
-      Praise Him above ye heavenly hosts
-      Praise Father, Son, and Holy Ghost
-      Amen.`
+      content: givingContent
     }
   ]
 };
