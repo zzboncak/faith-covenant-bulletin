@@ -1,9 +1,15 @@
 .App {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
-  padding: 20px;
   min-height: 97vh;
-  margin-bottom: -50px;
+  margin-bottom: -80px;
+  width: 400px;
+}
+
+@media only screen and (max-width: 400px) {
+  .App {
+    width: 90vw;
+  }
 }
 
 .App-header {
@@ -28,6 +34,12 @@
 
 footer,
 .push {
-  height: 50px;
+  height: 70px;
   text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

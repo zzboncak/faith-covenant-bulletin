@@ -2,8 +2,10 @@ import React from "react";
 import { Section } from "./components/section/Section";
 import "./App.css";
 import { may2Service } from "./may2Data";
+import logo from "./images/Faith-Logo-Sqaure-2.jpg";
 
 export const App: React.FC = () => {
+  const logoDimension = "70px;";
   return (
     <>
       <div className="App">
@@ -28,6 +30,12 @@ export const App: React.FC = () => {
         <div className="push"></div>
       </div>
       <footer>
+        <img
+          src={logo}
+          alt="Faith Covenant Church Logo"
+          height={logoDimension}
+          width={logoDimension}
+        />
         <a
           className="App-link"
           href="https://www.faithecc.org"
