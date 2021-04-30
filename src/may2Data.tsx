@@ -35,6 +35,7 @@ const gatheringSong: SubsectionProps = {
 
 const songsOfWorship: SubsectionProps = {
   title: "Songs of Worship",
+  subtext: "*Congregation Standing",
   subjects: [ourGodSaves, jesusSonOfGod, thisIBelieveCreed]
 };
 
@@ -56,6 +57,7 @@ const ministryToChildren = generateMinistryToChildren(
 
 const hymnOfPreparation: SubsectionProps = {
   title: "Hymn of Preparation",
+  subtext: "*Congregation Standing",
   subjects: [helpUsAcceptEachOther]
 };
 
@@ -106,7 +108,7 @@ const announcements = generateAnnouncements([
 
 const hymnOfSending: SubsectionProps = {
   title: "Hymn of Sending",
-  subtext: "#580",
+  subtext: "*Congregation Standing",
   subjects: [godBlessYourChurchWithStrength]
 };
 

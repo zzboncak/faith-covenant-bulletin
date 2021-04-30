@@ -42,6 +42,7 @@ const givingContent: JSX.Element = (
 // need to add the giving link in the content
 export const offeringDedication: SubsectionProps = {
   title: "Offering Dedication",
+  subtext: "*Congregation Standing",
   subjects: [
     {
       title: "The Doxology",
@@ -52,11 +53,13 @@ export const offeringDedication: SubsectionProps = {
 };
 
 export const prayerOfDedication: SubsectionProps = {
-  title: "Prayer of Dedication"
+  title: "Prayer of Dedication",
+  subtext: "*Congregation Standing"
 };
 
 export const benediction: SubsectionProps = {
-  title: "The Benediction, Greeting, Postlude"
+  title: "The Benediction, Greeting, Postlude",
+  subtext: "*Congregation Standing"
 };
 
 export const communion: SubsectionProps = {
