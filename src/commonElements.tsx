@@ -69,12 +69,28 @@ export const communion: SubsectionProps = {
       title: "Liturgy",
       type: "liturgy",
       isExpandable: true,
-      content: `Leader: The Lord be with you.
+      content: `Invitation to Communion
+      Leader: The Lord be with you.
       People: And also with you.
       Leader: Lift up your hearts!
       People: We lift them up to the Lord.
       Leader: Let us give thanks to the Lord our God.
-      People: It is right for us to give thanks and praise.`
+      People: It is right for us to give thanks and praise.
+      
+      Prayer of Thanksgiving
+      The Words of Institution
+      
+      Memorial Acclamation
+      Leader: Together we proclaim the mystery of the faith.
+      People: Christ has died, Christ is risen, Christ will come again.
+      
+      Distribution of Bread and Cup
+      Leader: Alleluia! Christ our Passover is sacrificed for us!
+      People: Therefore let us keep the feast! Alleluia!
+      
+      The Invitation to Receive
+      Prayer of Thanksgiving
+      People: Eternal God, heavenly Father, you have graciously accepted us as living members of your Son, our Savior Jesus Christ, and you have fed us with spiritual food in the sacrament of his body and blood. Send us now into the world in peace, and grant us strength and courage to love and serve you with gladness and singleness of heart, through Jesus Christ our Lord. Amen.`
     }
   ]
 };

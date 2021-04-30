@@ -15,7 +15,7 @@ export const Subject: React.FC<SubjectProps> = ({
       ?.split(/\n/)
       .map((entry) => entry.trim())
       .map((entry, i) => {
-        const boldClass = entry.startsWith("Leader: ") ? " bold" : "";
+        const boldClass = entry.startsWith("People: ") ? " bold" : "";
         const styleClasses =
           type === "scripture" && i === 0 ? " bold italics" : "";
         const paragraphClass =
