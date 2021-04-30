@@ -30,7 +30,7 @@
 }
 
 .helper-text {
-  margin-top: -5px;
+  margin-top: 15px;
 }
 
 .App-link {
@@ -47,4 +47,8 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.hidden {
+  display: none;
 }

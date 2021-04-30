@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Section } from "./components/section/Section";
 import "./App.css";
 import { may2Service } from "./may2Data";
 import logo from "./images/Faith-Logo-Sqaure-2.jpg";
 
 export const App: React.FC = () => {
+  const [isRegisterVisible, setIsRegisterVisible] = useState<boolean>(
+    false
+  );
   const logoDimension = "70px;";
   return (
     <>
@@ -13,14 +16,34 @@ export const App: React.FC = () => {
           <header className="App-header">
             <h1>Worship Bulletin</h1>
             <p className="date">May 2, 2021</p>
-            <a
-              href="https://faithecc.breezechms.com/form/Worship_Check_In"
-              target="_blank"
-              rel="noreferrer"
-              className="register-link"
-            >
-              Click Here to Register
-            </a>
+            {!isRegisterVisible && (
+              <button
+                className="register-button"
+                onClick={() =>
+                  setIsRegisterVisible(!isRegisterVisible)
+                }
+              >
+                Click Here to Register
+              </button>
+            )}
+            <div
+              className={`breeze_form_embed ${
+                isRegisterVisible ? "" : "hidden"
+              }`}
+              data-subdomain="faithecc"
+              data-address="Worship_Check_In"
+              data-width="100%"
+              data-border_width="0"
+              data-border_color="000000"
+              data-background_color="ffffff"
+              data-button_color="92b765"
+              onChange={() => console.log("this fired")}
+            ></div>
+            {isRegisterVisible && (
+              <button onClick={() => setIsRegisterVisible(false)}>
+                Close registration
+              </button>
+            )}
           </header>
         </nav>
         <div className="helper-text-container">
