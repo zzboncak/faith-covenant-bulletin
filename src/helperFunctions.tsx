@@ -40,10 +40,12 @@ export function generateSermon(
 
 export function generateScriptureReading(
   passage: string,
-  reference: string
+  reference: string,
+  subtext?: string
 ): SubsectionProps {
   const scriptureReading: SubsectionProps = {
     title: "Scripture Reading",
+    subtext,
     subjects: [
       {
         title: reference,

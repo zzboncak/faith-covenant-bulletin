@@ -48,7 +48,8 @@ const section1 = generate1stSection([
 const scriptureReading = generateScriptureReading(
   `12 Therefore, as God’s chosen people, holy and dearly loved, clothe yourselves with compassion, kindness, humility, gentleness and patience. 13 Bear with each other and forgive one another if any of you has a grievance against someone. Forgive as the Lord forgave you. 14 And over all these virtues put on love, which binds them all together in perfect unity. 
 15 Let the peace of Christ rule in your hearts, since as members of one body you were called to peace. And be thankful. 16 Let the message of Christ dwell among you richly as you teach and admonish one another with all wisdom through psalms, hymns, and songs from the Spirit, singing to God with gratitude in your hearts. 17 And whatever you do, whether in word or deed, do it all in the name of the Lord Jesus, giving thanks to God the Father through him.`,
-  "Colossians 3:12-17"
+  "Colossians 3:12-17",
+  "Jillian Jasper"
 );
 
 const ministryToChildren = generateMinistryToChildren(

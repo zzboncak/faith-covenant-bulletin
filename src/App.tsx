@@ -23,7 +23,7 @@ export const App: React.FC = () => {
                   setIsRegisterVisible(!isRegisterVisible)
                 }
               >
-                Click Here to Register
+                Click Here to Check In
               </button>
             )}
             <div

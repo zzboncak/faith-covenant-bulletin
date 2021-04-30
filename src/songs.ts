@@ -315,12 +315,6 @@ export const ourGodSaves: SubjectProps = {
   We're gathered together to lift up Your Name
   To call on our Savior to fall on Your grace
   
-  In the name of the Father, in the name of the Son
-  In the name of the Spirit, Lord, we come
-  We're gathered together to lift up Your Name
-  To call on our Savior to fall on Your grace
-  To call on our Savior, to fall on Your grace
-  
   Hear the joyful sound of our offering
   As Your saints bow down, as Your people sing
   We will rise with You, lifted on Your wings
@@ -455,9 +449,7 @@ export const godBlessYourChurchWithStrength: SubjectProps = {
   God bless your church with hope! Despite chaotic days,
   may we in darkness shine to light a pathway through life's maze.
   May justice be our aim and kindness ours to share,
-  in humbleness O may we walk, assured our God is there!
-  
-  Amen.`
+  in humbleness O may we walk, assured our God is there!`
 };
 
 export const weAreTheBodyOfChrist: SubjectProps = {
