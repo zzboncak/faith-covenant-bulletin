@@ -459,3 +459,21 @@ export const godBlessYourChurchWithStrength: SubjectProps = {
   
   Amen.`
 };
+
+export const weAreTheBodyOfChrist: SubjectProps = {
+  title: "We Are the Body of Christ",
+  isExpandable: true,
+  type: "song",
+  content: `One heart
+  One spirit
+  One voice to praise You
+  We are the body of Christ
+  
+  One goal
+  One vision
+  To see You exalted
+  We are the body of Christ
+  
+  And to this we give our lives
+  To see You glorified`
+};

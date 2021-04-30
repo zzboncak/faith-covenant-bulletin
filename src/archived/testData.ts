@@ -194,7 +194,7 @@ const s2_subsection2: SubsectionProps = {
       Yes, Jesus loves me! The Bible tells me so.`
     }
   ],
-  person: "Angela Broman"
+  subtext: "Angela Broman"
 };
 
 const s2_subsection3: SubsectionProps = {
@@ -234,7 +234,7 @@ const s2_subsection4: SubsectionProps = {
       isExpandable: false
     }
   ],
-  person: "Pastor Nate Hickox"
+  subtext: "Pastor Nate Hickox"
 };
 
 export const section2: SectionProps = {

@@ -6,14 +6,14 @@ import "./Subsection.css";
 export const Subsection: React.FC<SubsectionProps> = ({
   title,
   subjects,
-  person
+  subtext
 }) => {
   return (
     <div className="subsection">
       <div className="subsection-title">
         <h4>{title}</h4>
-        {!!person && (
-          <span className="subsection-person">{person}</span>
+        {!!subtext && (
+          <span className="subsection-person">{subtext}</span>
         )}
       </div>
       {subjects?.map((subject, i) => (

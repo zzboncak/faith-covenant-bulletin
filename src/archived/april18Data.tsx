@@ -59,7 +59,7 @@ const hymnOfPreparation: SubsectionProps = {
 
 const sermon: SubsectionProps = {
   title: "Sermon",
-  person: "Pastor Nate Hickox",
+  subtext: "Pastor Nate Hickox",
   subjects: [
     {
       title: "Keys to Being Rooted Together",

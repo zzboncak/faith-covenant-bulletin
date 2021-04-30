@@ -2,11 +2,11 @@ import React from "react";
 import { SectionProps, SubsectionProps } from "./types";
 
 export function generateMinistryToChildren(
-  person: string
+  subtext: string
 ): SubsectionProps {
   const ministryToChildren: SubsectionProps = {
     title: "Ministry to Children",
-    person,
+    subtext,
     subjects: [
       {
         title: "Jesus Loves Me",
@@ -23,12 +23,12 @@ export function generateMinistryToChildren(
 }
 
 export function generateSermon(
-  person: string,
+  subtext: string,
   title: string
 ): SubsectionProps {
   return {
     title: "Sermon",
-    person,
+    subtext,
     subjects: [
       {
         title,

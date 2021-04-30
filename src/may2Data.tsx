@@ -19,7 +19,7 @@ import {
   benediction
 } from "./commonElements";
 import {
-  resurrectionPower,
+  weAreTheBodyOfChrist,
   ourGodSaves,
   jesusSonOfGod,
   thisIBelieveCreed,
@@ -30,7 +30,7 @@ import { SubsectionProps } from "./types";
 
 const gatheringSong: SubsectionProps = {
   title: "Gathering Song",
-  subjects: [resurrectionPower]
+  subjects: [weAreTheBodyOfChrist]
 };
 
 const songsOfWorship: SubsectionProps = {
@@ -106,7 +106,7 @@ const announcements = generateAnnouncements([
 
 const hymnOfSending: SubsectionProps = {
   title: "Hymn of Sending",
-  person: "#580",
+  subtext: "#580",
   subjects: [godBlessYourChurchWithStrength]
 };
 

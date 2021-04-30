@@ -10,7 +10,7 @@ export type SubjectProps = {
 export type SubsectionProps = {
   title: string;
   subjects?: SubjectProps[];
-  person?: string;
+  subtext?: string;
 };
 
 export type SectionProps = {
