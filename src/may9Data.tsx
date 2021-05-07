@@ -85,23 +85,23 @@ const section3 = generate3rdSection([
   prayerOfDedication
 ]);
 
-const announcements = generateAnnouncements([
-  <p key={1}>
-    <strong>Digital Bulletin:</strong> If you&#39;re reading this,
-    congratulations! You&#39;re already using the digital bulletin.
-    High five ✋.
-  </p>,
-  <p key={2}>
-    <strong>Church Holidays:</strong> Come celebrate our church
-    holidays!{" "}
-    <strong>
-      Ascension Day is Thursday, May 13, 6:30 pm, and Pentecost Sunday
-      is May 23, 6:30 pm.
-    </strong>{" "}
-    These evenings will be times of song, prayer, and celebration as
-    we worship together. Join us!
-  </p>
-]);
+// const announcements = generateAnnouncements([
+//   <p key={1}>
+//     <strong>Digital Bulletin:</strong> If you&#39;re reading this,
+//     congratulations! You&#39;re already using the digital bulletin.
+//     High five ✋.
+//   </p>,
+//   <p key={2}>
+//     <strong>Church Holidays:</strong> Come celebrate our church
+//     holidays!{" "}
+//     <strong>
+//       Ascension Day is Thursday, May 13, 6:30 pm, and Pentecost Sunday
+//       is May 23, 6:30 pm.
+//     </strong>{" "}
+//     These evenings will be times of song, prayer, and celebration as
+//     we worship together. Join us!
+//   </p>
+// ]);
 
 const hymnOfSending: SubsectionProps = {
   title: "Hymn of Sending",
@@ -109,10 +109,6 @@ const hymnOfSending: SubsectionProps = {
   subjects: [iWillRise]
 };
 
-const section4 = generate4thSection([
-  announcements,
-  hymnOfSending,
-  benediction
-]);
+const section4 = generate4thSection([hymnOfSending, benediction]);
 
 export const may9Service = [section1, section2, section3, section4];

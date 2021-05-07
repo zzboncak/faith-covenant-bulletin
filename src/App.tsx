@@ -3,12 +3,31 @@ import { Section } from "./components/section/Section";
 import "./App.css";
 import { may9Service } from "./may9Data";
 import logo from "./images/Faith-Logo-Sqaure-2.jpg";
+import { generateAnnouncements } from "./helperFunctions";
+import { Subsection } from "./components/subsection/Subsection";
 
 export const App: React.FC = () => {
   const [isRegisterVisible, setIsRegisterVisible] = useState<boolean>(
     false
   );
   const logoDimension = "70px;";
+  const announcements = generateAnnouncements([
+    <p key={1}>
+      <strong>Digital Bulletin:</strong> If you&#39;re reading this,
+      congratulations! You&#39;re already using the digital bulletin.
+      High five ✋.
+    </p>,
+    <p key={2}>
+      <strong>Church Holidays:</strong> Come celebrate our church
+      holidays!{" "}
+      <strong>
+        Ascension Day is Thursday, May 13, 6:30 pm, and Pentecost is
+        May 23, 6:30 pm.
+      </strong>{" "}
+      These evenings will be times of song, prayer, and celebration as
+      we worship together. Join us!
+    </p>
+  ]);
   return (
     <>
       <div className="App">
@@ -59,6 +78,10 @@ export const App: React.FC = () => {
             subsections={section.subsections}
           />
         ))}
+        <Subsection
+          title={announcements.title}
+          subjects={announcements.subjects}
+        />
         <div className="push"></div>
       </div>
       <footer>
