@@ -9,7 +9,7 @@ import {
   generateMinistryToChildren,
   generateScriptureReading,
   generateSermon
-} from "./helperFunctions";
+} from "../helperFunctions";
 import {
   callToWorship,
   prayersOfThePeople,
@@ -17,7 +17,7 @@ import {
   offeringDedication,
   prayerOfDedication,
   benediction
-} from "./commonElements";
+} from "../commonElements";
 import {
   weAreTheBodyOfChrist,
   ourGodSaves,
@@ -25,8 +25,8 @@ import {
   thisIBelieveCreed,
   helpUsAcceptEachOther,
   godBlessYourChurchWithStrength
-} from "./songs";
-import { SubsectionProps } from "./types";
+} from "../songs";
+import { SubsectionProps } from "../types";
 
 const gatheringSong: SubsectionProps = {
   title: "Gathering Song",

@@ -469,3 +469,188 @@ export const weAreTheBodyOfChrist: SubjectProps = {
   And to this we give our lives
   To see You glorified`
 };
+
+export const weHaveAnAnchor: SubjectProps = {
+  title: "We Have An Anchor",
+  isExpandable: true,
+  type: "song",
+  content: `Will your anchor hold in the storms of life
+  When the clouds unfold their wings of strife?
+  When the strong tides lift and the cables strain
+  Will your anchor drift or firm remain?
+  
+  We have an anchor that keeps the soul
+  Steadfast and sure while the billows roll
+  Fastened to the Rock which cannot move
+  Grounded firm and deep in the Savior's love.
+
+  Held secure by faith in the Saviour's hands
+  Shielded by His grace, on Christ we stand
+  He is Lord of all; we should never doubt
+  Through uncertain times, He is solid ground.
+  
+  You have carried us through the raging sea
+  In the fire and flood, we stand redeemed
+  Through the storms of life, you will not let go
+  This our confidence, that our anchor holds.`
+};
+
+export const comePeopleOfTheRisenKing: SubjectProps = {
+  title: "Come People of the Risen King",
+  isExpandable: true,
+  type: "song",
+  content: `Come, people of the risen King
+  Who delight to bring Him praise
+  Come all and tune your hearts to sing
+  To the morning star of grace
+  
+  From the shifting shadows of the earth
+  We will lift our eyes to Him
+  Where steady arms of mercy reach
+  To gather children in
+  
+  Rejoice, rejoice
+  Let every tongue rejoice
+  One heart one voice
+  Oh, church of Christ rejoice
+  
+  Come those whose joy is morning sun
+  And those weeping through the night
+  Come those who tell of battles won
+  And those struggling in the fight
+  
+  For His perfect love will never change
+  And His mercies never cease
+  But follow us through all our days
+  With the certain hope of peace
+  
+  Come, young and old from every land
+  Men and women of the faith
+  Come those with full or empty hands
+  Find the riches of His grace
+  
+  Over all the world His people sing
+  Shore to shore we hear them call
+  The truth that cries through every age
+  Our God is all in all`
+};
+
+export const stronger: SubjectProps = {
+  title: "Stronger",
+  isExpandable: true,
+  type: "song",
+  content: `There is love that came for us
+  Humbled to a sinner's cross
+  You broke my shame and sinfulness,
+  You rose again victorious.
+  
+  Faithfulness none can deny
+  Through the storm and through the fire
+  There is truth that sets me free
+  Jesus Christ who lives in me!
+  
+  You are stronger, you are stronger
+  Sin is broken, you have saved me
+  It is written, "Christ is risen"
+  Jesus you are Lord of all!
+  
+  No beginning and no end
+  You're my hope and my defense
+  You came to seek and save the lost
+  You paid it all upon the cross.
+
+  You are stronger, you are stronger
+  Sin is broken, you have saved me
+  It is written, "Christ is risen"
+  Jesus you are Lord of all!
+  
+  So let your name be lifted higher
+  Be lifted higher, be lifted higher
+  
+  So let your name be lifted higher,
+  Be lifted higher, be lifted higher`
+};
+
+export const becauseHeLives: SubjectProps = {
+  title: "Because He Lives",
+  isExpandable: true,
+  type: "song",
+  content: `God sent His son, they called Him, Jesus;
+  He came to love, heal and forgive;
+  He lived and died to buy my pardon,
+  An empty grave is there to prove my Savior lives!
+  
+  Because He lives, I can face tomorrow,
+  Because He lives, all fear is gone,
+  Because I know He holds the future,
+  And life is worth the living,
+  Just because He lives!
+  
+  And then one day, I'll cross the river,
+  I'll fight life's final war with pain;
+  And then, as death gives way to victory,
+  I'll see the lights of glory and I'll know He lives!
+  
+  Because He lives, I can face tomorrow,
+  Because He lives, all fear is gone;
+  Because I know He holds the future,
+  And life is worth the living,
+  Just because He lives!`
+};
+
+export const godCreatorOfYourPeople: SubjectProps = {
+  title: "God Creator of your People",
+  isExpandable: true,
+  type: "song",
+  content: `God, Creator of your people, you have called us to be one;
+  grant us grace to walk together in the joy of Christ, your Son.
+  Challenged by your Word and Spirit, blest with gifts from heav'n above,
+  as one body we will serve you and bear witness to your love.
+  
+  May the grace of Christ, our Savior, and the Father's boundless love,
+  with the Holy Spirit's favor, rest upon us from above.
+  May we now remain in union with each other and the Lord,
+  and possess, in sweet communion, joys that earth cannot afford.`
+};
+
+export const iWillRise: SubjectProps = {
+  title: "I Will Rise",
+  isExpandable: true,
+  type: "song",
+  content: `There's a peace I've come to know
+  Though my heart and flesh may fail
+  There's an anchor for my soul
+  I can say it is well
+
+  Jesus has overcome
+  And the grave is overwhelmed
+  The victory is won
+  He is risen from the dead
+
+  And I will rise when He calls my name
+  No more sorrow no more pain
+  I will rise on eagle's wings
+  Before my God fall on my knees
+  And rise I will rise
+
+  There's a day that's drawing near
+  When this darkness breaks to light
+  And the shadows disappear
+  And my faith shall be my eyes
+
+  Jesus has overcome
+  And the grave is overwhelmed
+  The victory is won
+  He is risen from the dead
+
+  And I will rise when He calls my name
+  No more sorrow no more pain
+  I will rise on eagle's wings
+  Before my God fall on my knees
+  And rise I will rise
+  
+  And I hear the voice of many angels sing
+  Worthy is the Lamb
+  And I hear the cry of ev'ry longing heart
+  Worthy is the Lamb`
+};

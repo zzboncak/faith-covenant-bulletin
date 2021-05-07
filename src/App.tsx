@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Section } from "./components/section/Section";
 import "./App.css";
-import { may2Service } from "./may2Data";
+import { may9Service } from "./may9Data";
 import logo from "./images/Faith-Logo-Sqaure-2.jpg";
 
 export const App: React.FC = () => {
@@ -15,7 +15,9 @@ export const App: React.FC = () => {
         <nav className="nav-bar">
           <header className="App-header">
             <h1>Worship Bulletin</h1>
-            <p className="date">May 2, 2021</p>
+            <p className="date">
+              May 9, 2021: Sixth Sunday of Easter
+            </p>
             {!isRegisterVisible && (
               <button
                 className="register-button"
@@ -51,7 +53,7 @@ export const App: React.FC = () => {
             <i>Click on an element of the service to expand it.</i>
           </p>
         </div>
-        {may2Service.map((section, i) => (
+        {may9Service.map((section, i) => (
           <Section
             key={i}
             title={section.title}
