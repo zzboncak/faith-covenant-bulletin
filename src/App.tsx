@@ -39,7 +39,6 @@ export const App: React.FC = () => {
               data-border_color="000000"
               data-background_color="ffffff"
               data-button_color="92b765"
-              onChange={() => console.log("this fired")}
             ></div>
             {isRegisterVisible && (
               <button onClick={() => setIsRegisterVisible(false)}>
