@@ -1,11 +1,10 @@
 /* eslint-disable no-irregular-whitespace */
-import React from "react";
+// import React from "react";
 import {
   generate1stSection,
   generate2ndSection,
   generate3rdSection,
   generate4thSection,
-  generateAnnouncements,
   generateMinistryToChildren,
   generateScriptureReading,
   generateSermon
