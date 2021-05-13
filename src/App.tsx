@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Section } from "./components/section/Section";
 import "./App.css";
-import { may9Service } from "./may9Data";
+import { may16Service } from "./may16Data";
 import logo from "./images/Faith-Logo-Sqaure-2.jpg";
 import { generateAnnouncements } from "./helperFunctions";
 import { Subsection } from "./components/subsection/Subsection";
@@ -13,19 +13,15 @@ export const App: React.FC = () => {
   const logoDimension = "70px;";
   const announcements = generateAnnouncements([
     <p key={1}>
-      <strong>Digital Bulletin:</strong> If you&#39;re reading this,
-      congratulations! You&#39;re already using the digital bulletin.
-      High five ✋.
+      <strong>Such a simple way to make a big impact:</strong> Walk or
+      run for water! Meet at church on May 22 at 9:00 am, or go out on
+      your own. Learn more at the World Vision table right after the
+      service.
     </p>,
     <p key={2}>
-      <strong>Church Holidays:</strong> Come celebrate our church
-      holidays!{" "}
-      <strong>
-        Ascension Day is Thursday, May 13, 6:30 pm, and Pentecost is
-        May 23, 6:30 pm.
-      </strong>{" "}
-      These evenings will be times of song, prayer, and celebration as
-      we worship together. Join us!
+      <strong>Pentecost Worship Night, May 23 at 6:30 pm:</strong>{" "}
+      Join us for worship through song, prayer, and a bonfire! We will
+      meet at the Cockle residence: 2s176 Essex Rd, Wheaton, IL 60189
     </p>
   ]);
   return (
@@ -34,9 +30,7 @@ export const App: React.FC = () => {
         <nav className="nav-bar">
           <header className="App-header">
             <h1>Worship Bulletin</h1>
-            <p className="date">
-              May 9, 2021: Sixth Sunday of Easter
-            </p>
+            <p className="date">May 16, 2021: Ascension Day</p>
             {!isRegisterVisible && (
               <button
                 className="register-button"
@@ -71,7 +65,7 @@ export const App: React.FC = () => {
             <i>Click on an element of the service to expand it.</i>
           </p>
         </div>
-        {may9Service.map((section, i) => (
+        {may16Service.map((section, i) => (
           <Section
             key={i}
             title={section.title}

@@ -39,11 +39,11 @@ const songsOfWorship: SubsectionProps = {
   subjects: [ourGodSaves, jesusSonOfGod, thisIBelieveCreed]
 };
 
-const section1 = generate1stSection([
-  gatheringSong,
-  callToWorship,
-  songsOfWorship
-]);
+// const section1 = generate1stSection([
+//   gatheringSong,
+//   callToWorship,
+//   songsOfWorship
+// ]);
 
 const scriptureReading = generateScriptureReading(
   `12 Therefore, as God’s chosen people, holy and dearly loved, clothe yourselves with compassion, kindness, humility, gentleness and patience. 13 Bear with each other and forgive one another if any of you has a grievance against someone. Forgive as the Lord forgave you. 14 And over all these virtues put on love, which binds them all together in perfect unity. 
@@ -119,4 +119,8 @@ const section4 = generate4thSection([
   benediction
 ]);
 
-export const may2Service = [section1, section2, section3, section4];
+export const may2Service = [
+  /*section1, */ section2,
+  section3,
+  section4
+];

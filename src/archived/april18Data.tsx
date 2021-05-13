@@ -36,11 +36,11 @@ const songsOfWorship: SubsectionProps = {
   subjects: [christIsRisen, howGreatIsOurGod, foreverWeSingHallelujah]
 };
 
-const section1 = generate1stSection([
-  gatheringSong,
-  callToWorship,
-  songsOfWorship
-]);
+// const section1 = generate1stSection([
+//   gatheringSong,
+//   callToWorship,
+//   songsOfWorship
+// ]);
 
 const scriptureReading = generateScriptureReading(
   `Paul’s Labor for the Church
@@ -124,7 +124,7 @@ const section4 = generate4thSection([
 ]);
 
 export const april18Service = [
-  section1,
+  // section1,
   section2,
   section3,
   section4

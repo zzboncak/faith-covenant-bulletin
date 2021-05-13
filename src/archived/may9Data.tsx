@@ -1,47 +1,47 @@
 /* eslint-disable no-irregular-whitespace */
 // import React from "react";
 import {
-  generate1stSection,
+  // generate1stSection,
   generate2ndSection,
   generate3rdSection,
   generate4thSection,
   generateMinistryToChildren,
   generateScriptureReading,
   generateSermon
-} from "./helperFunctions";
+} from "../helperFunctions";
 import {
-  callToWorship,
+  // callToWorship,
   prayersOfThePeople,
   offeringDedication,
   prayerOfDedication,
   benediction
-} from "./commonElements";
+} from "../commonElements";
 import {
-  weHaveAnAnchor,
-  comePeopleOfTheRisenKing,
-  stronger,
-  becauseHeLives,
+  // weHaveAnAnchor,
+  // comePeopleOfTheRisenKing,
+  // stronger,
+  // becauseHeLives,
   godCreatorOfYourPeople,
   iWillRise
-} from "./songs";
-import { SubsectionProps } from "./types";
+} from "../songs";
+import { SubsectionProps } from "../types";
 
-const gatheringSong: SubsectionProps = {
-  title: "Gathering Song",
-  subjects: [weHaveAnAnchor]
-};
+// const gatheringSong: SubsectionProps = {
+//   title: "Gathering Song",
+//   subjects: [weHaveAnAnchor]
+// };
 
-const songsOfWorship: SubsectionProps = {
-  title: "Songs of Worship",
-  subtext: "Congregation Standing",
-  subjects: [comePeopleOfTheRisenKing, stronger, becauseHeLives]
-};
+// const songsOfWorship: SubsectionProps = {
+//   title: "Songs of Worship",
+//   subtext: "Congregation Standing",
+//   subjects: [comePeopleOfTheRisenKing, stronger, becauseHeLives]
+// };
 
-const section1 = generate1stSection([
-  gatheringSong,
-  callToWorship,
-  songsOfWorship
-]);
+// const section1 = generate1stSection([
+//   gatheringSong,
+//   callToWorship,
+//   songsOfWorship
+// ]);
 
 const scriptureReading = generateScriptureReading(
   `Further Instructions
@@ -110,4 +110,8 @@ const hymnOfSending: SubsectionProps = {
 
 const section4 = generate4thSection([hymnOfSending, benediction]);
 
-export const may9Service = [section1, section2, section3, section4];
+export const may9Service = [
+  /*section1,*/ section2,
+  section3,
+  section4
+];

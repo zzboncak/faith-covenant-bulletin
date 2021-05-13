@@ -1,5 +1,6 @@
 import React from "react";
-import { SectionProps, SubsectionProps } from "./types";
+import { SectionProps, SubjectProps, SubsectionProps } from "./types";
+import { callToWorship } from "./commonElements";
 
 export function generateMinistryToChildren(
   subtext: string
@@ -87,12 +88,48 @@ export function generateAnnouncements(
   return announcementsSection;
 }
 
+export function generateHymnOfPreparation(
+  hymn: SubjectProps
+): SubsectionProps {
+  return {
+    title: "Hymn of Preparation",
+    subtext: "Congregation Standing",
+    subjects: [hymn]
+  };
+}
+
+function generateGatheringSong(song: SubjectProps): SubsectionProps {
+  return {
+    title: "Gathering Song",
+    subjects: [song]
+  };
+}
+
+function generateWorshipSet(songs: SubjectProps[]): SubsectionProps {
+  return {
+    title: "Songs of Worship",
+    subtext: "Congregation Standing",
+    subjects: songs
+  };
+}
+
+/**
+ *
+ * @param gatheringSong a single song for the Gather to Worship section
+ * @param worshipSongs an array of songs for the Worship Songs section
+ * @returns the 1st section of a Faith Covenant Service
+ */
 export function generate1stSection(
-  subsections: SubsectionProps[]
+  gatheringSong: SubjectProps,
+  worshipSongs: SubjectProps[]
 ): SectionProps {
   const section1: SectionProps = {
     title: "God Gathers Us To Worship",
-    subsections
+    subsections: [
+      generateGatheringSong(gatheringSong),
+      callToWorship,
+      generateWorshipSet(worshipSongs)
+    ]
   };
   return section1;
 }

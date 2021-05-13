@@ -654,3 +654,209 @@ export const iWillRise: SubjectProps = {
   And I hear the cry of ev'ry longing heart
   Worthy is the Lamb`
 };
+
+export const overcome: SubjectProps = {
+  title: "Overcome",
+  isExpandable: true,
+  type: "song",
+  content: `Seated above, enthroned in the Father's love
+  Destined to die, poured out for all mankind
+  God's only Son, perfect and spotless one
+  He never sinned but suffered as if He did
+  
+  All authority
+  Every victory is Yours
+  All authority
+  Every victory is Yours
+  
+  Savior, worthy of honor and glory
+  Worthy of all our praise, You overcame
+  Jesus, awesome in power forever
+  Awesome and great is Your name, You overcame
+  
+  Power in hand speaking the Father's plan
+  You're sending us out, light in this broken land
+  All authority
+  Every victory is Yours
+  
+  Savior, worthy of honor and glory
+  Worthy of all our praise, You overcame
+  Jesus, awesome in power forever
+  Awesome and great is Your name, You overcame
+  
+  We will overcome by the blood of the Lamb
+  And the word of our testimony, everyone overcome [x4]
+  
+  Savior, worthy of honor and glory
+  Worthy of all our praise, You overcame
+  Jesus, awesome in power forever
+  Awesome and great is Your name, You overcame [x2]
+  
+  You overcame, Jesus
+  You overcame
+  You overcame`
+};
+
+export const gloriousDay: SubjectProps = {
+  title: "Glorious Day",
+  isExpandable: true,
+  type: "song",
+  content: `One day when Heaven was filled with His praises
+  One day when sin was as black as could be
+  Jesus came forth to be born of a virgin
+  Dwelt among men, my example is He
+  Word became flesh and the light shined among us
+  His glory revealed
+  
+  Living, He loved me
+  Dying, He saved me
+  Buried, He carried my sins far away
+  Rising, He justified freely forever
+  One day He's coming
+  Oh glorious day, oh glorious day
+  
+  One day they led Him up Calvary's mountain
+  One day they nailed Him to die on a tree
+  Suffering anguish, despised and rejected
+  Bearing our sins, my Redeemer is He
+  Hands that healed nations, stretched out on a tree
+  And took the nails for me
+  
+  Living, He loved me
+  Dying, He saved me
+  Buried, He carried my sins far away
+  Rising, He justified freely forever
+  One day He's coming
+  Oh glorious day, oh glorious day
+  
+  One day the grave could conceal Him no longer
+  One day the stone rolled away from the door
+  Then He arose, over death He had conquered
+  Now He's ascended, my Lord evermore
+  Death could not hold Him, the grave could not keep Him
+  From rising again
+  
+  Living, He loved me
+  Dying, He saved me
+  Buried, He carried my sins far away
+  Rising, He justified freely forever
+  One day He's coming
+  Oh glorious day, oh glorious day
+  
+  One day the trumpet will sound for His coming
+  One day the skies with His glories will shine
+  Wonderful day, my Beloved One, bringing
+  My Savior, Jesus, is mine
+  
+  Living, He loved me
+  Dying, He saved me
+  Buried, He carried my sins far away
+  Rising, He justified freely forever
+  One day He's coming
+  Oh glorious day, oh glorious day`
+};
+
+export const heIsExalted: SubjectProps = {
+  title: "He is exalted",
+  isExpandable: true,
+  type: "song",
+  content: `He is exalted
+  The King is exalted on high
+  I will praise Him
+  He is exalted, forever exalted
+  And I will praise His name
+  
+  He is the Lord
+  Forever His truth shall reign
+  Heaven and earth
+  Rejoice in His holy name
+  He is exalted
+  The King is exalted on high`
+};
+
+export const crownHimWithManyCrowns: SubjectProps = {
+  title: "Crown Him with Many Crowns",
+  isExpandable: true,
+  type: "song",
+  content: `Crown him with many crowns, the Lamb upon his throne.
+  Hark! how the heav'nly anthem drowns all music but its own!
+  Awake my soul, and sing of him who died for thee
+  And hail him as thy matchless King through all eternity.
+  
+  Crown him the Lord of life, who triumphed o'er the grave,
+  who rose victorious to the strife for those he came to save.
+  His glories now we sing who died and reigns on high;
+  he died eternal life to bring, and lives that death may die.
+  
+  Crown him the Lord of love, behold his hands and side
+  rich wounds yet visible above in beauty glorified.
+  No angels in the sky can fully bear that sight,
+  but downward bend their wond'ring eyes at mysteries so bright.
+  
+  Crown him the Lord of peace, his Kingdom is at hand;
+  from pole to pole let arefare cease and Christ rule ev'ry land!
+  A city stands on high, his glories it displays,
+  and there the nations "Holy" cry in joyful hymns of praise.
+  
+  Crown him the Lord of years, the potentate of time,
+  Creator of the rolling spheres, in effably sublime.
+  All hail, Redeemer, hail, for thou hast died for me;
+  thy praise and glory shall not fail through all eternity.`
+};
+
+export const weExaltThee: SubjectProps = {
+  title: "We Exalt Thee",
+  isExpandable: true,
+  type: "song",
+  content: `For Thou oh Lord art high above all the earth
+  Thou art exalted far above all gods
+  For Thou oh Lord art high above all the earth
+  Thou art exalted far above all gods
+  
+  We exalt Thee, we exalt Thee,
+  We exalt Thee oh Lord.
+  We exalt Thee, we exalt Thee,
+  We exalt Thee oh Lord.`
+};
+
+export const allHailThePowerOfJesusName: SubjectProps = {
+  title: "All Hail the Power of Jesus’ Name/Lord of All",
+  isExpandable: true,
+  type: "song",
+  content: `Lord of all, He is Lord of all
+  Lord of all, he is Lord of all
+  
+  All hail the pow'r of Jesus' name
+  Let angels prostrate fall
+  Bring forth the royal diadem
+  And crown Him Lord of all
+  Bring forth the royal diadem
+  And crown Him Lord of all
+  
+  Lord of all, He is Lord of all
+  Lord of all, he is Lord of all
+  
+  Ye chosen seed of Israel's race
+  Ye ransomed from the fall
+  Hail Him who saves you by His grace
+  And crown Him Lord of all
+  Hail Him who saves you by His grace
+  And crown Him Lord of all
+  
+  Let ev'ry kindred ev'ry tribe
+  On this terrestrial ball
+  To Him all majesty ascribe
+  And crown Him Lord of all
+  To Him all majesty ascribe
+  And crown Him Lord of all
+  
+  Lord of all, He is Lord of all
+  Lord of all, he is Lord of all
+  
+  O that with yonder sacred throng
+  We at His feet may fall
+  We'll join the everlasting song
+  And crown Him Lord of all
+  We'll join the everlasting song
+  And crown Him Lord of all`
+};
