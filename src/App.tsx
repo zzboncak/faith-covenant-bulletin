@@ -21,7 +21,10 @@ export const App: React.FC = () => {
     <p key={2}>
       <strong>Pentecost Worship Night, May 23 at 6:30 pm:</strong>{" "}
       Join us for worship through song, prayer, and a bonfire! We will
-      meet at the Cockle residence: 2s176 Essex Rd, Wheaton, IL 60189
+      meet at the Cockle residence. Park at the back entrance to Atten
+      Park on Shaffner Road. Walk to the Cockle&#39;s home on the
+      grass path. You will see signs. Bring a chair and beverage. We
+      have smores. Maps available at the Welcome Table.
     </p>
   ]);
   return (
