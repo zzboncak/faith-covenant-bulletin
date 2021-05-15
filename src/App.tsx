@@ -25,6 +25,12 @@ export const App: React.FC = () => {
       Park on Shaffner Road. Walk to the Cockle&#39;s home on the
       grass path. You will see signs. Bring a chair and beverage. We
       have smores. Maps available at the Welcome Table.
+    </p>,
+    <p key={3}>
+      <strong>Annual Meeting, June 13 at 12:15 pm:</strong> Our
+      congregation&#39;s Annual Meeting will be held on Sunday June
+      13th. Please plan on attending this important part in the life
+      Faith Covenant. More information to come!
     </p>
   ]);
   return (
