@@ -33,7 +33,7 @@ export const App: React.FC = () => {
         <nav className="nav-bar">
           <header className="App-header">
             <h1>Worship Bulletin</h1>
-            <p className="date">May 16, 2021: Ascension Day</p>
+            <p className="date">May 16, 2021: Ascension Sunday</p>
             {!isRegisterVisible && (
               <button
                 className="register-button"

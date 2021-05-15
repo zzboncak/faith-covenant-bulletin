@@ -21,7 +21,8 @@ import {
   heIsExalted,
   crownHimWithManyCrowns,
   weExaltThee,
-  allHailThePowerOfJesusName
+  allHailThePowerOfJesusName,
+  sendMeOut
 } from "./songs";
 import { SubsectionProps } from "./types";
 
@@ -55,9 +56,9 @@ const section3 = generate3rdSection([
 ]);
 
 const songOfSending: SubsectionProps = {
-  title: "Song of Sending",
+  title: "Songs of Sending",
   subtext: "Congregation Standing",
-  subjects: [allHailThePowerOfJesusName]
+  subjects: [sendMeOut, allHailThePowerOfJesusName]
 };
 
 const section4 = generate4thSection([songOfSending, benediction]);

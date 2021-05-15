@@ -666,18 +666,6 @@ export const overcome: SubjectProps = {
   
   All authority
   Every victory is Yours
-  All authority
-  Every victory is Yours
-  
-  Savior, worthy of honor and glory
-  Worthy of all our praise, You overcame
-  Jesus, awesome in power forever
-  Awesome and great is Your name, You overcame
-  
-  Power in hand speaking the Father's plan
-  You're sending us out, light in this broken land
-  All authority
-  Every victory is Yours
   
   Savior, worthy of honor and glory
   Worthy of all our praise, You overcame
@@ -690,11 +678,7 @@ export const overcome: SubjectProps = {
   Savior, worthy of honor and glory
   Worthy of all our praise, You overcame
   Jesus, awesome in power forever
-  Awesome and great is Your name, You overcame [x2]
-  
-  You overcame, Jesus
-  You overcame
-  You overcame`
+  Awesome and great is Your name, You overcame`
 };
 
 export const gloriousDay: SubjectProps = {
@@ -757,7 +741,7 @@ export const gloriousDay: SubjectProps = {
 };
 
 export const heIsExalted: SubjectProps = {
-  title: "He is exalted",
+  title: "He is Exalted",
   isExpandable: true,
   type: "song",
   content: `He is exalted
@@ -859,4 +843,21 @@ export const allHailThePowerOfJesusName: SubjectProps = {
   And crown Him Lord of all
   We'll join the everlasting song
   And crown Him Lord of all`
+};
+
+export const sendMeOut: SubjectProps = {
+  title: "Send Me Out",
+  isExpandable: true,
+  type: "song",
+  content: `Jesus, Lord of my salvation, Savior of my soul
+  Send me out to the world to make You known
+  Jesus, King of ev'ry nation, this world's only hope
+  Send me out to the world to make you known
+  Send me out to the world
+  
+  I wanna be Your hands and feet
+  I wanna be Your voice every time I speak
+  I wanna run to the ones in need.
+  
+  Send me out to the world.`
 };
