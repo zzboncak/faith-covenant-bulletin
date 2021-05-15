@@ -857,7 +857,27 @@ export const sendMeOut: SubjectProps = {
   
   I wanna be Your hands and feet
   I wanna be Your voice every time I speak
-  I wanna run to the ones in need.
+  I wanna run to the ones in need
+  In the name of Jesus
+
+  I wanna give my life away, all for Your kingdom’s sake
+  Shine a light in the darkest place, 
+  In the name of Jesus
+  In the name of Jesus
   
-  Send me out to the world.`
+  Carry to the broken-hearted mercy You Have shown
+  Send me out to the world to make You known
+  And to the ones in need of rescue, lead me I will go
+  Send me out to the world to make you known
+  Send me out to the world
+  
+  I wanna be Your hands and feet
+  I wanna be Your voice every time I speak
+  I wanna run to the ones in need
+  In the name of Jesus
+
+  I wanna give my life away, all for Your kingdom’s sake
+  Shine a light in the darkest place, 
+  In the name of Jesus
+  In the name of Jesus`
 };
