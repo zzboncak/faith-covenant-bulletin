@@ -881,3 +881,238 @@ export const sendMeOut: SubjectProps = {
   In the name of Jesus
   In the name of Jesus`
 };
+
+export const takeMyLife: SubjectProps = {
+  title: "Take My Life",
+  isExpandable: true,
+  type: "song",
+  content: `Holiness, holiness
+  Is what I long for
+  Holiness is what I need
+  Holiness, holiness
+  Is what You want from me
+  
+  Faithfulness, faithfulness
+  Is what I long for
+  Faithfulness is what I need
+  Faithfulness, faithfulness
+  Is what You want from me
+  
+  So take my heart and form it
+  Take my mind transform it
+  Take my will conform it
+  To Yours, to Yours, oh Lord
+  
+  Righteousness, righteousness
+  Is what I long for
+  Righteousness is what I need
+  Righteousness, righteousness
+  Is what You want from me
+  
+  So take my heart and form it
+  Take my mind transform it
+  Take my will conform it
+  To Yours, to Yours, oh Lord
+  
+  So take my heart and form it
+  Take my mind transform it
+  Take my will conform it
+  To Yours, to Yours, oh Lord`
+};
+
+export const allWhoAreThirsty: SubjectProps = {
+  title: "All Who Are Thirsty",
+  isExpandable: true,
+  type: "song",
+  content: `All who are thirsty
+  All who are weak
+  Come to the fountain
+  Dip your heart in the streams of life
+  
+  Let the pain and the sorrow
+  Be washed away
+  In the waves of his mercy
+  As deep cries out to deep, we sing
+  
+  Come Lord Jesus, come
+  Come Lord Jesus, come
+  
+  Holy Spirit come
+  Holy Spirit come`
+};
+
+export const spiritOfTheLivingGodFallAfreshOnMe: SubjectProps = {
+  title: "Spirit of the Living God, Fall Afresh on Me",
+  isExpandable: true,
+  type: "song",
+  content: `Spirit of the Living God, fall fresh on me
+  Spirit of the Living God, fall fresh on me
+  Melt me, mold me
+  Fill me, use me
+  
+  Spirit of the Living God, fall fresh on me
+  Spirit of the Living God, fall fresh on me
+  Melt me, mold me
+  Fill me, use me`
+};
+
+export const oHolySpiritMakingWhole: SubjectProps = {
+  title: "O Holy Spirit, Making Whole",
+  isExpandable: true,
+  type: "song",
+  content: `O Holy Spirit, making whole 
+  Your church in body, mind and soul 
+  O light of life, O fire divine 
+  Inspire your church and make it shine 
+  Till Christ shall rule in every heart 
+  And Pentecost its pow’r impart
+
+  Blow wind of God! In wisdom blow 
+  Away all mists and clouds below 
+  Dispel our error, doubt, and fear 
+  Till truth shall make love’s message clear
+  And Christ shall rule in every heart 
+  And Pentecost its pow’r impart
+
+  Burn living flame within each breast 
+  Until your Spirit ever blessed 
+  Shall purge our lives from dross and sin
+  And peace and pow’r abide within! 
+  So Christ shall rule in every heart 
+  And Pentecost its pow’r impart
+
+  Inspire our lips with truth and love 
+  To speak your language from above 
+  God’s message all may understand 
+  In every age and every land
+  Till Christ shall rule in every heart 
+  And Pentecost its pow’r impart`
+};
+
+export const buildYourKingdomHere: SubjectProps = {
+  title: "Build Your Kingdom Here",
+  isExpandable: true,
+  type: "song",
+  content: `Come set Your rule and reign
+  In our hearts again
+  Increase in us we pray
+  Unveil why we're made
+  Come set our hearts ablaze with hope
+  Like wildfire in our very souls
+  Holy Spirit come invade us now
+  We are Your Church
+  And we need Your power
+  In us
+  
+  We seek Your kingdom first
+  We hunger and we thirst
+  Refuse to waste our lives
+  For You're our joy and prize
+  To see the captives' hearts released
+  The hurt, the sick, the poor at peace
+  We lay down our lives for Heaven's cause
+  We are Your church
+  And we pray revive
+  This earth
+  
+  Build Your kingdom here
+  Let the darkness fear
+  Show Your mighty hand
+  Heal our streets and land
+  Set Your church on fire
+  Win this nation back
+  Change the atmosphere
+  Build Your kingdom here
+  We pray
+  
+  Unleash Your kingdom's power
+  Reaching the near and far
+  No force of hell can stop
+  Your beauty changing hearts
+  You made us for much more than this
+  Awake the kingdom seed in us
+  Fill us with the strength and love of Christ
+  We are Your church
+  Oh, and we are the hope
+  On earth
+  
+  Build Your kingdom here
+  Let the darkness fear
+  Show Your mighty hand
+  Heal our streets and land
+  Set Your church on fire
+  Win this nation back
+  Change the atmosphere
+  Build Your kingdom here
+  We pray`
+};
+
+export const battleBelong: SubjectProps = {
+  title: "Battle Belongs",
+  isExpandable: true,
+  type: "song",
+  content: `When all I see is the battle
+  You see my victory
+  When all I see is the mountain
+  You see a mountain moved
+  And as I walk through the shadow
+  Your love surrounds me
+  There's nothing to fear now
+  For I am safe with You
+  
+  So when I fight I'll fight on my knees
+  With my hands lifted high
+  Oh God the battle belongs to You
+  And every fear I lay at Your feet
+  I'll sing through the night
+  Oh God the battle belongs to You
+  
+  And if You are for me
+  Who can be against me (yeah)
+  For Jesus there's nothing
+  Impossible for You
+  When all I see are the ashes
+  You see the beauty (thank You God)
+  When all I see is a cross
+  God You see the empty tomb
+  
+  So when I fight I'll fight on my knees
+  With my hands lifted high
+  Oh God the battle belongs to You
+  And every fear I lay at Your feet
+  I'll sing through the night
+  Oh God the battle belongs to You
+  
+  Almighty Fortress You go before us
+  Nothing can stand against
+  The power of our God
+  You shine in the shadow
+  You win every battle
+  Nothing can stand against
+  The power of our God
+  
+  Almighty Fortress You go before us
+  Nothing can stand against
+  The power of our God
+  You shine in the shadow
+  You win every battle
+  Nothing can stand against
+  The power of our God
+  
+  Almighty Fortress You go before us
+  Nothing can stand against
+  The power of our God
+  You shine in the shadows
+  You win every battle
+  Nothing can stand against
+  The power of our God
+  
+  So when I fight I'll fight on my knees
+  With my hands lifted high
+  Oh God the battle belongs to You
+  And every fear I lay at Your feet
+  I'll sing through the night
+  Oh God the battle belongs to You
+  
+  Oh God the battle belongs to You`
+};

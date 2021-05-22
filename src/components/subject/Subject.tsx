@@ -50,7 +50,7 @@ export const Subject: React.FC<SubjectProps> = ({
       </p>
       {content && isExpanded && (
         <>
-          <div className="subject-content">
+          <section className="subject-content">
             {contentArray}
             <p
               className="collapse"
@@ -58,7 +58,7 @@ export const Subject: React.FC<SubjectProps> = ({
             >
               Collapse
             </p>
-          </div>
+          </section>
         </>
       )}
     </>

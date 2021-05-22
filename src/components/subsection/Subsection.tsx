@@ -9,13 +9,13 @@ export const Subsection: React.FC<SubsectionProps> = ({
   subtext
 }) => {
   return (
-    <div className="subsection">
-      <div className="subsection-title">
+    <article className="subsection">
+      <header className="subsection-title">
         <h4>{title}</h4>
         {!!subtext && (
           <span className="subsection-person">{subtext}</span>
         )}
-      </div>
+      </header>
       {subjects?.map((subject, i) => (
         <Subject
           key={i}
@@ -25,6 +25,6 @@ export const Subsection: React.FC<SubsectionProps> = ({
           type={subject.type}
         />
       ))}
-    </div>
+    </article>
   );
 };
