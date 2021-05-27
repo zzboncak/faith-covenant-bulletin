@@ -98,6 +98,16 @@ export function generateHymnOfPreparation(
   };
 }
 
+export function generateHymnOfSending(
+  hymn: SubjectProps
+): SubsectionProps {
+  return {
+    title: "Hymn of Sending",
+    subtext: "Congregation Standing",
+    subjects: [hymn]
+  };
+}
+
 function generateGatheringSong(song: SubjectProps): SubsectionProps {
   return {
     title: "Gathering Song",

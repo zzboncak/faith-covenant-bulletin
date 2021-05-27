@@ -8,13 +8,13 @@ import {
   generateMinistryToChildren,
   generateScriptureReading,
   generateSermon
-} from "./helperFunctions";
+} from "../helperFunctions";
 import {
   prayersOfThePeople,
   offeringDedication,
   prayerOfDedication,
   benediction
-} from "./commonElements";
+} from "../commonElements";
 import {
   overcome,
   gloriousDay,
@@ -23,8 +23,8 @@ import {
   weExaltThee,
   allHailThePowerOfJesusName,
   sendMeOut
-} from "./songs";
-import { SubsectionProps } from "./types";
+} from "../songs";
+import { SubsectionProps } from "../types";
 
 const section1 = generate1stSection(overcome, [
   gloriousDay,

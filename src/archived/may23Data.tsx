@@ -4,7 +4,7 @@ import {
   offeringDedication,
   prayerOfDedication,
   prayersOfThePeople
-} from "./commonElements";
+} from "../commonElements";
 import {
   generate1stSection,
   generate2ndSection,
@@ -14,7 +14,7 @@ import {
   generateMinistryToChildren,
   generateScriptureReading,
   generateSermon
-} from "./helperFunctions";
+} from "../helperFunctions";
 import {
   allWhoAreThirsty,
   battleBelong,
@@ -22,8 +22,8 @@ import {
   oHolySpiritMakingWhole,
   spiritOfTheLivingGodFallAfreshOnMe,
   takeMyLife
-} from "./songs";
-import { SubsectionProps } from "./types";
+} from "../songs";
+import { SubsectionProps } from "../types";
 
 const section1 = generate1stSection(battleBelong, [
   takeMyLife,

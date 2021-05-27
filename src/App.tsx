@@ -4,7 +4,7 @@ import "./App.css";
 import logo from "./images/Faith-Logo-Sqaure-2.jpg";
 import { generateAnnouncements } from "./helperFunctions";
 import { Subsection } from "./components/subsection/Subsection";
-import { may23Service } from "./may23Data";
+import { may30Service } from "./may30Data";
 
 export const App: React.FC = () => {
   const [isRegisterVisible, setIsRegisterVisible] = useState<boolean>(
@@ -13,23 +13,37 @@ export const App: React.FC = () => {
   const logoDimension = "70px;";
   const announcements = generateAnnouncements([
     <p key={1}>
-      <strong>Global 6K:</strong> Celebrate with us! Yesterday, 40
-      Global 6k team members from Faith Covenant raised $2,600 to help
-      bring clean water to those who need it the most.
-    </p>,
-    <p key={2}>
-      <strong>Pentecost Worship Night, May 23 at 6:30 pm:</strong>Join
+      <strong>Pentecost Worship Night, May 30 at 6:30 pm</strong>Join
       us for worship through song, prayer, and a bonfire! We will meet
       at the Cockle residence. Park at the back entrance to Atten Park
       on Shaffner Road. Walk to the Cockle&#39;s home on the grass
       path. You will see signs. Bring a chair and beverage. We will
-      have s’mores. Maps available at the Welcome Table.
+      have smores. Maps available at the Welcome Table.
+    </p>,
+    <p key={2}>
+      <strong>
+        Vacation Bible School, July 5-8, 9:00 am-11:00 am:
+      </strong>
+      This summer the kids will be starting their engines and getting
+      ready to take-off at VBS! The Flight School Curriculum will take
+      kids on a high-flying adventure that challenges them to aim
+      higher than just “good enough” in their lives with Christ. VBS
+      is especially designed for children entering kindergarten
+      through fourth grade. Register{" "}
+      <a
+        href="https://faithecc.breezechms.com/form/VBSJULY2021"
+        target="_blank"
+        rel="noreferrer"
+      >
+        here!
+      </a>
     </p>,
     <p key={3}>
-      <strong>Annual Meeting, June 13 at 12:15 pm:</strong> Our
-      congregation&#39;s Annual Meeting will be held on Sunday June
-      13th. Please plan an attending this important part in the life
-      of Faith Covenant. More information to come!
+      <strong>
+        Pastor Nate&#39;s Ordination Service, June 26th at 7:00 pm:
+      </strong>{" "}
+      We will gather in the sanctuary to honor and celebrate Pastor
+      Nate&#39;s ordination to the Evangelical Covenant Church.
     </p>
   ]);
   return (
@@ -37,13 +51,13 @@ export const App: React.FC = () => {
       <main className="App">
         <header className="App-header">
           <h1>Worship Bulletin</h1>
-          <p className="date">May 23, 2021</p>
+          <p className="date">May 30, 2021</p>
           {!isRegisterVisible && (
             <button
               className="register-button"
               onClick={() => setIsRegisterVisible(!isRegisterVisible)}
             >
-              Click Here to Check In
+              Tap Here to Check In
             </button>
           )}
           <div
@@ -69,7 +83,7 @@ export const App: React.FC = () => {
             <i>Click on an element of the service to expand it.</i>
           </p>
         </div>
-        {may23Service.map((section, i) => (
+        {may30Service.map((section, i) => (
           <Section
             key={i}
             title={section.title}

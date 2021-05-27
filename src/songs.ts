@@ -1116,3 +1116,242 @@ export const battleBelong: SubjectProps = {
   
   Oh God the battle belongs to You`
 };
+
+export const aPsalmOfSorts: SubjectProps = {
+  title: "A Psalm of Sorts",
+  type: "song",
+  isExpandable: true,
+  content: `Where can I go from your Spirit?
+  If I reach the highest heavens You are there
+  If I take the wings of the morning
+  And dwell in the depths, You are there
+  Your hand will guide me, Your right hand will hold me
+  Even when the darkness hides the way
+  The blackest night cannot hide from You
+  In You it shines like the brightest day
+
+  Bless the Lord, oh my soul
+  And let all that is within me cry “Holy”
+  Bless the Lord, oh my soul
+  And let all that is within me cry “Worthy”
+
+  You alone are my hiding place
+  My refuge in a sea of churning waves
+  You, Oh Lord, will not turn from me
+  From me you will not hide your face
+  And if this breath is my dying last
+  And if the mountains should crumble to the sea
+  The rocks and stones will cry out your name
+  Creator, Redeemer, King of Kings`
+};
+
+export const hereIAmToWorship: SubjectProps = {
+  title: "Here I am to Worship",
+  isExpandable: true,
+  type: "song",
+  content: `Light of the world You stepped down into darkness 
+  Opened my eyes let me see 
+  Beauty that made this heart adore You
+  Hope of a life spent with You
+  
+  So here I am to worship
+  Here I am to bow down
+  Here I am to say that You're my God 
+  And You're altogether lovely 
+  Altogether worthy 
+  Altogether wonderful to me
+
+  King of all days oh so highly exalted 
+  Glorious in Heaven above Humbly You came
+  To the earth You created
+  All for love's sake became poor
+
+  So here I am to worship
+  Here I am to bow down
+  Here I am to say that You're my God 
+  And You're altogether lovely 
+  Altogether worthy 
+  Altogether wonderful to me
+
+  And I'll never know how much it cost 
+  To see my sin upon that cross 
+  And I'll never know how much it cost 
+  To see my sin upon that cross`
+};
+
+export const kingOfKings: SubjectProps = {
+  title: "Kings of Kings",
+  isExpandable: true,
+  type: "song",
+  content: `In the darkness we were waiting without hope without light
+  Till from Heaven You came running there was mercy in Your eyes
+  To fulfil the law and prophets to a virgin came the Word
+  From a throne of endless glory to a cradle in the dirt
+
+  Praise the Father praise the Son
+  Praise the Spirit three in one
+  God of Glory majesty
+  Praise forever to the King of kings
+  
+  To reveal the kingdom coming and to reconcile the lost
+  To redeem the whole creation You did not despise the cross
+  For even in Your suffering You saw to the other side
+  Knowing this was our salvation Jesus for our sake You died
+  
+  Praise the Father praise the Son
+  Praise the Spirit three in one
+  God of Glory majesty
+  Praise forever to the King of kings
+  
+  And the morning that You rose all of heaven held its breath
+  Till that stone was moved for good for the Lamb had conquered death
+  And the dead rose from their tombs and the angels stood in awe
+  For the souls of all who’d come to the Father are restored
+  
+  And the Church of Christ was born then the Spirit lit the flame
+  Now this Gospel truth of old shall not kneel shall not faint
+  By His blood and in His Name in His freedom I am free
+  For the love of Jesus Christ who has resurrected me
+  
+  Praise the Father praise the Son
+  Praise the Spirit three in one
+  God of Glory majesty
+  Praise forever to the King of kings
+  
+  Praise forever to the King of kings`
+};
+
+export const allCreaturesOfOurGodAndKing: SubjectProps = {
+  title: "All Creatures Of Our God And King",
+  isExpandable: true,
+  type: "song",
+  content: `All creatures of our God and King 
+  Lift up your voice and with us sing 
+  O praise Him alleluia
+  Thou burning sun with golden beam 
+  Thou silver moon with softer gleam 
+  O praise Him O praise Him 
+  Alleluia alleluia alleluia
+
+  Thou rushing wind that art so strong 
+  Ye clouds that sail in Heav'n along 
+  O praise Him alleluia
+  Thou rising moon in praise rejoice 
+  Ye lights of evening find a voice
+  O praise Him O praise Him 
+  Alleluia alleluia alleluia
+
+  Let all things their Creator bless 
+  And worship Him in humbleness 
+  O praise Him alleluia
+  Praise, praise the Father praise the Son
+  And praise the Spirit three in One 
+  O praise Him O praise Him 
+  Alleluia alleluia alleluia
+  
+  O alleluia alleluia
+  O alleluia alleluia
+  O alleluia alleluia
+  O alleluia alleluia alleluia`
+};
+
+export const holyHolyHoly: SubjectProps = {
+  title: "Holy, Holy, Holy",
+  isExpandable: true,
+  type: "song",
+  content: `Holy, holy, holy! 
+  Lord God Almighty 
+  Early in the morning
+  Our song shall rise to Thee 
+  Holy, holy, holy! Merciful and mighty 
+  God in three persons, blessed Trinity
+
+  Holy, holy, holy!
+  All the saints adore Thee 
+  Casting down their golden crowns 
+  Around the glassy sea 
+  Cherubim and seraphim 
+  Falling down before Thee 
+  Who wert and art
+  And evermore shalt be
+
+  Holy, holy, holy!
+  Though the darkness hide Thee 
+  Though the eye of sinful flesh 
+  Thy glory may not see 
+  Only Thou art holy
+  There is none beside Thee 
+  Perfect in power
+  In love and purity
+
+  Holy, holy, holy! 
+  Lord God Almighty 
+  All Thy works shall praise Thy name 
+  In earth and sky and sea
+  Holy, holy, holy! Merciful and mighty 
+  God in three persons, blessed Trinity`
+};
+
+export const singPriaseToTheFather: SubjectProps = {
+  title: "Sing Praise To The Father",
+  isExpandable: true,
+  type: "song",
+  content: `Sing praise to the Father, 
+  Creator and King 
+  Whose mercy has taught us 
+  a new song to sing
+  Who made us and loved us 
+  though rebels and lost 
+  And planned our redemption at infinite cost
+  
+  Bless the Lord! Bless the Lord 
+  Bless the Lord O my soul 
+  For the grace that redeems 
+  For the love that makes whole 
+  O come and adore Him,
+  His glories proclaim
+  And worship before Him the Lord is His name
+  
+  Sing praise to the Savior, 
+  Redeemer and friend 
+  For grace past all telling 
+  for love without end 
+  Who stripped off His glory
+  put on mortal sin 
+  And died and was ris’n 
+  Full atonement to win
+
+  Bless the Lord! Bless the Lord 
+  Bless the Lord O my soul 
+  For the grace that redeems 
+  For the love that makes whole 
+  O come and adore Him,
+  His glories proclaim
+  And worship before Him the Lord is His name
+
+  Sing praise to the Spirit 
+  the Gift of God's love 
+  Who quickens our hearts 
+  with new life from above 
+  Who woos us subdues us 
+  and seals us His own 
+  And faultless presents us 
+  before his great throne
+  
+  Bless the Lord! Bless the Lord 
+  Bless the Lord O my soul 
+  For the grace that redeems 
+  For the love that makes whole 
+  O come and adore Him,
+  His glories proclaim
+  And worship before Him the Lord is His name
+
+  Sing praise to the Father 
+  sing praise to the Son 
+  Sing praise to the Spirit 
+  great God Three-in-one 
+  The God of salvation
+  of glory of grace
+  Who wrought our redemption 
+  my soul sing His praise`
+};

@@ -11,7 +11,6 @@ const s1_subsection1: SubsectionProps = {
       To fulfil the law and prophets to a virgin came the Word
       From a throne of endless glory to a cradle in the dirt
 
-
       Praise the Father praise the Son
       Praise the Spirit three in one
       God of Glory majesty
