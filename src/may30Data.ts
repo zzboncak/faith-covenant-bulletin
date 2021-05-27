@@ -27,9 +27,9 @@ import {
 } from "./songs";
 
 const section1 = generate1stSection(aPsalmOfSorts, [
-  hereIAmToWorship,
+  allCreaturesOfOurGodAndKing,
   kingOfKings,
-  allCreaturesOfOurGodAndKing
+  hereIAmToWorship
 ]);
 
 const section2 = generate2ndSection([
