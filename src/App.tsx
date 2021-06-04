@@ -4,7 +4,7 @@ import "./App.css";
 import logo from "./images/Faith-Logo-Sqaure-2.jpg";
 import { generateAnnouncements } from "./helperFunctions";
 import { Subsection } from "./components/subsection/Subsection";
-import { may30Service } from "./may30Data";
+import { june6Service } from "./june6Data";
 
 export const App: React.FC = () => {
   const [isRegisterVisible, setIsRegisterVisible] = useState<boolean>(
@@ -51,7 +51,7 @@ export const App: React.FC = () => {
       <main className="App">
         <header className="App-header">
           <h1>Worship Bulletin</h1>
-          <p className="date">May 30, 2021</p>
+          <p className="date">June 6, 2021</p>
           {!isRegisterVisible && (
             <button
               className="register-button"
@@ -83,7 +83,7 @@ export const App: React.FC = () => {
             <i>Click on an element of the service to expand it.</i>
           </p>
         </div>
-        {may30Service.map((section, i) => (
+        {june6Service.map((section, i) => (
           <Section
             key={i}
             title={section.title}

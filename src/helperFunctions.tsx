@@ -42,8 +42,12 @@ export function generateSermon(
 export function generateScriptureReading(
   passage: string,
   reference: string,
-  subtext?: string
+  subtext?: string,
+  songToSing?: string
 ): SubsectionProps {
+  const song =
+    songToSing ??
+    "Thy Word is a lamp unto my feet and a light unto my path";
   const scriptureReading: SubsectionProps = {
     title: "Scripture Reading",
     subtext,
@@ -52,7 +56,7 @@ export function generateScriptureReading(
         title: reference,
         isExpandable: true,
         type: "scripture",
-        content: `Thy Word is a lamp unto my feet and a light unto my path
+        content: `${song}
         ${passage}
         ${reference}`
       }
@@ -93,7 +97,7 @@ export function generateHymnOfPreparation(
 ): SubsectionProps {
   return {
     title: "Hymn of Preparation",
-    subtext: "Congregation Standing",
+    subtext: "*Congregation Standing",
     subjects: [hymn]
   };
 }
@@ -103,7 +107,7 @@ export function generateHymnOfSending(
 ): SubsectionProps {
   return {
     title: "Hymn of Sending",
-    subtext: "Congregation Standing",
+    subtext: "*Congregation Standing",
     subjects: [hymn]
   };
 }
@@ -118,7 +122,7 @@ function generateGatheringSong(song: SubjectProps): SubsectionProps {
 function generateWorshipSet(songs: SubjectProps[]): SubsectionProps {
   return {
     title: "Songs of Worship",
-    subtext: "Congregation Standing",
+    subtext: "*Congregation Standing",
     subjects: songs
   };
 }

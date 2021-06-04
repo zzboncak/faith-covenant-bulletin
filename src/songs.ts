@@ -1355,3 +1355,244 @@ export const singPriaseToTheFather: SubjectProps = {
   Who wrought our redemption 
   my soul sing His praise`
 };
+
+export const seeAVictory: SubjectProps = {
+  title: "See A Victory",
+  isExpandable: true,
+  type: "song",
+  content: `The weapon may be formed but it won't prosper
+  When the darkness falls it won't prevail
+  'Cause the God I serve knows only how to triumph
+  My God will never fail
+  My God will never fail
+  
+  I'm gonna see a victory, I'm gonna see a victory
+  For the battle belongs to You Lord
+  I'm gonna see a victory, I'm gonna see a victory
+  For the battle belongs to You Lord
+  
+  There's power in the mighty Name of Jesus
+  Every war He wages He will win
+  I'm not backing down from any giant
+  I know how this story ends
+  I know how this story ends
+  
+  I'm gonna see a victory, I'm gonna see a victory
+  For the battle belongs to You Lord
+  I'm gonna see a victory, I'm gonna see a victory
+  For the battle belongs to You Lord`
+};
+
+export const everlastingGod: SubjectProps = {
+  title: "Everlasting God",
+  isExpandable: true,
+  type: "song",
+  content: `Strength will rise
+  as we wait upon the Lord 
+  We will wait upon the Lord 
+  We will wait upon the Lord
+
+  Strength will rise
+  as we wait upon the Lord 
+  We will wait upon the Lord 
+  We will wait upon the Lord
+
+  Our God You reign forever 
+  Our Hope our strong Deliv'rer
+  
+  You are the everlasting God 
+  The everlasting God
+  You do not faint
+  You won't grow weary 
+  You're the defender of the weak 
+  You comfort those in need 
+  You lift us up on wings like eagles
+  
+  Strength will rise
+  as we wait upon the Lord 
+  We will wait upon the Lord 
+  We will wait upon the Lord
+
+  Strength will rise
+  as we wait upon the Lord 
+  We will wait upon the Lord 
+  We will wait upon the Lord
+
+  Our God You reign forever 
+  Our Hope our strong Deliv'rer
+  
+  You are the everlasting God 
+  The everlasting God
+  You do not faint
+  You won't grow weary 
+  You're the defender of the weak 
+  You comfort those in need 
+  You lift us up on wings like eagles`
+};
+
+export const yourName: SubjectProps = {
+  title: "Your Name",
+  isExpandable: true,
+  type: "song",
+  content: `As morning dawns and evening fades 
+  You inspire songs of praise
+  That rise from earth to touch Your heart 
+  And glorify Your Name
+  
+  Your Name is a strong and mighty tower
+  Your Name is a shelter like no other 
+  Your Name
+  let the nations sing it louder 
+  'Cause nothing has the power to save But Your Name
+  
+  Jesus in Your Name we pray 
+  Come and fill our hearts today 
+  Lord give us strength to live for You 
+  And glorify Your Name
+  
+  Your Name is a strong and mighty tower
+  Your Name is a shelter like no other 
+  Your Name
+  let the nations sing it louder 
+  'Cause nothing has the power to save But Your Name
+  
+  Your Name is a strong and mighty tower
+  Your Name is a shelter like no other 
+  Your Name
+  let the nations sing it louder 
+  'Cause nothing has the power to save But Your Name`
+};
+
+export const beThouMyVision: SubjectProps = {
+  title: "Be Thou My Vision",
+  isExpandable: true,
+  type: "song",
+  content: `Be Thou my vision 
+  O Lord of my heart 
+  Naught be all else to me
+  Save that Thou art
+  Thou my best thought
+  By day or by night
+  Waking or sleeping
+  Thy presence my light
+
+  Be Thou my wisdom 
+  and Thou my true Word 
+  I ever with Thee 
+  And Thou with me Lord 
+  Thou my great Father 
+  I Thy true son 
+  Thou in me dwelling 
+  And I with Thee one
+
+  Riches I heed not 
+  Nor man's empty praise 
+  Thou mine inheritance 
+  Now and always 
+  Thou and Thou only 
+  Be first in my heart 
+  High King of heaven 
+  My treasure Thou art
+
+  High King of heaven 
+  My vict'ry is won 
+  May I reach heaven's joys 
+  O bright heaven's Sun 
+  Heart of my own heart 
+  Whatever befall
+  Still be my vision
+  O Ruler of all`
+};
+
+export const theWordOfGodIsAlive: SubjectProps = {
+  title: "The Word of God is Alive",
+  isExpandable: true,
+  type: "song",
+  content: `The Word of God is alive 
+  It lives in the world today 
+  Correcting consoling connecting us all 
+  The Word of God is alive
+
+  The Word of God is inspired
+  It speaks to our deepest needs 
+  Dividing directing declaring His truth 
+  The Word of God is inspired
+
+  The Word of God is alive 
+  It lives in the world today 
+  It's burning and shining and speaking His truth 
+  The Word of God is alive`
+};
+
+export const youNeverLetGo: SubjectProps = {
+  title: "You Never Let Go",
+  isExpandable: true,
+  type: "song",
+  content: `Even though I walk through the valley 
+  Of the shadow of death
+  Your perfect love is casting out fear 
+  And even when I'm caught in the middle 
+  Of the storms of this life
+  I won't turn back I know You are near
+
+  And I will fear no evil
+  For my God is with me 
+  And if my God is with me 
+  Whom then shall I fear
+  Whom then shall I fear
+
+  Oh no You never let go 
+  Through the calm and through the storm 
+  Oh no You never let go
+  In ev'ry high and ev'ry low
+  Oh no You never let go
+  Lord You never let go of me
+
+  And I can see a light that is coming 
+  For the heart that holds on
+  A glorious light beyond all compare 
+  And there will be an end to these troubles 
+  until that day comes
+  We'll live to know You here on the earth
+
+  And I will fear no evil
+  For my God is with me 
+  And if my God is with me 
+  Whom then shall I fear
+  Whom then shall I fear
+  
+  Oh no You never let go 
+  Through the calm and through the storm 
+  Oh no You never let go
+  In ev'ry high and ev'ry low
+  Oh no You never let go
+  Lord You never let go of me
+
+  Yes I can see a light that is coming 
+  For the heart that holds on
+  And there will be an end to these troubles 
+  But until that day comes
+  Still I will praise You
+  Still I will praise You
+  
+  Yes I can see a light that is coming 
+  For the heart that holds on
+  And there will be an end to these troubles 
+  But until that day comes
+  Still I will praise You
+  Still I will praise You
+  
+  Oh no You never let go 
+  Through the calm and through the storm 
+  Oh no You never let go
+  In ev'ry high and ev'ry low
+  Oh no You never let go
+  Lord You never let go of me
+  
+  Oh no You never let go 
+  Through the calm and through the storm 
+  Oh no You never let go
+  In ev'ry high and ev'ry low
+  Oh no You never let go
+  Lord You never let go of me`
+};

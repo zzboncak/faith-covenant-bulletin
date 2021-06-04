@@ -112,3 +112,18 @@ export const niceneCreed: SubsectionProps = {
     }
   ]
 };
+
+export const apostlesCreed: SubsectionProps = {
+  title: "The Apostles' Creed",
+  subtext: "*Congregation Standing",
+  subjects: [
+    {
+      title: "Tap to Expand",
+      isExpandable: true,
+      content: `I believe in God, the Father Almighty, maker of heaven and earth;
+      And in Jesus Christ his only Son, our Lord; who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, dead, and buried; he descended to the dead.
+      On the third day he rose again; he ascended into heaven, and is seated at the right hand of God the Father Almighty; and will come again to judge the living and the dead.
+      I believe in the Holy Spirit, the holy Christian church, the communion of saints, the forgiveness of sins, the resurrection of the body, and the life everlasting. Amen.`
+    }
+  ]
+};
