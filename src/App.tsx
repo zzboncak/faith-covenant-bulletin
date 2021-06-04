@@ -13,30 +13,28 @@ export const App: React.FC = () => {
   const logoDimension = "70px;";
   const announcements = generateAnnouncements([
     <p key={1}>
-      <strong>Pentecost Worship Night, May 30 at 6:30 pm</strong>Join
-      us for worship through song, prayer, and a bonfire! We will meet
-      at the Cockle residence. Park at the back entrance to Atten Park
-      on Shaffner Road. Walk to the Cockle&#39;s home on the grass
-      path. You will see signs. Bring a chair and beverage. We will
-      have smores. Maps available at the Welcome Table.
-    </p>,
-    <p key={2}>
       <strong>
-        Vacation Bible School, July 5-8, 9:00 am-11:00 am:
-      </strong>
-      This summer the kids will be starting their engines and getting
-      ready to take-off at VBS! The Flight School Curriculum will take
-      kids on a high-flying adventure that challenges them to aim
-      higher than just “good enough” in their lives with Christ. VBS
-      is especially designed for children entering kindergarten
-      through fourth grade. Register{" "}
+        Annual Congregational Meeting, Sunday, June 13, 12:00 noon:
+      </strong>{" "}
+      If you are a member of Faith Covenant Church, please plan on
+      attending the annual meeting. We will meet wherever the Worship
+      Service is held. Please order a box lunch and reserve childcare
+      on the website (or simply tap{" "}
       <a
-        href="https://faithecc.breezechms.com/form/VBSJULY2021"
+        href="https://faithecc.breezechms.com/form/meetingboxlunchchildcare"
         target="_blank"
         rel="noreferrer"
       >
-        here!
+        HERE
       </a>
+      ) by June 10.
+    </p>,
+    <p key={2}>
+      <strong>Children&#39;s Ministry Opportunities:</strong>
+      Would you come alongside us in the joyful privilege of nurturing
+      our children&#39;s love for God? Please contact Wendy Smith (
+      <a href="mailto:children@faithecc.org">children@faithecc.org</a>
+      ) if you are interested in serving in this way.
     </p>,
     <p key={3}>
       <strong>
@@ -51,7 +49,9 @@ export const App: React.FC = () => {
       <main className="App">
         <header className="App-header">
           <h1>Worship Bulletin</h1>
-          <p className="date">June 6, 2021</p>
+          <p className="date">
+            June 6, 2021: Second Sunday after Pentecost
+          </p>
           {!isRegisterVisible && (
             <button
               className="register-button"
