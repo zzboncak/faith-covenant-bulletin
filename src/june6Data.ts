@@ -98,7 +98,7 @@ const offeringDedication: SubsectionProps = {
   subtext: "*Congregation Standing",
   subjects: [
     {
-      title: "Grace Us, Lord, the Grace of Giving",
+      title: "Grant Us, Lord, the Grace of Giving",
       isExpandable: true,
       type: "song",
       content: `Grant us Lord the grace of giving 
