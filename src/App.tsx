@@ -65,7 +65,7 @@ export const App: React.FC = () => {
               isRegisterVisible ? "" : "hidden"
             }`}
             data-subdomain="faithecc"
-            data-address="Worship_Check_In"
+            data-address="Worship_Check_In83"
             data-width="100%"
             data-border_width="0"
             data-border_color="000000"
