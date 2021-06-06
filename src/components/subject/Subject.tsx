@@ -26,7 +26,7 @@ export const Subject: React.FC<SubjectProps> = ({
           paragraphClass
         ].join(" ");
         if (entry === "") {
-          return <br />;
+          return <br key={`line-break-${i}`} />;
         }
         return (
           <p
