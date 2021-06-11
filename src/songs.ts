@@ -1596,3 +1596,255 @@ export const youNeverLetGo: SubjectProps = {
   Oh no You never let go
   Lord You never let go of me`
 };
+
+export const unstoppableGod: SubjectProps = {
+  title: "Unstoppable God",
+  isExpandable: true,
+  type: "song",
+  content: `Heaven thundered and the world was born
+  Life begins and ends in the dust You formed
+  Faith commanded and the mountains moved
+  Fear is losing ground to our hope in You
+  
+  Unstoppable God
+  Let Your glory go on and on
+  Impossible things
+  In Your name they shall be done
+  
+  Freedom conquered, all our chains undone
+  Sin defeated, Jesus has overcome
+  Mercy triumphed when the third day dawned
+  Darkness was denied when the stone was gone
+  
+  Unstoppable God
+  Let Your glory go on and on
+  Impossible things
+  In Your name they shall be done  `
+};
+
+export const iWillFollow: SubjectProps = {
+  title: "I Will Follow",
+  isExpandable: true,
+  type: "song",
+  content: `Where You go I'll go 
+  Where You stay I'll stay 
+  When You move I'll move I will follow
+
+  All Your ways are good 
+  All Your ways are sure 
+  I will trust in You alone 
+  Higher than my sight 
+  High above my life
+  I will trust in You alone
+  
+  Where You go I'll go 
+  Where You stay I'll stay 
+  When You move I'll move 
+  I will follow You 
+  Whom You love I'll love 
+  How You serve I'll serve 
+  If this life I lose
+  I will follow You
+  I will follow You
+
+  Light into the world 
+  Light into my life
+  I will live for You alone 
+  You're the One I seek 
+  Knowing I will find 
+  All I need in You alone 
+  In You alone
+  
+  Where You go I'll go 
+  Where You stay I'll stay 
+  When You move I'll move 
+  I will follow You 
+  Whom You love I'll love 
+  How You serve I'll serve 
+  If this life I lose
+  I will follow You
+  I will follow You
+
+  In You there's life everlasting
+  In You there's freedom for my soul 
+  In You there's joy unending joy 
+  And I will follow`
+};
+
+export const oceans: SubjectProps = {
+  title: "Oceans",
+  isExpandable: true,
+  type: "song",
+  content: `You call me out upon the waters 
+  The great unknown where feet may fail 
+  And there I find You in the mystery 
+  In oceans deep my faith will stand
+  
+  And I will call upon Your name 
+  And keep my eyes above the waves 
+  When oceans rise
+  My soul will rest in Your embrace 
+  For I am Yours and You are mine
+
+  Your grace abounds in deepest waters 
+  Your sov'reign hand will be my guide 
+  Where feet may fail and fear surrounds me
+  You've never failed and You won't start now
+  
+  And I will call upon Your name 
+  And keep my eyes above the waves 
+  When oceans rise
+  My soul will rest in Your embrace 
+  For I am Yours and You are mine
+
+  Spirit lead me where my trust is without borders
+  Let me walk upon the waters 
+  Wherever You would call me
+  Take me deeper than my feet could ever wander
+  And my faith will be made stronger
+  In the presence of my Savior
+  
+  Spirit lead me where my trust is without borders
+  Let me walk upon the waters 
+  Wherever You would call me
+  Take me deeper than my feet could ever wander
+  And my faith will be made stronger
+  In the presence of my Savior
+  
+  And I will call upon Your name 
+  And keep my eyes above the waves 
+  When oceans rise
+  My soul will rest in Your embrace 
+  For I am Yours and You are mine`
+};
+
+export const buildMyLife: SubjectProps = {
+  title: "Build My Life",
+  isExpandable: true,
+  type: "song",
+  content: `Worthy of ev'ry song we could ever sing 
+  Worthy of all the praise we could ever bring
+  Worthy of ev'ry breath we could ever breathe
+  We live for You
+
+  Jesus the name above ev'ry other name 
+  Jesus the only one who could ever save 
+  Worthy of ev'ry breath we could ever breathe
+  We live for You, we live for You
+  
+  Holy there is no one like You 
+  There is none beside You
+  Open up my eyes in wonder 
+  and show me, who You are
+  And fill me, with Your heart
+  And lead me, in Your love to those around me
+
+  I will build my life upon Your love 
+  It is a firm foundation
+  I will put my trust in You alone 
+  And I will not be shaken
+  
+  I will build my life upon Your love 
+  It is a firm foundation
+  I will put my trust in You alone 
+  And I will not be shaken`
+};
+
+export const fillTheEarthWithMusic: SubjectProps = {
+  title: "Fill the Earth with Music",
+  isExpandable: true,
+  type: "song",
+  content: `Fill the earth with music 
+  Sound aloud His praise
+  Give to all your witness 
+  Jesus Christ will save 
+  Psalms and hymns and heart-songs
+  in you richly dwell 
+  Centered on the Savior 
+  Christ who does things well
+  
+  Fill the earth with music 
+  Sound aloud His praise 
+  Give to all your witness 
+  Jesus Christ will save
+
+  Ring you bells with gladness 
+  Sing you choirs with joy 
+  Take to heart your mission 
+  All your tunes employ 
+  With your hearts united 
+  all with common voice 
+  Each in your own language 
+  In your Lord rejoice
+  
+  Fill the earth with music 
+  Sound aloud His praise 
+  Give to all your witness 
+  Jesus Christ will save
+
+  In your lofty anthems
+  By your hymns of peace 
+  Give the Prince of Goodness
+  His own rightful place 
+  Raise the cross of Jesus 
+  Lift it high above
+  That the world may find there 
+  Christ, the Lord of love
+  
+  Fill the earth with music 
+  Sound aloud His praise 
+  Give to all your witness 
+  Jesus Christ will save`
+};
+
+export const praiseHimPraiseHim: SubjectProps = {
+  title: "Praise Him! Praise Him!",
+  isExpandable: true,
+  type: "song",
+  content: `Praise him, praise him
+  Jesus, our blessed redeemer 
+  Sing, O earth,
+  his wonderful love proclaim
+  Hail him, hail him
+  Highest archangels in glory 
+  Strength and honor
+  give to his holy name
+  Like a shepherd,
+  Jesus will guard his children
+  In his arms he carries them all day long.
+  Praise him! Praise him! 
+  Tell of his excellent greatness. 
+  Praise him! Praise him! 
+  Ever in joyful song
+
+  Praise him, praise him 
+  Jesus, our blessed redeemer 
+  For our sins, he suffered, 
+  and bled, and died
+  He our rock,
+  our hope of eternal salvation 
+  Hail him, hail him 
+  Jesus, the crucified 
+  Sound his praises, 
+  Jesus who bore our sorrows 
+  Love unbounded, wonderful,
+  deep, and strong 
+  Praise him! Praise him! 
+  Tell of his excellent greatness. 
+  Praise him! Praise him! 
+  Ever in joyful song
+
+  Praise him, praise him
+  Jesus, our blessed redeemer 
+  Heav’nly portals loud with hosannas ring 
+  Jesus, Savior, reigneth forever and ever 
+  Crown him, crown him
+  Prophet, and priest, and king 
+  Christ is coming,
+  over the world victorious
+  Pow’r and glory unto the Lord belong 
+  Praise him! Praise him!
+  Tell of his excellent greatness. 
+  Praise him! Praise him!
+  Ever in joyful song`
+};

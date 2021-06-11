@@ -4,7 +4,7 @@ import "./App.css";
 import logo from "./images/Faith-Logo-Sqaure-2.jpg";
 import { generateAnnouncements } from "./helperFunctions";
 import { Subsection } from "./components/subsection/Subsection";
-import { june6Service } from "./june6Data";
+import { june13Service } from "./june13Data";
 
 export const App: React.FC = () => {
   const [isRegisterVisible, setIsRegisterVisible] = useState<boolean>(
@@ -14,27 +14,24 @@ export const App: React.FC = () => {
   const announcements = generateAnnouncements([
     <p key={1}>
       <strong>
-        Annual Congregational Meeting, Sunday, June 13, 12:00 noon:
+        Annual Congregational Meeting, today, 12:00 noon:
       </strong>{" "}
       If you are a member of Faith Covenant Church, please plan on
-      attending the annual meeting. We will meet wherever the Worship
-      Service is held. Please order a box lunch and reserve childcare
-      on the website (or simply tap{" "}
+      attending the annual meeting. We will hold the meeting indoors.
+    </p>,
+    <p key={2}>
+      <strong>All-Church Retreat:</strong> Registration is open for
+      Faith Covenant&#39;s All-Church Retreat! Details and info are on
+      the website{" "}
       <a
-        href="https://faithecc.breezechms.com/form/meetingboxlunchchildcare"
+        href="https://www.faithecc.org/all-church-retreat/"
         target="_blank"
         rel="noreferrer"
       >
         HERE
       </a>
-      ) by June 10.
-    </p>,
-    <p key={2}>
-      <strong>Children&#39;s Ministry Opportunities:</strong>
-      Would you come alongside us in the joyful privilege of nurturing
-      our children&#39;s love for God? Please contact Wendy Smith (
-      <a href="mailto:children@faithecc.org">children@faithecc.org</a>
-      ) if you are interested in serving in this way.
+      . Please email for assistance at{" "}
+      <a href="mailto:office@faithecc.org">office@faithecc.org</a>.
     </p>,
     <p key={3}>
       <strong>
@@ -50,7 +47,7 @@ export const App: React.FC = () => {
         <header className="App-header">
           <h1>Worship Bulletin</h1>
           <p className="date">
-            June 6, 2021: Second Sunday after Pentecost
+            June 13, 2021: Third Sunday after Pentecost
           </p>
           {!isRegisterVisible && (
             <button
@@ -83,7 +80,7 @@ export const App: React.FC = () => {
             <i>Click on an element of the service to expand it.</i>
           </p>
         </div>
-        {june6Service.map((section, i) => (
+        {june13Service.map((section, i) => (
           <Section
             key={i}
             title={section.title}
