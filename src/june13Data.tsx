@@ -86,7 +86,7 @@ const section2 = generate2ndSection([
   scriptureReading,
   ministryToChildren,
   generateHymnOfPreparation(fillTheEarthWithMusic),
-  generateSermon("Peter Smith", "")
+  generateSermon("Peter Smith", "Freed to Share")
 ]);
 
 const givingContent = (
