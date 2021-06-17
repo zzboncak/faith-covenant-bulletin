@@ -5,7 +5,7 @@ import {
   offeringDedication,
   prayerOfDedication,
   prayersOfThePeople
-} from "./commonElements";
+} from "../commonElements";
 import {
   generate1stSection,
   generate2ndSection,
@@ -16,7 +16,7 @@ import {
   generateMinistryToChildren,
   generateScriptureReading,
   generateSermon
-} from "./helperFunctions";
+} from "../helperFunctions";
 import {
   allCreaturesOfOurGodAndKing,
   aPsalmOfSorts,
@@ -24,7 +24,7 @@ import {
   holyHolyHoly,
   kingOfKings,
   singPriaseToTheFather
-} from "./songs";
+} from "../songs";
 
 const section1 = generate1stSection(aPsalmOfSorts, [
   allCreaturesOfOurGodAndKing,

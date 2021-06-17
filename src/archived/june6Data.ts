@@ -5,7 +5,7 @@ import {
   communion,
   prayerOfDedication,
   prayersOfThePeople
-} from "./commonElements";
+} from "../commonElements";
 import {
   generate1stSection,
   generate2ndSection,
@@ -13,7 +13,7 @@ import {
   generate4thSection,
   generateHymnOfPreparation,
   generateSermon
-} from "./helperFunctions";
+} from "../helperFunctions";
 import {
   beThouMyVision,
   everlastingGod,
@@ -21,8 +21,8 @@ import {
   theWordOfGodIsAlive,
   youNeverLetGo,
   yourName
-} from "./songs";
-import { SubsectionProps } from "./types";
+} from "../songs";
+import { SubsectionProps } from "../types";
 
 const section1 = generate1stSection(seeAVictory, [
   everlastingGod,

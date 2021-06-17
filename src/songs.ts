@@ -1848,3 +1848,178 @@ export const praiseHimPraiseHim: SubjectProps = {
   Praise him! Praise him!
   Ever in joyful song`
 };
+
+export const comeNowIsTheTimeToWorship: SubjectProps = {
+  title: "Come, Now is the Time to Worship",
+  isExpandable: true,
+  type: "song",
+  content: `Come now is the time to worship
+  Come now is the time to give your heart
+  Come just as you are to worship
+  Come just as you are before your God
+  Come
+  
+  One day every tongue will confess You are God
+  One day every knee will bow
+  Still the greatest treasure remains for those 
+  Who gladly choose You now
+
+  Come now is the time to worship
+  Come now is the time to give your heart
+  Come just as you are to worship
+  Come just as you are before your God
+  Come
+
+  One day every tongue will confess You are God
+  One day every knee will bow
+  Still the greatest treasure remains for those 
+  Who gladly choose You now
+
+  Come now is the time to worship
+  Come now is the time to give your heart
+
+  Come just as you are to worship
+  Come just as you are before your God
+  Come`
+};
+
+export const youreWorthyOfMyPraise: SubjectProps = {
+  title: "You're Worthy of My Praise",
+  isExpandable: true,
+  type: "song",
+  content: `I will worship (I will worship)
+  With all of my heart (with all of my heart)
+  I will praise You (I will praise You)
+  With all of my strength (all my strength)
+  
+  I will seek You (I will seek You)
+  All of my days (all of my days)
+  I will follow (I will follow)
+  All of Your ways (all Your ways)
+
+  I will give You all my worship
+  I will give You all my praise
+  You alone I long to worship
+  You alone are worthy of my praise
+
+  I will bow down (I will bow down)
+  And hail You as King (and hail You as King)
+  I will serve You (I will serve You)
+  Give You everything (everything)
+
+  I will lift up (I will lift up)
+  My eyes to Your throne (my eyes to Your throne)
+  I will trust You (I will trust You)
+  Trust You alone (You alone)
+
+  I will give You all my worship
+  I will give You all my praise
+  You alone I long to worship
+  You alone are worthy of my praise
+
+  I will give You all my worship
+  I will give You all my praise
+  You alone I long to worship
+  You alone are worthy of my praise`
+};
+
+export const iSurrenderAll: SubjectProps = {
+  title: "I Surrender All",
+  isExpandable: true,
+  type: "song",
+  content: `All to Jesus I surrender
+  All to Him I freely give
+  I will ever love and trust Him
+  In His presence daily live
+  
+  I surrender all
+  I surrender all
+  All to Thee my blessed Savior
+  I surrender all
+
+  All to Jesus I surrender
+  Humbly at His feet I bow
+  Worldly pleasures all forsaken
+  Take me Jesus take me now
+
+  I surrender all
+  I surrender all
+  All to Thee my blessed Savior
+  I surrender all
+
+  All to Jesus I surrender
+  Make me Savior wholly Thine
+  Let me feel the Holy Spirit
+  Truly know that Thou art mine
+
+  I surrender all
+  I surrender all
+  All to Thee my blessed Savior
+  I surrender all
+
+  All to Jesus I surrender
+  Lord I give myself to Thee
+  Fill me with Thy love and power
+  Let Thy blessing fall on me
+
+  I surrender all
+  I surrender all
+  All to Thee my blessed Savior
+  I surrender all
+
+  All to Jesus I surrender
+  Now I feel the sacred flame
+  O the joy of full salvation
+  Glory glory to His name
+
+  I surrender all
+  I surrender all
+  All to Thee my blessed Savior
+  I surrender all`
+};
+
+export const makeMeAServant: SubjectProps = {
+  title: "Make Me a Servant",
+  isExpandable: true,
+  type: "song",
+  content: `Make me a servant humble and meek
+  Lord let me lift up those who are weak
+  And may the prayer of my heart always be
+  
+  Make me a servant 
+  Make me a servant
+  Make me a servant today
+
+  Make me a servant humble and meek
+  Lord let me lift up those who are weak
+  And may the prayer of my heart always be:
+
+  Make me a servant 
+  Make me a servant
+  Make me a servant today`
+};
+
+export const imGonnaLiveSoGodCanUseMe: SubjectProps = {
+  title: "I'm Gonna Live So God Can Use Me",
+  isExpandable: true,
+  type: "song",
+  content: `I’m gonna live so God can use me
+  Anywhere, Lord, anytime
+  I’m gonna live so God can use me
+  Anywhere, Lord, any time
+  
+  I’m gonna work so God can use me
+  Anywhere, Lord, anytime
+  I’m gonna work so God can use me
+  Anywhere, Lord, any time
+
+  I’m gonna pray so God can use me
+  Anywhere, Lord, anytime
+  I’m gonna pray so God can use me
+  Anywhere, Lord, any time
+
+  I’m gonna sing so God can use me
+  Anywhere, Lord, anytime
+  I’m gonna sing so God can use me
+  Anywhere, Lord, any time`
+};

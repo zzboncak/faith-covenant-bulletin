@@ -4,8 +4,7 @@ import "./App.css";
 import logo from "./images/Faith-Logo-Sqaure-2.jpg";
 import { generateAnnouncements } from "./helperFunctions";
 import { Subsection } from "./components/subsection/Subsection";
-import { june13Service } from "./june13Data";
-
+import { june20Service } from "./june20Data";
 export const App: React.FC = () => {
   const [isRegisterVisible, setIsRegisterVisible] = useState<boolean>(
     false
@@ -13,32 +12,32 @@ export const App: React.FC = () => {
   const logoDimension = "70px;";
   const announcements = generateAnnouncements([
     <p key={1}>
-      <strong>
-        Annual Congregational Meeting, today, 12:00 noon:
-      </strong>{" "}
-      If you are a member of Faith Covenant Church, please plan on
-      attending the annual meeting. We will hold the meeting indoors.
-    </p>,
-    <p key={2}>
-      <strong>All-Church Retreat:</strong> Registration is open for
-      Faith Covenant&#39;s All-Church Retreat! Details and info are on
-      the website{" "}
+      <strong>All Church Retreat, August 6-8:</strong> Refresh your
+      spirit by being out in nature, worshiping the Lord, learning
+      from God&#39;s Word, spending time with others, and having lots
+      of fun! This is a weekend you don&#39;t want to miss! Covenant
+      Harbor Retreat Center has hotel style accommodations, each room
+      has its own bathroom, and the food is excellent. The camp has a
+      beach right on Lake Geneva. Children and adults alike have a
+      wonderful time on this retreat. The deadline to register is fast
+      approaching. Register{" "}
       <a
         href="https://www.faithecc.org/all-church-retreat/"
         target="_blank"
         rel="noreferrer"
       >
         HERE
-      </a>
-      . Please email for assistance at{" "}
-      <a href="mailto:office@faithecc.org">office@faithecc.org</a>.
+      </a>{" "}
+      today!
     </p>,
-    <p key={3}>
-      <strong>
-        Pastor Nate&#39;s Ordination Service, June 26th at 7:00 pm:
-      </strong>{" "}
-      We will gather in the sanctuary to honor and celebrate Pastor
-      Nate&#39;s ordination to the Evangelical Covenant Church.
+    <p key={2}>
+      <strong>Ladies Night Out, June 22, 7:00 pm:</strong> Women of
+      all ages are invited to enjoy a casual time of fellowship at Ann
+      Wolff&#39;s home, 1755 Shaffner Road, Wheaton. There is no need
+      to RSVP, simply show up. Questions or in need of childcare?
+      Contact Rita Christensen{" "}
+      <a href="mailto:careteam@faithecc.org">careteam@faithecc.org</a>
+      .
     </p>
   ]);
   return (
@@ -47,7 +46,7 @@ export const App: React.FC = () => {
         <header className="App-header">
           <h1>Worship Bulletin</h1>
           <p className="date">
-            June 13, 2021: Third Sunday after Pentecost
+            June 20, 2021: Fourth Sunday after Pentecost
           </p>
           {!isRegisterVisible && (
             <button
@@ -80,7 +79,7 @@ export const App: React.FC = () => {
             <i>Click on an element of the service to expand it.</i>
           </p>
         </div>
-        {june13Service.map((section, i) => (
+        {june20Service.map((section, i) => (
           <Section
             key={i}
             title={section.title}
