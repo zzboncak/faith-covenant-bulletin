@@ -4,7 +4,8 @@ import "./App.css";
 import logo from "./images/Faith-Logo-Sqaure-2.jpg";
 import { generateAnnouncements } from "./helperFunctions";
 import { Subsection } from "./components/subsection/Subsection";
-import { june20Service } from "./june20Data";
+import { june27Service } from "./june27Data";
+
 export const App: React.FC = () => {
   const [isRegisterVisible, setIsRegisterVisible] = useState<boolean>(
     false
@@ -12,32 +13,40 @@ export const App: React.FC = () => {
   const logoDimension = "70px;";
   const announcements = generateAnnouncements([
     <p key={1}>
-      <strong>All Church Retreat, August 6-8:</strong> Refresh your
-      spirit by being out in nature, worshiping the Lord, learning
-      from God&#39;s Word, spending time with others, and having lots
-      of fun! This is a weekend you don&#39;t want to miss! Covenant
-      Harbor Retreat Center has hotel style accommodations, each room
-      has its own bathroom, and the food is excellent. The camp has a
-      beach right on Lake Geneva. Children and adults alike have a
-      wonderful time on this retreat. The deadline to register is fast
-      approaching. Register{" "}
+      <strong>Men&#39;s Gathering, June 30, 6:45 pm:</strong> Enjoy
+      gathering under the trees in Rick Wolff&#39;s back yard for a
+      lighthearted yet authentic time of connection. 1755 Shaffner Rd,
+      Wheaton, IL 60189. RSVP to{" "}
+      <a href="mailto:wolffrick633@gmail.com">
+        wolffrick633@gmail.com
+      </a>
+      .
+    </p>,
+    <p key={2}>
+      <strong>Church Picnic & Communion, July 4, 12:00 pm:</strong> We
+      will retrieve our picnic baskets after the service. Then have
+      communion on the lawn followed by a picnic lunch. Please bring
+      both a lunch and your own communion elements. Meet new friends
+      and spend time with old friends.
+    </p>,
+    <p key={3}>
+      <strong>
+        Vacation Bible School, July 5-8, 9:00 am-11:00 am:
+      </strong>{" "}
+      Our &quot;Flight School&quot; curriculum will take kids on a
+      high-flying adventure that challenges them to aim higher than
+      just &quot;good enough&quot; in their lives with Christ. VBS is
+      specially designed for children entering kindergarten through
+      fourth grade. We have 50 openings that are filling up fast.
+      Register today{" "}
       <a
-        href="https://www.faithecc.org/all-church-retreat/"
+        href="https://faithecc.breezechms.com/form/VBSJULY2021"
         target="_blank"
         rel="noreferrer"
       >
         HERE
-      </a>{" "}
-      today!
-    </p>,
-    <p key={2}>
-      <strong>Ladies Night Out, June 22, 7:00 pm:</strong> Women of
-      all ages are invited to enjoy a casual time of fellowship at Ann
-      Wolff&#39;s home, 1755 Shaffner Road, Wheaton. There is no need
-      to RSVP, simply show up. Questions or in need of childcare?
-      Contact Rita Christensen{" "}
-      <a href="mailto:careteam@faithecc.org">careteam@faithecc.org</a>
-      .
+      </a>
+      !
     </p>
   ]);
   return (
@@ -46,7 +55,7 @@ export const App: React.FC = () => {
         <header className="App-header">
           <h1>Worship Bulletin</h1>
           <p className="date">
-            June 20, 2021: Fourth Sunday after Pentecost
+            June 27, 2021: Fifth Sunday after Pentecost
           </p>
           {!isRegisterVisible && (
             <button
@@ -79,7 +88,7 @@ export const App: React.FC = () => {
             <i>Click on an element of the service to expand it.</i>
           </p>
         </div>
-        {june20Service.map((section, i) => (
+        {june27Service.map((section, i) => (
           <Section
             key={i}
             title={section.title}

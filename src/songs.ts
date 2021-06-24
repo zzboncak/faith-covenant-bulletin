@@ -2023,3 +2023,166 @@ export const imGonnaLiveSoGodCanUseMe: SubjectProps = {
   I’m gonna sing so God can use me
   Anywhere, Lord, any time`
 };
+
+export const christIsEnough: SubjectProps = {
+  title: "Christ Is Enough",
+  isExpandable: true,
+  type: "song",
+  content: `Christ is my reward and all of my devotion
+  Now there's nothing in this world
+  That could ever satisfy
+  Through every trial my soul will sing
+  No turning back I've been set free
+  
+  Christ is enough for me
+  Christ is enough for me
+  Everything I need is in You
+  Everything I need
+  
+  Christ my all in all the joy of my salvation
+  And this hope will never fail
+  Heaven is our home
+  Through every storm my soul will sing
+  Jesus is here to God be the glory
+  
+  Christ is enough for me
+  Christ is enough for me
+  Everything I need is in You
+  Everything I need
+
+  I have decided to follow Jesus
+  No turning back no turning back
+  
+  The cross before me the world behind me
+  No turning back no turning back
+  
+  Christ is enough for me
+  Christ is enough for me
+  Everything I need is in You
+  Everything I need`
+};
+
+export const cornerstone: SubjectProps = {
+  title: "Cornerstone",
+  isExpandable: true,
+  type: "song",
+  content: `My hope is built on nothing less 
+  Than Jesus' blood and righteousness 
+  I dare not trust the sweetest frame 
+  But wholly trust in Jesus' Name
+  
+  Christ alone cornerstone 
+  Weak made strong
+  in the Savior's love 
+  Through the storm 
+  He is Lord, Lord of all
+
+  When darkness seems
+  to hide His face
+  I rest on His unchanging grace 
+  In every high and stormy gale 
+  My anchor holds within the veil
+  
+  Christ alone cornerstone 
+  Weak made strong
+  in the Savior's love 
+  Through the storm 
+  He is Lord, Lord of all
+
+  When He shall come
+  with trumpet sound
+  Oh may I then in Him be found 
+  Dressed in His righteousness alone 
+  Faultless stand before the throne`
+};
+
+export const greatAreYouLord: SubjectProps = {
+  title: "Great Are You Lord",
+  isExpandable: true,
+  type: "song",
+  content: `You give life You are love
+  You bring light to the darkness 
+  You give hope You restore ev'ry heart that is broken
+  And great are You Lord
+  
+  It's Your breath in our lungs
+  So we pour out our praise
+  We pour out our praise
+  It's Your breath in our lungs
+  So we pour out our praise to You only
+
+  And all the earth will shout Your praise 
+  Our hearts will cry these bones will sing 
+  Great are You Lord
+  
+  And all the earth will shout Your praise 
+  Our hearts will cry these bones will sing 
+  Great are You Lord`
+};
+
+export const comeAllChristiansBeCommitted: SubjectProps = {
+  title: "Come, All Christians, Be Committed",
+  isExpandable: true,
+  type: "song",
+  content: `Come, all Christians, be committed 
+  To the service of the Lord 
+  Make your lives for Christ more fitted 
+  Tune your hearts with one accord 
+  Come into his courts with gladness 
+  Each your sacred vows renew 
+  Turn away from sin and sadness 
+  Be transformed with life anew
+
+  Of your time and talents give now 
+  They are gifts from God above 
+  To be used by Christians freely 
+  To proclaim his wondrous love 
+  Come again to serve the Savior 
+  Tithes and off’rings with you bring 
+  In your work with Christ find favor 
+  And with joy his praises sing
+
+  Come in praise and adoration 
+  All who on Christ’s name believe 
+  Worship him with consecration 
+  Grace and love you will receive 
+  For Christ’s grace give him the glory 
+  For the Spirit and the Word 
+  And repeat the gospel story 
+  Until all his name is heard`
+};
+
+export const takeMyLifeAndLetItBe: SubjectProps = {
+  title: "Take My Life and Let it Be",
+  isExpandable: true,
+  type: "song",
+  content: `Take my life and let it be 
+  Consecrated, Lord, to thee 
+  Take my moments and my days 
+  Let them flow in endless praise 
+  Let them flow in endless praise
+
+  Take my hands and let them move 
+  At the impulse of thy love 
+  Take my feet and let them be 
+  Swift and beautiful for thee 
+  Swift and beautiful for thee
+
+  Take my wealth, all I posses 
+  Make me rich in faithfulness 
+  Take my mind that I may use 
+  Every power as thou shalt choose 
+  Every power as thou shalt choose
+
+  Take my motives and my will 
+  All thy purpose to fulfill 
+  Take my heart it is thine own 
+  It shall be thy royal throne
+  It shall be thy royal throne
+
+  Take my love Lord I will pour 
+  At thy feet its treasure store 
+  Take myself, and I will be 
+  Thine for all eternity 
+  Thine for all eternity`
+};

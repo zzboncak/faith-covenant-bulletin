@@ -17,3 +17,8 @@ export type SectionProps = {
   title: string;
   subsections: SubsectionProps[];
 };
+
+export enum ChildrenSongs {
+  JESUS_LOVES_ME = "Jesus loves me",
+  I_AM_SO_GLAD = "I Am So Glad That Our Father"
+}

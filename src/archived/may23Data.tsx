@@ -23,7 +23,7 @@ import {
   spiritOfTheLivingGodFallAfreshOnMe,
   takeMyLife
 } from "../songs";
-import { SubsectionProps } from "../types";
+import { ChildrenSongs, SubsectionProps } from "../types";
 
 const section1 = generate1stSection(battleBelong, [
   takeMyLife,
@@ -41,7 +41,10 @@ The Fellowship of the Believers
 
 const section2 = generate2ndSection([
   scriptureReading,
-  generateMinistryToChildren("Angela Broman"),
+  generateMinistryToChildren(
+    "Angela Broman",
+    ChildrenSongs.JESUS_LOVES_ME
+  ),
   generateHymnOfPreparation(spiritOfTheLivingGodFallAfreshOnMe),
   generateSermon("Pastor Nate Hickox", "The Birth of the Church")
 ]);

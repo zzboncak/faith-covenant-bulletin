@@ -4,7 +4,7 @@ import {
   benediction,
   prayerOfDedication,
   prayersOfThePeople
-} from "./commonElements";
+} from "../commonElements";
 import {
   generate1stSection,
   generate2ndSection,
@@ -13,7 +13,7 @@ import {
   generateHymnOfPreparation,
   generateHymnOfSending,
   generateSermon
-} from "./helperFunctions";
+} from "../helperFunctions";
 import {
   buildMyLife,
   fillTheEarthWithMusic,
@@ -21,8 +21,8 @@ import {
   oceans,
   praiseHimPraiseHim,
   unstoppableGod
-} from "./songs";
-import { SubsectionProps } from "./types";
+} from "../songs";
+import { SubsectionProps } from "../types";
 
 const section1 = generate1stSection(unstoppableGod, [
   iWillFollow,

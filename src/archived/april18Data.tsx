@@ -1,6 +1,6 @@
 /* eslint-disable no-irregular-whitespace */
 import React from "react";
-import { SubsectionProps } from "../types";
+import { ChildrenSongs, SubsectionProps } from "../types";
 import {
   callToWorship,
   prayersOfThePeople,
@@ -50,7 +50,10 @@ const scriptureReading = generateScriptureReading(
   "Colossians 1:24-2:3"
 );
 
-const ministryToChildren = generateMinistryToChildren("Wendy Smith");
+const ministryToChildren = generateMinistryToChildren(
+  "Wendy Smith",
+  ChildrenSongs.JESUS_LOVES_ME
+);
 
 const hymnOfPreparation: SubsectionProps = {
   title: "Hymn of Preparation",

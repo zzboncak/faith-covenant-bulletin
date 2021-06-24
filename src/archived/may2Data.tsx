@@ -26,7 +26,7 @@ import {
   helpUsAcceptEachOther,
   godBlessYourChurchWithStrength
 } from "../songs";
-import { SubsectionProps } from "../types";
+import { ChildrenSongs, SubsectionProps } from "../types";
 
 const gatheringSong: SubsectionProps = {
   title: "Gathering Song",
@@ -53,7 +53,8 @@ const scriptureReading = generateScriptureReading(
 );
 
 const ministryToChildren = generateMinistryToChildren(
-  "Angela Broman"
+  "Angela Broman",
+  ChildrenSongs.JESUS_LOVES_ME
 );
 
 const hymnOfPreparation: SubsectionProps = {

@@ -1,23 +1,54 @@
 import React from "react";
-import { SectionProps, SubjectProps, SubsectionProps } from "./types";
+import {
+  ChildrenSongs,
+  SectionProps,
+  SubjectProps,
+  SubsectionProps
+} from "./types";
 import { callToWorship } from "./commonElements";
 
 export function generateMinistryToChildren(
-  subtext: string
+  subtext: string,
+  introSong: ChildrenSongs
 ): SubsectionProps {
-  const ministryToChildren: SubsectionProps = {
-    title: "Ministry to Children",
-    subtext,
-    subjects: [
-      {
+  let song: SubjectProps;
+
+  switch (introSong) {
+    case ChildrenSongs.JESUS_LOVES_ME:
+      song = {
         title: "Jesus Loves Me",
         isExpandable: true,
         content: `Jesus loves me this I know for the Bible tells me so.
         Little ones to Him belong, they are weak but He is strong.
         Yes, Jesus loves me! Yes, Jesus loves me!
         Yes, Jesus loves me! The Bible tells me so.`
-      }
-    ]
+      };
+      break;
+    case ChildrenSongs.I_AM_SO_GLAD:
+      song = {
+        title: "I Am So Glad That Our Father in Heaven",
+        isExpandable: true,
+        type: "song",
+        content: `I am so glad that our Father in heaven 
+        Tells of His love in the book
+        He has giv'n 
+        Wonderful things in the Bible I see 
+        This is the dearest
+        that Jesus loves me
+  
+        I am so glad that Jesus loves me 
+        Jesus loves me
+        Jesus loves me
+        I am so glad that Jesus loves me 
+        Jesus loves even me`
+      };
+      break;
+  }
+
+  const ministryToChildren: SubsectionProps = {
+    title: "Ministry to Children",
+    subtext,
+    subjects: [song]
   };
 
   return ministryToChildren;

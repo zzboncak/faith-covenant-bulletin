@@ -25,6 +25,7 @@ import {
   kingOfKings,
   singPriaseToTheFather
 } from "../songs";
+import { ChildrenSongs } from "../types";
 
 const section1 = generate1stSection(aPsalmOfSorts, [
   allCreaturesOfOurGodAndKing,
@@ -41,7 +42,10 @@ const section2 = generate2ndSection([
 `,
     "Acts 3:11-26"
   ),
-  generateMinistryToChildren("Wendy Smith"),
+  generateMinistryToChildren(
+    "Wendy Smith",
+    ChildrenSongs.JESUS_LOVES_ME
+  ),
   generateHymnOfPreparation(holyHolyHoly),
   generateSermon("Pastor Nate Hickox", "The Acts of the Triune God")
 ]);

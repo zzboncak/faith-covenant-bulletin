@@ -24,7 +24,7 @@ import {
   allHailThePowerOfJesusName,
   sendMeOut
 } from "../songs";
-import { SubsectionProps } from "../types";
+import { ChildrenSongs, SubsectionProps } from "../types";
 
 const section1 = generate1stSection(overcome, [
   gloriousDay,
@@ -44,7 +44,10 @@ const scriptureReading = generateScriptureReading(
 
 const section2 = generate2ndSection([
   scriptureReading,
-  generateMinistryToChildren("Elianna Tuggy"),
+  generateMinistryToChildren(
+    "Elianna Tuggy",
+    ChildrenSongs.JESUS_LOVES_ME
+  ),
   generateHymnOfPreparation(weExaltThee),
   generateSermon("Pastor Nate Hickox", "The Acts of Jesus Continued")
 ]);
