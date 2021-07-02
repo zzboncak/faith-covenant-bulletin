@@ -2052,10 +2052,19 @@ export const christIsEnough: SubjectProps = {
 
   I have decided to follow Jesus
   No turning back no turning back
+  I have decided to follow Jesus
+  No turning back no turning back
   
   The cross before me the world behind me
   No turning back no turning back
+  The cross before me the world behind me
+  No turning back no turning back
   
+  Christ is enough for me
+  Christ is enough for me
+  Everything I need is in You
+  Everything I need
+
   Christ is enough for me
   Christ is enough for me
   Everything I need is in You
@@ -2185,4 +2194,255 @@ export const takeMyLifeAndLetItBe: SubjectProps = {
   Take myself, and I will be 
   Thine for all eternity 
   Thine for all eternity`
+};
+
+export const yourLoveOLord: SubjectProps = {
+  title: "Your Love, O Lord",
+  isExpandable: true,
+  type: "song",
+  content: `Your love O Lord 
+  Reaches to the heavens
+  Your faithfulness 
+  Stretches to the sky
+  
+  Your righteousness 
+  Is like the mighty mountains
+  Your justice flows 
+  Like the ocean's tide
+
+  I will lift my voice
+  To worship You my King
+  I will find my strength
+  In the shadow of Your wings
+
+  Your love O Lord 
+  Reaches to the heavens
+  Your faithfulness 
+  Stretches to the sky
+
+  Your righteousness 
+  Is like the mighty mountains
+  Your justice flows 
+  Like the ocean's tide
+
+  I will lift my voice
+  To worship You my King
+  I will find my strength
+  In the shadow of Your wings
+
+  I will lift my voice
+  To worship You my King
+  I will find my strength
+  In the shadow of Your wings
+
+  Your love O Lord
+  Reaches to the heavens
+  Your faithfulness
+  Stretches to the sky`
+};
+
+export const praiseToTheLordTheAlmighty: SubjectProps = {
+  title: "Praise to the Lord, the Almighty #61",
+  isExpandable: true,
+  type: "song",
+  content: `Praise to the Lord the Almighty 
+  The King of creation
+  O my soul praise Him
+  For He is your health and salvation 
+  Come all who hear
+  Now to His temple draw near 
+  Join me in glad adoration
+
+  Praise to the Lord Who over all things 
+  So wondrously reigning 
+  Shelt’ring you under His wings 
+  And so gently sustaining
+  Have you not seen
+  All that is needful has been 
+  Sent by his gracious ordaining
+
+  Praise to the Lord Who will prosper 
+  Your work and defend You 
+  Surely His goodness and mercy 
+  Shall daily attend you 
+  Ponder anew
+  What the Almighty can do
+  If with His love He befriends you
+
+  Praise to the Lord
+  O let all that is in me adore Him 
+  All that has life and breath 
+  Come now with praises before Him 
+  Let the amen
+  Sound from His people again 
+  Gladly forever adore Him`
+};
+
+export const tenThousandReasons: SubjectProps = {
+  title: "10,000 Reasons",
+  isExpandable: true,
+  type: "song",
+  content: `Bless the Lord O my soul O my soul 
+  Worship His holy name
+  Sing like never before O my soul 
+  I'll worship Your holy name
+
+  The sun comes up
+  it's a new day dawning
+  It's time to sing Your song again 
+  Whatever may pass
+  and whatever lies before me 
+  Let me be singing
+  when the evening comes
+
+  Bless the Lord O my soul O my soul 
+  Worship His holy name
+  Sing like never before O my soul 
+  I'll worship Your holy name
+
+  You're rich in love and You're slow to anger 
+  Your name is great and Your heart is kind
+  For all Your goodness 
+  I will keep on singing 
+  Ten thousand reasons 
+  for my heart to find
+  
+  Bless the Lord O my soul O my soul 
+  Worship His holy name
+  Sing like never before O my soul 
+  I'll worship Your holy name
+
+  And on that day 
+  when my strength is failing
+  The end draws near and my time has come 
+  Still my soul will sing
+  Your praise unending 
+  Ten thousand years 
+  and then forevermore
+  
+  Bless the Lord O my soul O my soul 
+  Worship His holy name
+  Sing like never before O my soul 
+  I'll worship Your holy name
+  
+  Bless the Lord O my soul O my soul 
+  Worship His holy name
+  Sing like never before O my soul
+  
+  I'll worship Your holy name
+  I'll worship Your holy name
+  I'll worship Your holy name`
+};
+
+export const howGreatThouArt: SubjectProps = {
+  title: "How Great Thou Art",
+  isExpandable: true,
+  type: "song",
+  content: `O Lord my God
+  When I in awesome wonder 
+  Consider all the worlds
+  Thy hands have made
+  I see the stars I hear the rolling thunder 
+  Thy pow'r thru'out
+  The universe displayed
+
+  Then sings my soul
+  My Savior God to Thee
+  How great Thou art, How great Thou art 
+  Then sings my soul
+  My Savior God to Thee
+  How great Thou art, How great Thou art
+
+  When through the woods 
+  And forest glades I wander
+  And hear the birds
+  Sing sweetly in the trees 
+  When I look down
+  From lofty mountain grandeur 
+  And hear the brook
+  And feel the gentle breeze
+  
+  Then sings my soul
+  My Savior God to Thee
+  How great Thou art, How great Thou art 
+  Then sings my soul
+  My Savior God to Thee
+  How great Thou art, How great Thou art
+
+  And when I think
+  That God His Son not sparing 
+  Sent Him to die, I scarce can take it in 
+  That on the cross
+  My burden gladly bearing
+  He bled and died to take away my sin
+  
+  Then sings my soul
+  My Savior God to Thee
+  How great Thou art, How great Thou art 
+  Then sings my soul
+  My Savior God to Thee
+  How great Thou art, How great Thou art
+
+  When Christ shall come
+  With shout of acclamation
+  And take me home
+  What joy shall fill my heart 
+  Then I shall bow in humble adoration 
+  And there proclaim
+  My God how great Thou art
+  
+  Then sings my soul
+  My Savior God to Thee
+  How great Thou art, How great Thou art 
+  Then sings my soul
+  My Savior God to Thee
+  How great Thou art, How great Thou art`
+};
+
+export const godIsAble: SubjectProps = {
+  title: "God is Able",
+  isExpandable: true,
+  type: "song",
+  content: `God is able He will never fail
+  He is Almighty God
+  Greater than all we seek greater than all we ask
+  He has done great things
+  
+  Lifted up He defeated the grave
+  Raised to life our God is able
+  In His Name we overcome
+  For the Lord our God is able
+
+  God is with us God is on our side
+  He will make a way
+  Far above all we know far above all we hope
+  He has done great things
+
+  Lifted up He defeated the grave
+  Raised to life our God is able
+  In His Name we overcome
+  For the Lord our God is able
+
+  God is with us He will go before
+  He will never leave us He will never leave us
+  God is for us He has open arms
+  He will never fail us He will never fail us
+
+  God is with us He will go before
+  He will never leave us He will never leave us
+  God is for us He has open arms
+  He will never fail us He will never fail us
+
+  Lifted up He defeated the grave
+  Raised to life our God is able
+  In His Name we overcome
+  For the Lord our God is able
+
+  Lifted up He defeated the grave
+  Raised to life our God is able
+  In His Name we overcome
+  For the Lord our God is able
+
+  For the Lord our God is able
+  For the Lord our God is able`
 };

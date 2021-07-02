@@ -4,7 +4,7 @@ import "./App.css";
 import logo from "./images/Faith-Logo-Sqaure-2.jpg";
 import { generateAnnouncements } from "./helperFunctions";
 import { Subsection } from "./components/subsection/Subsection";
-import { june27Service } from "./june27Data";
+import { july4Service } from "./july4Data";
 
 export const App: React.FC = () => {
   const [isRegisterVisible, setIsRegisterVisible] = useState<boolean>(
@@ -13,34 +13,33 @@ export const App: React.FC = () => {
   const logoDimension = "70px;";
   const announcements = generateAnnouncements([
     <p key={1}>
-      <strong>Men&#39;s Gathering, June 30, 6:45 pm:</strong> Enjoy
-      gathering under the trees in Rick Wolff&#39;s back yard for a
-      lighthearted yet authentic time of connection. 1755 Shaffner Rd,
-      Wheaton, IL 60189. RSVP to{" "}
+      <strong>412 Youth Group Bonfire, July 8, 6:00-9:00 pm:</strong>{" "}
+      All youth are invited to attend a bonfire at the Karlson&#39;s,
+      28W725 Indian Knoll Rd, West Chicago. Questions? Contact Rick
+      Wolff,{" "}
       <a href="mailto:wolffrick633@gmail.com">
         wolffrick633@gmail.com
       </a>
       .
     </p>,
     <p key={2}>
-      <strong>Church Picnic & Communion, July 4, 12:00 pm:</strong> We
-      will retrieve our picnic baskets after the service. Then have
-      communion on the lawn followed by a picnic lunch. Please bring
-      both a lunch and your own communion elements. Meet new friends
-      and spend time with old friends.
+      <strong>Lake Day, Sunday, July 18:</strong> Have a fun afternoon
+      with friends from Faith Covenant at Barb and Gene Frost&#39;s
+      lake home, 1528 Holiday Dr, Sandwich, Illinois. Bring your own
+      meat to grill and a dish to share. The grill will be hot at
+      12:30 pm. Lawn games, beach, pontoon, and speed boat rides will
+      be available. If you have any questions contact Gene Frost at{" "}
+      <a href="tel:630-347-8213">630-347-8213</a>.
     </p>,
     <p key={3}>
       <strong>
-        Vacation Bible School, July 5-8, 9:00 am-11:00 am:
-      </strong>{" "}
-      Our &quot;Flight School&quot; curriculum will take kids on a
-      high-flying adventure that challenges them to aim higher than
-      just &quot;good enough&quot; in their lives with Christ. VBS is
-      specially designed for children entering kindergarten through
-      fourth grade. We have 50 openings that are filling up fast.
-      Register today{" "}
+        Faith Covenant&#39;s All-Church Retreat, August 6-8:
+      </strong>
+      We would love to have you join us. Children and adults alike
+      have a wonderful time on this retreat! Registration deadline is
+      next Sunday, July 11. Register{" "}
       <a
-        href="https://faithecc.breezechms.com/form/VBSJULY2021"
+        href="https://faithecc.breezechms.com/form/RetreatAug21"
         target="_blank"
         rel="noreferrer"
       >
@@ -55,7 +54,7 @@ export const App: React.FC = () => {
         <header className="App-header">
           <h1>Worship Bulletin</h1>
           <p className="date">
-            June 27, 2021: Fifth Sunday after Pentecost
+            July 4, 2021: Sixth Sunday after Pentecost
           </p>
           {!isRegisterVisible && (
             <button
@@ -88,7 +87,7 @@ export const App: React.FC = () => {
             <i>Click on an element of the service to expand it.</i>
           </p>
         </div>
-        {june27Service.map((section, i) => (
+        {july4Service.map((section, i) => (
           <Section
             key={i}
             title={section.title}

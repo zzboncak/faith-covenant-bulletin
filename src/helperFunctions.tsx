@@ -124,20 +124,22 @@ export function generateAnnouncements(
 }
 
 export function generateHymnOfPreparation(
-  hymn: SubjectProps
+  hymn: SubjectProps,
+  type: "song" | "hymn" = "hymn"
 ): SubsectionProps {
   return {
-    title: "Hymn of Preparation",
+    title: `${type === "hymn" ? "Hymn" : "Song"} of Preparation`,
     subtext: "*Congregation Standing",
     subjects: [hymn]
   };
 }
 
 export function generateHymnOfSending(
-  hymn: SubjectProps
+  hymn: SubjectProps,
+  type: "song" | "hymn" = "hymn"
 ): SubsectionProps {
   return {
-    title: "Hymn of Sending",
+    title: `${type === "hymn" ? "Hymn" : "Song"} of Sending`,
     subtext: "*Congregation Standing",
     subjects: [hymn]
   };
