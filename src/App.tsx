@@ -4,7 +4,7 @@ import "./App.css";
 import logo from "./images/Faith-Logo-Sqaure-2.jpg";
 import { generateAnnouncements } from "./helperFunctions";
 import { Subsection } from "./components/subsection/Subsection";
-import { july4Service } from "./july4Data";
+import { july11Service } from "./july11Data";
 
 export const App: React.FC = () => {
   const [isRegisterVisible, setIsRegisterVisible] = useState<boolean>(
@@ -13,14 +13,11 @@ export const App: React.FC = () => {
   const logoDimension = "70px;";
   const announcements = generateAnnouncements([
     <p key={1}>
-      <strong>412 Youth Group Bonfire, July 8, 6:00-9:00 pm:</strong>{" "}
-      All youth are invited to attend a bonfire at the Karlson&#39;s,
-      28W725 Indian Knoll Rd, West Chicago. Questions? Contact Rick
-      Wolff,{" "}
-      <a href="mailto:wolffrick633@gmail.com">
-        wolffrick633@gmail.com
-      </a>
-      .
+      <strong>Thank You:</strong> A big thank you to everyone who
+      helped with VBS. Thank you for cookies, prayers, and to all our
+      volunteers! We soared high with amazing kids! Please pray for
+      them as they remember what they learned and continue their faith
+      journeys.
     </p>,
     <p key={2}>
       <strong>Lake Day, Sunday, July 18:</strong> Have a fun afternoon
@@ -33,13 +30,15 @@ export const App: React.FC = () => {
     </p>,
     <p key={3}>
       <strong>
-        Faith Covenant&#39;s All-Church Retreat, August 6-8:
-      </strong>
-      We would love to have you join us. Children and adults alike
-      have a wonderful time on this retreat! Registration deadline is
-      next Sunday, July 11. Register{" "}
+        Worship Service and Picnic Lunch, Lake Geneva, August 8:
+      </strong>{" "}
+      Please join us for worship at Covenant Harbor. We will meet at
+      10:30 am on the ground floor of the Geneva Bay Center. Plan on
+      staying for fellowship following the service. You can pack your
+      own picnic or purchase a box lunch. Lunch must be purchased in
+      advance. More info on our website{" "}
       <a
-        href="https://faithecc.breezechms.com/form/RetreatAug21"
+        href="https://www.faithecc.org/all-church-retreat/"
         target="_blank"
         rel="noreferrer"
       >
@@ -54,7 +53,7 @@ export const App: React.FC = () => {
         <header className="App-header">
           <h1>Worship Bulletin</h1>
           <p className="date">
-            July 4, 2021: Sixth Sunday after Pentecost
+            July 11, 2021: Seventh Sunday after Pentecost
           </p>
           {!isRegisterVisible && (
             <button
@@ -87,7 +86,7 @@ export const App: React.FC = () => {
             <i>Click on an element of the service to expand it.</i>
           </p>
         </div>
-        {july4Service.map((section, i) => (
+        {july11Service.map((section, i) => (
           <Section
             key={i}
             title={section.title}

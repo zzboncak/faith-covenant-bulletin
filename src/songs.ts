@@ -2446,3 +2446,244 @@ export const godIsAble: SubjectProps = {
   For the Lord our God is able
   For the Lord our God is able`
 };
+
+export const youAloneCanRescue: SubjectProps = {
+  title: "You Alone Can Rescue",
+  isExpandable: true,
+  type: "song",
+  content: `Who, O Lord, could save themselves
+  Their own soul could heal?
+  Our shame was deeper than the sea
+  Your grace is deeper still
+  
+  And You alone can rescue, You alone can save
+  You alone can lift us from the grave
+  You came down to find us, led us out of death
+  To You alone belongs the highest praise
+
+  You, O Lord, have made a way
+  The great divide You healed
+  For when our hearts were far away
+  Your love went further still
+  Yes, Your love goes further still
+
+  And You alone can rescue, You alone can save
+  You alone can lift us from the grave
+  You came down to find us, led us out of death
+  To You alone belongs the highest praise
+
+  And You alone can rescue, You alone can save
+  You alone can lift us from the grave
+  You came down to find us, led us out of death
+  To You alone belongs the highest praise`
+};
+
+export const hisMercyIsMore: SubjectProps = {
+  title: "His Mercy Is More",
+  isExpandable: true,
+  type: "song",
+  content: `What love could remember no wrongs we have done
+  Omniscient all knowing He counts not their sum
+  Thrown into a sea
+  without bottom or shore
+  Our sins they are many His mercy is more
+  
+  What patience would wait as we constantly roam
+  What Father so tender is calling us home
+  He welcomes the weakest the vilest the poor
+  Our sins they are many His mercy is more
+
+  Praise the Lord
+  His mercy is more
+  Stronger than darkness new every morn
+  Our sins they are many His mercy is more
+
+  What riches of kindness He lavished on us
+  His blood was the payment His life was the cost
+  We stood 'neath a debt we could never afford
+  Our sins they are many His mercy is more
+
+  Praise the Lord
+  His mercy is more
+  Stronger than darkness new every morn
+  Our sins they are many His mercy is more
+  
+  Praise the Lord
+  His mercy is more
+  Stronger than darkness new every morn
+  Our sins they are many His mercy is more`
+};
+
+export const beUntoYourName: SubjectProps = {
+  title: "Be Unto Your Name",
+  isExpandable: true,
+  type: "song",
+  content: `We are a moment You are foever
+  Lord of the ages God before time
+  We are a vapor You are eternal
+  Love everlasting reigning on high
+  
+  Holy holy Lord God Almighty
+  Worthy is the Lamb Who was slain
+  Highest praises honor and glory
+  Be unto Your name
+  Be unto Your name
+  
+  We are the broken You are the healer
+  Jesus Redeemer mighty to save
+  You are the love song we’ll sing forever
+  Bowing before You blessing Your name
+  
+  Holy holy Lord God Almighty
+  Worthy is the Lamb Who was slain
+  Highest praises honor and glory
+  Be unto Your name
+  Be unto Your name
+  
+  Holy holy Lord God Almighty
+  Worthy is the Lamb Who was slain
+  Highest praises honor and glory
+  Be unto Your name
+  Be unto Your name`
+};
+
+export const livingHope: SubjectProps = {
+  title: "Living Hope",
+  isExpandable: true,
+  type: "song",
+  content: `How great the chasm that lay between us
+  How high the mountain
+  I could not climb
+  In desperation I turned to heaven
+  And spoke Your name into the night
+  Then through the darkness Your loving-kindness
+  Tore through the shadows of my soul
+  The work is finished the end is written
+  Jesus Christ, my living hope
+  
+  Who could imagine so great a mercy?
+  What heart could fathom
+  such boundless grace?
+  The God of ages stepped down from glory
+  To wear my sin and bear my shame
+  The cross has spoken, I am forgiven
+  The King of kings calls me His own
+  Beautiful Savior, I’m Yours forever
+  Jesus Christ, my living hope
+  
+  Hallelujah, praise the One who set me free!
+  Hallelujah, death has lost its grip on me!
+  You have broken every chain, there’s salvation in Your name
+  Jesus Christ, my living hope
+  
+  Then came the morning that sealed the promise
+  Your buried body began to breathe
+  Out of the silence, the Roaring Lion
+  Declared the grave has no claim on me
+  
+  Then came the morning that sealed the promise
+  Your buried body began to breathe
+  Out of the silence, the Roaring Lion
+  Declared the grave has no claim on me
+  Jesus, Yours is the victory!
+  
+  Hallelujah, praise the One who set me free!
+  Hallelujah, death has lost its grip on me!
+  You have broken every chain, there’s salvation in Your name
+  Jesus Christ, my living hope
+  
+  Hallelujah, praise the One who set me free!
+  Hallelujah, death has lost its grip on me!
+  You have broken every chain, there’s salvation in Your name
+  Jesus Christ, my living hope`
+};
+
+export const iWillSingTheWondrousStory: SubjectProps = {
+  title: "I Will Sing the Wondrous Story",
+  isExpandable: true,
+  type: "song",
+  content: `I will sing the wondrous story
+  Of the Christ who died for me
+  How He left His home in glory
+  For the cross of Calvary
+  
+  Yes, I'll sing the wondrous story
+  Of the Christ who died for me
+  Sing it with the saints in glory
+  Gathered by the crystal sea
+
+  I was lost, but Jesus found me
+  Found the sheep that went astray
+  Threw His loving arms around me
+  Drew me back into the way
+
+  Yes, I'll sing the wondrous story
+  Of the Christ who died for me
+  Sing it with the saints in glory
+  Gathered by the crystal sea
+
+  I was bruised, but Jesus healed me
+  Faint was I from many a fall
+  Sight was gone, and fears possessed me
+  But He freed me from them all
+
+  Yes, I'll sing the wondrous story
+  Of the Christ who died for me
+  Sing it with the saints in glory
+  Gathered by the crystal sea
+
+  Days of darkness still come o'er me
+  Sorrow's paths I often tread
+  But the Savior still is with me
+  By His hand I'm safely led
+
+  Yes, I'll sing the wondrous story
+  Of the Christ who died for me
+  Sing it with the saints in glory
+  Gathered by the crystal sea`
+};
+
+export const iWillSingOfMyRedeemer: SubjectProps = {
+  title: "I Will Sing of My Redeemer",
+  isExpandable: true,
+  type: "song",
+  content: `I will sing of my Redeemer 
+  And his wondrous love to me 
+  On the cruel cross he suffered 
+  From the curse to set me free
+  
+  Sing, O sing of my Redeemer
+  With his blood he purchased me 
+  On the cross he sealed my pardon 
+  Paid the debt, and made me free
+
+  I will tell the wondrous story
+  How my lost estate to save 
+  In his boundless love and mercy 
+  He the ransom freely gave
+
+  Sing, O sing of my Redeemer
+  With his blood he purchased me 
+  On the cross he sealed my pardon 
+  Paid the debt, and made me free
+
+  I will praise my dear Redeemer 
+  His triumphant power I'll tell
+  How the victory is given
+  Over sin and death and hell
+
+  Sing, O sing of my Redeemer
+  With his blood he purchased me 
+  On the cross he sealed my pardon 
+  Paid the debt, and made me free
+
+  I will sing of my Redeemer 
+  And his heavenly love for me
+  He from death to life has brought me
+  Son of God, with him to be
+
+  Sing, O sing of my Redeemer
+  With his blood he purchased me 
+  On the cross he sealed my pardon 
+  Paid the debt, and made me free`
+};
