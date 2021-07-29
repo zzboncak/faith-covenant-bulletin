@@ -46,7 +46,7 @@ export const App: React.FC = () => {
         </header>
         <div className="helper-text-container">
           <p className="helper-text">
-            <i>Click on an element of the service to expand it.</i>
+            <i>Tap on a section of the service to expand it.</i>
           </p>
         </div>
         {august1Service.map((section, i) => (
