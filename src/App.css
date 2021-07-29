@@ -52,3 +52,7 @@ footer {
 .hidden {
   display: none;
 }
+
+.giving-link {
+  font-size: 24px;
+}

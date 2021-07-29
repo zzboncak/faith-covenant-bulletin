@@ -56,6 +56,14 @@ export const App: React.FC = () => {
             subsections={section.subsections}
           />
         ))}
+        <a
+          href="https://faithecc.breezechms.com/give/online"
+          target="_blank"
+          rel="noreferrer"
+          className="giving-link"
+        >
+          Tap Here to Give
+        </a>
         <Announcements />
         <div className="push"></div>
       </main>
