@@ -9,7 +9,8 @@ import { callToWorship } from "./commonElements";
 
 export function generateMinistryToChildren(
   subtext: string,
-  introSong: ChildrenSongs
+  introSong: ChildrenSongs,
+  isExpandable = true
 ): SubsectionProps {
   let song: SubjectProps;
 
@@ -17,19 +18,22 @@ export function generateMinistryToChildren(
     case ChildrenSongs.JESUS_LOVES_ME:
       song = {
         title: "Jesus Loves Me",
-        isExpandable: true,
-        content: `Jesus loves me this I know for the Bible tells me so.
+        isExpandable,
+        content: isExpandable
+          ? `Jesus loves me this I know for the Bible tells me so.
         Little ones to Him belong, they are weak but He is strong.
         Yes, Jesus loves me! Yes, Jesus loves me!
         Yes, Jesus loves me! The Bible tells me so.`
+          : undefined
       };
       break;
     case ChildrenSongs.I_AM_SO_GLAD:
       song = {
         title: "I Am So Glad That Our Father in Heaven",
-        isExpandable: true,
+        isExpandable,
         type: "song",
-        content: `I am so glad that our Father in heaven 
+        content: isExpandable
+          ? `I am so glad that our Father in heaven 
         Tells of His love in the book
         He has giv'n 
         Wonderful things in the Bible I see 
@@ -41,6 +45,7 @@ export function generateMinistryToChildren(
         Jesus loves me
         I am so glad that Jesus loves me 
         Jesus loves even me`
+          : undefined
       };
       break;
   }

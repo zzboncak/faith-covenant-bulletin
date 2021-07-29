@@ -21,6 +21,11 @@ export const prayersOfThePeople: SubsectionProps = {
   ]
 };
 
+export const prayersOfThePeopleCondensed: SubsectionProps = {
+  title: "Prayers of the People & the Lord's Prayer",
+  subjects: []
+};
+
 const givingContent: JSX.Element = (
   <>
     <a
@@ -95,6 +100,11 @@ export const communion: SubsectionProps = {
   ]
 };
 
+export const communionCondensed: SubsectionProps = {
+  title: "Holy Communion",
+  subjects: []
+};
+
 export const niceneCreed: SubsectionProps = {
   title: "The Nicene Creed",
   subtext: "Congregation Standing",
@@ -126,4 +136,10 @@ export const apostlesCreed: SubsectionProps = {
       I believe in the Holy Spirit, the holy Christian church, the communion of saints, the forgiveness of sins, the resurrection of the body, and the life everlasting. Amen.`
     }
   ]
+};
+
+export const apostlesCreedCondensed: SubsectionProps = {
+  title: "The Apostles' Creed",
+  subtext: "*Congregation Standing",
+  subjects: []
 };
