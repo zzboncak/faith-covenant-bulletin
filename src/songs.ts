@@ -2687,3 +2687,137 @@ export const iWillSingOfMyRedeemer: SubjectProps = {
   On the cross he sealed my pardon 
   Paid the debt, and made me free`
 };
+
+export const blessedAssurance: SubjectProps = {
+  title: "Blessed Assurance",
+  isExpandable: true,
+  type: "song",
+  content: `Blessed assurance Jesus is mine
+  O what a foretaste of glory divine
+  Heir of salvation purchase of God
+  Born of His Spirit washed in His blood
+  
+  This is my story this is my song
+  Praising my Savior all the day long
+  This is my story this is my song
+  Praising my Savior all the day long
+  
+  Perfect submission perfect delight
+  Visions of rapture now burst on my sight
+  Angels descending bring from above
+  Echoes of mercy whispers of love
+  
+  This is my story this is my song
+  Praising my Savior all the day long
+  This is my story this is my song
+  Praising my Savior all the day long
+  
+  Perfect submission all is at rest
+  I in my Savior am happy and blest
+  Watching and waiting looking above
+  Filled with His goodness lost in His love`
+};
+
+export const greatIsThyFaithfulness: SubjectProps = {
+  title: "Great is Thy Faithfulness",
+  isExpandable: true,
+  type: "song",
+  content: `Great is Thy faithfulness O God my Father
+  There is no shadow of turning with Thee
+  Thou changest not 
+  Thy compassions they fail not
+  As Thou hast been Thou forever wilt be
+  
+  Great is Thy faithfulness
+  Great is Thy faithfulness
+  Morning by morning
+  New mercies I see
+  All I have needed
+  Thy hand hath provided
+  Great is Thy faithfulness
+  Lord unto me
+  
+  Summer and winter and springtime and harvest
+  Sun moon and stars in their courses above
+  Join with all nature in manifold witness
+  To Thy great faithfulness, mercy, and love
+  
+  Great is Thy faithfulness
+  Great is Thy faithfulness
+  Morning by morning
+  New mercies I see
+  All I have needed
+  Thy hand hath provided
+  Great is Thy faithfulness
+  Lord unto me
+  
+  Pardon for sin and a peace that endureth
+  Thy own dear presence to cheer and to guide
+  Strength for today and bright hope for tomorrow
+  Blessings all mine with ten thousand beside`
+};
+
+export const jesusShallReignWhereerTheSun: SubjectProps = {
+  title: "Jesus Shall Reign Where’er the Sun",
+  isExpandable: true,
+  type: "song",
+  content: `Jesus shall reign where e'er the sun 
+  Doth its successive journeys run
+  His kingdom stretch from shore to shore
+  Till moons shall wax and wane no more
+  
+  To Him shall endless prayer be made
+  And endless praises crown His head
+  His name like sweet perfume shall rise
+  With ev'ry morning sacrifice
+  
+  People and realms of ev’ry tongue
+  Dwell on his love with sweetest song
+  And infant voices shall proclaim
+  Their earthly blessings on his name
+  
+  Let ev'ry creature rise and bring
+  Their grateful honors to our King
+  Angels descend with songs again
+  And earth repeat the loud amen`
+};
+
+export const rejoiceTheLordIsKing: SubjectProps = {
+  title: "Rejoice the Lord is King",
+  isExpandable: true,
+  type: "song",
+  content: `Rejoice the Lord is King
+  Your Lord and King adore
+  Rejoice give thanks and sing
+  And triumph evermore
+  
+  Lift up your heart 
+  Lift up your voice
+  Rejoice again 
+  I say rejoice
+  
+  Our Savior Jesus reigns
+  The God of truth and love
+  When He had purged our stains
+  He took His seat above
+  
+  Lift up your heart 
+  Lift up your voice
+  Rejoice again 
+  I say rejoice
+  
+  His kingdom cannot fail
+  He rules both earth and heaven
+  The keys of death and hell
+  Are to our Jesus given
+  
+  Lift up your heart 
+  Lift up your voice
+  Rejoice again 
+  I say rejoice
+  
+  Rejoice in glorious hope
+  For Christ the Judge shall come
+  To gather all his saints
+  To their eternal home`
+};
