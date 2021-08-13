@@ -1,6 +1,7 @@
 import React from "react";
 import {
   ChildrenSongs,
+  OfferingSongs,
   SectionProps,
   SubjectProps,
   SubsectionProps
@@ -162,6 +163,52 @@ function generateWorshipSet(songs: SubjectProps[]): SubsectionProps {
     title: "Songs of Worship",
     subtext: "*Congregation Standing",
     subjects: songs
+  };
+}
+
+export function generateGivingSection(
+  song: OfferingSongs
+): SubsectionProps {
+  const content =
+    song === OfferingSongs.DOXOLOGY ? (
+      <p>
+        Praise God from whom all blessing flow <br />
+        Praise Him all creatures here below <br />
+        Praise Him above ye heavenly hosts <br />
+        Praise Father, Holy Ghost Amen.
+      </p>
+    ) : song === OfferingSongs.GRANT_US_LORD ? (
+      <p>
+        Grant us Lord the grace of giving <br />
+        With a spirit large and free <br />
+        That ourselves in all our living <br />
+        We may offer unto thee
+      </p>
+    ) : undefined;
+  const sectionContent = (
+    <>
+      <a
+        href="https://faithecc.breezechms.com/give/online"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Give Here
+      </a>
+      {content}
+    </>
+  );
+
+  return {
+    title: "Offering Dedication",
+    subtext: "*Congregation Standing",
+    subjects: [
+      {
+        title: song,
+        isExpandable: true,
+        type: "song",
+        content: sectionContent
+      }
+    ]
   };
 }
 

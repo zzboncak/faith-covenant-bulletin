@@ -488,6 +488,11 @@ export const weHaveAnAnchor: SubjectProps = {
   Shielded by His grace, on Christ we stand
   He is Lord of all; we should never doubt
   Through uncertain times, He is solid ground.
+
+  We have an anchor that keeps the soul
+  Steadfast and sure while the billows roll
+  Fastened to the Rock which cannot move
+  Grounded firm and deep in the Savior's love.
   
   You have carried us through the raging sea
   In the fire and flood, we stand redeemed
@@ -2820,4 +2825,81 @@ export const rejoiceTheLordIsKing: SubjectProps = {
   For Christ the Judge shall come
   To gather all his saints
   To their eternal home`
+};
+
+export const amazingGrace: SubjectProps = {
+  title: "Amazing Grace",
+  isExpandable: true,
+  type: "song",
+  content: `Amazing grace how sweet the sound
+  That saved a wretch like me
+  I once was lost but now am found
+  Was blind but now I see
+  
+  'Twas grace that taught my heart to fear 
+  And grace my fears relieved
+  How precious did that grace appear 
+  The hour I first believed
+  
+  The Lord has promised good to me
+  His Word my hope secures
+  He will my shield and portion be
+  As long as life endures
+
+  Through many dangers toils and snares 
+  I have already come
+  'Tis grace hath brought me safe thus far 
+  And grace will lead me home
+
+  When we've been there ten thousand years
+  Bright shining as the sun
+  We've no less days to sing God's praise
+  Than when we first begun`
+};
+
+export const theOldRuggedCross: SubjectProps = {
+  title: "The Old Rugged Cross",
+  isExpandable: true,
+  type: "song",
+  content: `On a hill far away
+  Stood an old rugged cross
+  The emblem of suff'ring and shame
+  And I love that old cross
+  Where the dearest and best
+  For a world of lost sinners was slain
+  
+  So I'll cherish the old rugged cross
+  Till my trophies at last I lay down
+  I will cling to the old rugged cross
+  And exchange it some day for a crown
+ 
+  O that old rugged cross
+  So despised by the world
+  Has a wondrous attraction for me
+  For the dear Lamb of God
+  Left His glory above
+  To bear it to dark Calvary
+ 
+  So I'll cherish the old rugged cross
+  Till my trophies at last I lay down
+  I will cling to the old rugged cross
+  And exchange it some day for a crown
+  
+  In the old rugged cross
+  Stained with blood so divine
+  A wondrous beauty I see
+  For 'twas on that old cross
+  Jesus suffered and died
+  To pardon and sanctify me
+ 
+  So I'll cherish the old rugged cross
+  Till my trophies at last I lay down
+  I will cling to the old rugged cross
+  And exchange it some day for a crown
+  
+  To the old rugged cross I will ever be true
+  Its shame and reproach gladly bear
+  Then He'll call me some day
+  To my home far away
+  Where His glory forever I'll share`
 };
