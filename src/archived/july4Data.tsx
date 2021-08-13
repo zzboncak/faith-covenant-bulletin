@@ -5,7 +5,7 @@ import {
   benediction,
   prayerOfDedication,
   prayersOfThePeople
-} from "./commonElements";
+} from "../commonElements";
 import {
   generate1stSection,
   generate2ndSection,
@@ -15,7 +15,7 @@ import {
   generateHymnOfSending,
   generateMinistryToChildren,
   generateSermon
-} from "./helperFunctions";
+} from "../helperFunctions";
 import {
   christIsEnough,
   godIsAble,
@@ -23,8 +23,8 @@ import {
   praiseToTheLordTheAlmighty,
   seeAVictory,
   yourLoveOLord
-} from "./songs";
-import { ChildrenSongs, SubsectionProps } from "./types";
+} from "../songs";
+import { ChildrenSongs, SubsectionProps } from "../types";
 
 const section1 = generate1stSection(yourLoveOLord, [
   praiseToTheLordTheAlmighty,
