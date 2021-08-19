@@ -2903,3 +2903,134 @@ export const theOldRuggedCross: SubjectProps = {
   To my home far away
   Where His glory forever I'll share`
 };
+
+export const houseOfTheLord: SubjectProps = {
+  title: "House of the Lord",
+  isExpandable: false
+};
+
+export const theLionAndTheLamb: SubjectProps = {
+  title: "The Lion and the Lamb",
+  isExpandable: true,
+  type: "song",
+  content: `He's coming on the clouds
+  Kings and kingdoms will bow down
+  And every chain will break
+  As broken hearts declare His praise
+  For who can stop the Lord Almighty
+  
+  Our God is the Lion
+  The Lion of Judah
+  He's roaring with power
+  And fighting our battles
+  And every knee will bow before Him
+  Our God is the Lamb
+  The Lamb that was slain
+  For the sins of the world
+  His blood breaks the chains
+  And every knee will bow before the Lion
+  and the Lamb
+  Every knee will bow before Him
+
+  So open up the gates
+  Make way before the King of kings
+  The God who comes to save
+  Is here to set the captives free
+  For who can stop the Lord Almighty
+ 
+  Our God is the Lion
+  The Lion of Judah
+  He's roaring with power
+  And fighting our battles
+  And every knee will bow before Him
+  Our God is the Lamb
+  The Lamb that was slain
+  For the sins of the world
+  His blood breaks the chains
+  And every knee will bow before the Lion
+  and the Lamb
+  Every knee will bow before Him
+  
+  Who can stop the Lord Almighty 
+  Who can stop the Lord Almighty 
+  Who can stop the Lord Almighty
+  Who can stop the Lord
+
+  Our God is the Lion
+  The Lion of Judah
+  He's roaring with power
+  And fighting our battles
+  And every knee will bow before Him
+  Our God is the Lamb
+  The Lamb that was slain
+  For the sins of the world
+  His blood breaks the chains
+  And every knee will bow before the Lion
+  and the Lamb
+  Every knee will bow before Him`
+};
+
+export const noLongerSlaves: SubjectProps = {
+  title: "No Longer Slaves",
+  isExpandable: true,
+  type: "song",
+  content: `You unravel me with a melody
+  You surround me with a song
+  Of deliverance from my enemies
+  Till all my fears are gone
+  
+  I'm no longer a slave to fear
+  I am a child of God
+  I'm no longer a slave to fear
+  I am a child of God
+  
+  From my Mother's womb
+  You have chosen me
+  Love has called my name
+  I've been born again into Your family
+  Your blood flows through my veins
+  
+  I'm no longer a slave to fear
+  I am a child of God
+  I'm no longer a slave to fear
+  I am a child of God
+  
+  I am surrounded
+  By the arms of the Father
+  I am surrounded
+  By songs of deliverance
+  We’ve been liberated
+  From our bondage
+  We’re the sons and the daughters
+  Let us sing our freedom
+  
+  Oh...Oh... Oh...Oh...
+ 
+  You split the sea so I could walk right through it
+  My fears were drowned in perfect love
+  You rescued me so I could stand and sing
+  I am a child of God`
+};
+
+export const thankYouGodForSistersBrothers: SubjectProps = {
+  title: "Thank You, God, for Sisters, Brothers",
+  isExpandable: true,
+  type: "song",
+  content: `Thank you, God, for sisters, brothers
+  Keeping faith with us and you
+  Joining heart to heart with others
+  As your call to us come true
+  With the cross our only standard
+  Let us sing with one great voice:
+  “Glory, glory, yours the Kingdom
+  Churches in your Church rejoice”
+
+  God be praised for congregations 
+  By the love of Christ set free 
+  Many tongues and many nations 
+  Sing the greater unity
+  Sweet the psalm and sweet the carol 
+  When our song is raised as one 
+  “Glory, glory, yours the power
+  As in heav’n your will be done”`
+};

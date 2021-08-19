@@ -4,19 +4,32 @@ import { Subsection } from "./subsection/Subsection";
 
 const announcements = generateAnnouncements([
   <p key={1}>
-    <strong>Foundations Membership Class:</strong> We will be having
-    our Foundations Membership class today from 4:00-6:30 pm. If you
-    would like to attend or are interested in learning more about
-    membership, please talk to Pastor Nate after the service.
+    <strong>Baptism Service, Today!</strong> We will be celebrating a
+    baptism service at Blackwell Forest Preserve following our morning
+    worship service. We&#39;ll meet at Blackwell for a short service
+    of baptism and worship followed by a picnic together. Directions
+    can be found at our Welcome Table
   </p>,
   <p key={2}>
-    <strong>Baptism Service, August 22:</strong> Next Sunday, we will
-    be celebrating a baptism service at Blackwell Forest Preserve
-    following our morning worship service. We&#39;ll meet at Blackwell
-    for a short service of baptism and worship followed by a picnic
-    together. Burgers and brats will be provided, but please bring
-    your own drinks and side dishes as well as any picnic games
-    you&#39;d like to play!
+    <strong>Congregational Meeting:</strong> There will be a special
+    congregational meeting on Sunday, August 29, immediately following
+    the worship service. This meeting will have one agenda item: to
+    hear a report on the Vision 2020 fundraising and then vote on a
+    proposal to complete all remaining phases of the church building
+    project.
+  </p>,
+  <p key={3}>
+    <strong>Choir is starting!</strong> Please join us as we prepare
+    to lead our church family in worship this fall! To kick this off,
+    we will have a time of dessert and singing on Wednesday, September
+    8, at 7 pm on the patio at church. At that time, we will discuss
+    how to make choir work for worship in this (sort of) post-pandemic
+    world. All voice parts are welcome. Please contact Jean Austin,
+    choir director, at{" "}
+    <a href="mailto:jaustin22@sbcglobal.net">
+      jaustin22@sbcglobal.net
+    </a>{" "}
+    if you have any questions.
   </p>
 ]);
 
