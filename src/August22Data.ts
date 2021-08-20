@@ -33,7 +33,7 @@ const section1 = generate1stSection(houseOfTheLord, [
 const section2 = generate2ndSection([
   {
     title: "Scripture Reading",
-    subtext: "Heather Karlson",
+    subtext: "Camilo Hormazábal",
     subjects: [
       {
         title: "Spirit of the Living God",
@@ -71,7 +71,7 @@ const section2 = generate2ndSection([
     ]
   },
   generateMinistryToChildren(
-    "Wendy Smith",
+    "Angela Broman",
     ChildrenSongs.I_AM_SO_GLAD
   ),
   generateHymnOfPreparation(godCreatorOfYourPeople),

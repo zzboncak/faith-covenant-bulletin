@@ -3032,5 +3032,14 @@ export const thankYouGodForSistersBrothers: SubjectProps = {
   Sweet the psalm and sweet the carol 
   When our song is raised as one 
   “Glory, glory, yours the power
-  As in heav’n your will be done”`
+  As in heav’n your will be done”
+  
+  May your name be honored ever 
+  Heal our diff’rences of old 
+  Bless your churches new endeavor 
+  For your Kingdom make us bold 
+  One our Christ and one our Gospel 
+  Make us one we now implore 
+  “Glory, glory, yours the glory 
+  Through the ages evermore”`
 };
