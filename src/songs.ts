@@ -3043,3 +3043,116 @@ export const thankYouGodForSistersBrothers: SubjectProps = {
   “Glory, glory, yours the glory 
   Through the ages evermore”`
 };
+
+export const breakEveryChain: SubjectProps = {
+  title: "Break Every Chain",
+  isExpandable: false
+};
+
+export const thereIsARedeemer: SubjectProps = {
+  title: "There Is A Redeemer",
+  isExpandable: true,
+  type: "song",
+  content: `There is a Redeemer 
+  Jesus God's own Son
+  Precious Lamb of God 
+  Messiah Holy One
+  
+  Thank You O my Father for giving us Your Son
+  And leaving Your Spirit
+  Till the work on earth is done
+  
+  Jesus my Redeemer name above all names
+  Precious Lamb of God Messiah
+  O for sinners slain
+  
+  Thank You O my Father for giving us Your Son
+  And leaving Your Spirit
+  Till the work on earth is done
+  
+  When I stand in glory I will see His face
+  There I'll serve my King forever
+  In that holy place`
+};
+
+export const andCanItBe: SubjectProps = {
+  title: "And Can It Be",
+  isExpandable: true,
+  type: "song",
+  content: `And can it be that I should gain
+  An interest in the Savior's blood
+  Died He for me who caused His pain
+  For me who Him to death pursued
+  Amazing love how can it be
+  That Thou my God shouldst die for me
+  Amazing love how can it be
+  That Thou my God shouldst die for me
+  
+  He left His Father's throne above
+  So free so infinite His grace
+  Emptied Himself of all but love
+  And bled for Adam's helpless race
+  'Tis mercy all immense and free
+  For O my God it found out me
+  Amazing love how can it be
+  That Thou my God shouldst die for me
+  
+  Long my imprisoned spirit lay
+  Fast bound in sin and nature's night
+  Thine eye diffused a quickening ray
+  I woke the dungeon flamed with light
+  My chains fell off my heart was free
+  I rose went forth and followed Thee
+  Amazing love how can it be
+  That Thou my God shouldst die for me
+  
+  No condemnation now I dread
+  Jesus and all in Him is mine
+  Alive in Him my living Head
+  And clothed in righteousness divine
+  Bold I approach th'eternal throne
+  And claim the crown through Christ my own
+  Amazing love how can it be
+  That Thou my God shouldst die for me`
+};
+
+export const mightyToSave: SubjectProps = {
+  title: "Mighty To Save",
+  isExpandable: true,
+  type: "song",
+  content: `Ev’ryone needs compassion
+  Love that's never failing
+  Let mercy fall on me
+  Ev’ryone needs forgiveness
+  The kindness of a Savior
+  The hope of nations
+  
+  Savior He can move the mountains
+  My God is mighty to save
+  He is mighty to save
+  Forever Author of salvation
+  He rose and conquered the grave
+  Jesus conquered the grave
+  
+  So take me as You find me
+  All my fears and failures
+  Fill my life again
+  I give my life to follow
+  Ev’rything I believe in
+  Now I surrender
+  
+  Savior He can move the mountains
+  My God is mighty to save
+  He is mighty to save
+  Forever Author of salvation
+  He rose and conquered the grave
+  Jesus conquered the grave
+  
+  Shine your light and let the whole world see
+  We're singing
+  For the glory of the risen King
+  Jesus
+  Shine your light and let the whole world see
+  We're singing
+  For the glory of the risen King`
+};

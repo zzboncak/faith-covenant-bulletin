@@ -2,6 +2,7 @@ import React from "react";
 import {
   ChildrenSongs,
   OfferingSongs,
+  ScriptureReadingSongs,
   SectionProps,
   SubjectProps,
   SubsectionProps
@@ -79,23 +80,48 @@ export function generateSermon(
 export function generateScriptureReading(
   passage: string,
   reference: string,
-  subtext?: string,
-  songToSing?: string
+  songToSing: ScriptureReadingSongs,
+  subtext?: string
 ): SubsectionProps {
-  const song =
-    songToSing ??
-    "Thy Word is a lamp unto my feet and a light unto my path";
+  let song: SubjectProps;
+  switch (songToSing) {
+    case ScriptureReadingSongs.SPIRIT_OF_THE_LIVING_GOD:
+      song = {
+        title: "Spirit of the Living God",
+        isExpandable: true,
+        type: "song",
+        content: `Spirit of the Living God,
+              fall afresh on me
+              Spirit of the Living God,
+              fall afresh on me
+              Melt me, mold me, fill me, use me 
+              Spirit of the Living God,
+              fall afresh on me`
+      };
+      break;
+    case ScriptureReadingSongs.THY_WORD:
+      song = {
+        title: "Thy Word",
+        isExpandable: true,
+        type: "song",
+        content: `Thy Word is a lamp unto my feet
+        and a light unto my path
+        
+        Thy Word is a lamp unto my feet
+        and a light unto my path`
+      };
+      break;
+  }
   const scriptureReading: SubsectionProps = {
     title: "Scripture Reading",
     subtext,
     subjects: [
+      song,
       {
         title: reference,
         isExpandable: true,
         type: "scripture",
-        content: `${song}
-        ${passage}
-        ${reference}`
+        content: passage
       }
     ]
   };

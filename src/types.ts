@@ -27,3 +27,8 @@ export enum OfferingSongs {
   DOXOLOGY = "Doxology",
   GRANT_US_LORD = "Grant Us, Lord, the Grace of Giving"
 }
+
+export enum ScriptureReadingSongs {
+  SPIRIT_OF_THE_LIVING_GOD = "Spirit of the Living God",
+  THY_WORD = "Thy Word"
+}
