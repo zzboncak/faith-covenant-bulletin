@@ -16,7 +16,7 @@ export const App: React.FC = () => {
         <header className="App-header">
           <h1>Worship Bulletin</h1>
           <p className="date">
-            August 22, 2021: Thirteenth Sunday after Pentecost
+            August 29, 2021: Fourteenth Sunday after Pentecost
           </p>
           {!isRegisterVisible && (
             <button

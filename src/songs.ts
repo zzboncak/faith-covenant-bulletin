@@ -257,53 +257,31 @@ export const resurrectionPower: SubjectProps = {
   You called me out of all my shame
   I see the old has passed away
   The new has come
-  
-  Now I have resurrection power
-  Living on the inside
-  Jesus, You have given us freedom
+
+  Now I have resurrection power 
+  Living on the inside Jesus
+  You have given us freedom
   No longer bound by sin and darkness
   Living in the light of Your goodness
   You have given us freedom
   
-  That I'm dressed in Your royalty
+  I'm dressed in Your royalty
   Your Holy Spirit lives in me
-  And I see my past has been redeemed
+  I see my past has been redeemed
   The new has come
   
-  Now I have resurrection power
-  Living on the inside
-  Jesus, You have given us freedom
-  I'm no longer bound by sin and darkness
-  Living in the light of Your goodness
+  Now I have resurrection power 
+  Living on the inside Jesus
   You have given us freedom
-  
-  Freedom, You have given us freedom
-  You have given us freedom, my chains are gone
-  Freedom, You have given us freedom
-  You have given us freedom, hallelujah
-  Freedom, You have given us freedom
-  You have given us freedom, my chains are gone
-  Freedom, You have given us freedom
-  You have given us freedom, hallelujah
-  
-  Now I have resurrection power
-  Living on the inside
-  Now, I'm no longer bound by sin and darkness
-  Living in the light of Your goodness
-  You have given us freedom
-  Now I have resurrection power
-  Living on the inside
-  Jesus, You have given us freedom
-  Now, I'm no longer bound by sin and darkness
-  Living in the light of Your goodness
-  You have given us freedom
-  
-  I have resurrection power
-  Living on the inside
-  Living on the inside
   No longer bound by sin and darkness
+  Living in the light of Your goodness
   You have given us freedom
-  You have given us freedom`
+  
+  Freedom You have given us freedom
+  You have given us freedom
+  My chains are gone
+  Freedom You have given us freedom
+  You have given us freedom Hallelujah`
 };
 
 export const ourGodSaves: SubjectProps = {
