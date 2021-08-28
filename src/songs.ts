@@ -3050,7 +3050,11 @@ export const thereIsARedeemer: SubjectProps = {
   
   When I stand in glory I will see His face
   There I'll serve my King forever
-  In that holy place`
+  In that holy place
+  
+  Thank You O my Father for giving us Your Son
+  And leaving Your Spirit
+  Till the work on earth is done`
 };
 
 export const andCanItBe: SubjectProps = {
