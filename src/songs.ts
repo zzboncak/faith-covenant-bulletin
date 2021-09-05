@@ -3138,3 +3138,201 @@ export const mightyToSave: SubjectProps = {
   We're singing
   For the glory of the risen King`
 };
+
+export const standInYourLove: SubjectProps = {
+  title: "Stand In Your Love",
+  isExpandable: true,
+  type: "song",
+  content: `When darkness tries to roll over my bones 
+  When sorrow comes to steal the joy I own 
+  When brokenness and pain is all I know
+  I won't be shaken I won't be shaken
+  
+  My fear doesn't stand a chance 
+  When I stand in Your love
+  My fear doesn't stand a chance 
+  When I stand in Your love
+  
+  Shame no longer has a place to hide 
+  I am not a captive to the lies
+  I'm not afraid to leave my past behind 
+  I won't be shaken I won't be shaken
+  
+  My fear doesn't stand a chance 
+  When I stand in Your love
+  My fear doesn't stand a chance 
+  When I stand in Your love
+  
+  There's power that can break off every chain 
+  There's power that can empty out a grave 
+  There's resurrection power that can save 
+  There's power in Your name
+  Power in Your name
+  
+  My fear doesn't stand a chance 
+  When I stand in Your love
+  My fear doesn't stand a chance 
+  When I stand in Your love`
+};
+
+export const theWonderfulCross: SubjectProps = {
+  title: "The Wonderful Cross",
+  isExpandable: true,
+  type: "song",
+  content: `When I survey the wondrous cross 
+  On which the Prince of Glory died 
+  My richest gain I count but loss 
+  And pour contempt on all my pride
+
+  See from His head His hands His feet 
+  Sorrow and love flow mingled down 
+  Did e'er such love and sorrow meet 
+  Or thorns compose so rich a crown
+  
+  O the wonderful cross
+  O the wonderful cross 
+  Bids me come and die and find 
+  That I may truly live
+  O the wonderful cross
+  O the wonderful cross
+  All who gather here by grace 
+  Draw near and bless Your name
+  
+  Were the whole realm of nature mine 
+  That were an offering far too small 
+  Love so amazing so divine 
+  Demands my soul my life my all
+  
+  O the wonderful cross
+  O the wonderful cross 
+  Bids me come and die and find 
+  That I may truly live
+  O the wonderful cross
+  O the wonderful cross
+  All who gather here by grace 
+  Draw near and bless Your name
+  
+  O the wonderful cross
+  O the wonderful cross 
+  Bids me come and die and find 
+  That I may truly live
+  O the wonderful cross
+  O the wonderful cross
+  All who gather here by grace 
+  Draw near and bless Your name
+  
+  Love so amazing so divine 
+  Demands my soul my life my all`
+};
+
+export const likeARiverGlorious: SubjectProps = {
+  title: "Like a River Glorious",
+  isExpandable: true,
+  type: "song",
+  content: `Like a river glorious is God's perfect peace 
+  Over all victorious in its bright increase 
+  Perfect yet it floweth fuller every day 
+  Perfect yet it growth deeper all the way
+
+  Stayed upon Jehovah 
+  Hearts are fully blest 
+  Finding as He promised 
+  Perfect peace and rest
+
+  Hidden in the hollow of His blessed hand 
+  Never foe can follow, never traitor stand 
+  Not a surge of worry, not a shade of care 
+  Not a blast of hurry touch the Spirit there
+
+  Stayed upon Jehovah 
+  Hearts are fully blest 
+  Finding as He promised 
+  Perfect peace and rest
+
+  Every joy or trial falleth from above 
+  Traced upon our dial by the sun of love 
+  We may trust Him fully all for us to do 
+  They who trust Him wholly
+  Find Him wholly true`
+};
+
+export const imortalInvisibleGodOnlyWise: SubjectProps = {
+  title: "Immortal, Invisible, God Only Wise",
+  isExpandable: true,
+  type: "song",
+  content: `Immortal invisible God only wise
+  In light inaccessible hid from our eyes 
+  Most blessed most glorious
+  The Ancient of Days 
+  Almighty victorious
+  Thy great name we praise
+
+  Unresting, unhasting and silent as light 
+  Nor wanting nor wasting thou rulest in might 
+  Thy justice like mountains
+  High soaring above
+  Thy clouds which are fountains
+  Of goodness and love
+
+  Great Father of glory, Pure Father of light 
+  Thine angels adore thee all veiling their sight 
+  All praise we would render
+  O help us to see
+  'Tis only the splendor
+  Of light hideth thee`
+};
+
+export const youAreGodAloneLivingHope: SubjectProps = {
+  title: "You Are God Alone/Living Hope",
+  type: "song",
+  isExpandable: true,
+  content: `You are not a god created 
+  By human hands
+  You are not a god dependent 
+  On any mortal man
+  You are not a god in need of 
+  Anything we can give
+  By Your plan
+  That's just the way it is
+
+  You are God alone from before time began 
+  You were on Your throne You are God alone 
+  And right now in the good times and bad 
+  You are on Your throne You are God alone
+
+  You're the only God whose power 
+  None can contend
+  You're the only God whose name and 
+  Praise will never end
+  You're the only God who's worthy 
+  Of ev'rything we can give
+  You are God
+  That's just the way it is
+
+  You are God alone from before time began 
+  You were on Your throne You are God alone 
+  And right now in the good times and bad 
+  You are on Your throne You are God alone
+
+  Unchangeable, Unshakable 
+  Unstoppable that's what You are 
+  Unchangeable, Unshakable 
+  Unstoppable that's what You are
+  
+  You are God alone from before time began 
+  You were on Your throne You are God alone 
+  And right now in the good times and bad 
+  You are on Your throne You are God alone
+  
+  Hallelujah praise the One who set me free 
+  Hallelujah death has lost its grip on me 
+  You have broken every chain 
+  There’s salvation in Your name 
+  Jesus Christ my living hope
+  
+  Hallelujah praise the One who set me free 
+  Hallelujah death has lost its grip on me 
+  You have broken every chain 
+  There’s salvation in Your name 
+  Jesus Christ my living hope`
+};

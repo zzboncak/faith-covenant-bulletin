@@ -4,20 +4,20 @@ import { Subsection } from "./subsection/Subsection";
 
 const announcements = generateAnnouncements([
   <p key={1}>
-    <strong>Congregational Meeting:</strong> There will be a special
-    congregational meeting today, immediately following the worship
-    service. This meeting will have one agenda item: to hear a report
-    on the Vision 2020 fundraising and then vote on a proposal to
-    complete all remaining phases of the church building project.
+    <strong>Sunday School Kickoff:</strong> Join us on September 12 at
+    9:15am! We have great classes planned for all ages, from toddlers
+    through adults.
   </p>,
   <p key={2}>
-    <strong>Fall Kickoff:</strong> School is starting up, and so are
-    the ministries of Faith Covenant Church! Sunday, September 12, we
-    will rally together for a picnic and games following the service.
-    Please bring a side dish or dessert to share and a chair or
-    blanket to sit on (meat and beverages will be provided). We need
-    volunteers to grill, set up and clean up and run games. Please
-    contact{" "}
+    <strong>Fall Kickoff BBQ Picnic:</strong> September 12, we will
+    rally together for a picnic following the service. Together we
+    will celebrate the beginning of a new ministry season dedicated to
+    focused outreach and renewed community. Please bring a side dish
+    or dessert to share and a chair or blanket to sit on (meat and
+    beverages will be provided). There will be a water activity for
+    the kids, so they should plan on getting wet. We need volunteers
+    to grill, set up and clean up and supervise the water activities.
+    Please contact{" "}
     <a href="mailto:outreach@faithecc.org">outreach@faithecc.org</a>.
   </p>,
   <p key={3}>

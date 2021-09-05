@@ -3,7 +3,7 @@ import { Section } from "./components/section/Section";
 import "./App.css";
 import logo from "./images/Faith-Logo-Sqaure-2.jpg";
 import { Announcements } from "./components/Announcements";
-import { august29Service } from "./August29Data";
+import { september5Service } from "./September5Data";
 
 export const App: React.FC = () => {
   const [isRegisterVisible, setIsRegisterVisible] = useState<boolean>(
@@ -16,14 +16,14 @@ export const App: React.FC = () => {
         <header className="App-header">
           <h1>Worship Bulletin</h1>
           <p className="date">
-            August 29, 2021: Fourteenth Sunday after Pentecost
+            September 5, 2021: Fifteenth Sunday after Pentecost
           </p>
           {!isRegisterVisible && (
             <button
               className="register-button"
               onClick={() => setIsRegisterVisible(!isRegisterVisible)}
             >
-              Tap Here to Check In
+              Tap Here for the Connect Card
             </button>
           )}
           <div
@@ -40,7 +40,7 @@ export const App: React.FC = () => {
           ></div>
           {isRegisterVisible && (
             <button onClick={() => setIsRegisterVisible(false)}>
-              Close registration
+              Tap to Collapse
             </button>
           )}
         </header>
@@ -49,7 +49,7 @@ export const App: React.FC = () => {
             <i>Tap on a section of the service to expand it.</i>
           </p>
         </div>
-        {august29Service.map((section, i) => (
+        {september5Service.map((section, i) => (
           <Section
             key={i}
             title={section.title}
