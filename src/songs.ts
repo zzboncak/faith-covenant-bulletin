@@ -3253,7 +3253,12 @@ export const likeARiverGlorious: SubjectProps = {
   Traced upon our dial by the sun of love 
   We may trust Him fully all for us to do 
   They who trust Him wholly
-  Find Him wholly true`
+  Find Him wholly true
+  
+  Stayed upon Jehovah 
+  Hearts are fully blest 
+  Finding as He promised 
+  Perfect peace and rest`
 };
 
 export const imortalInvisibleGodOnlyWise: SubjectProps = {

@@ -33,7 +33,15 @@ import {
 
 export const september5Service: SectionProps[] = [
   generate1stSection(
-    { title: "Ancient Words", isExpandable: false },
+    {
+      title: "Ancient Words",
+      isExpandable: true,
+      type: "song",
+      content: `Ancient words ever true
+      Changing me changing you
+      We have come with open hearts
+      O let the ancient words impart`
+    },
     [standInYourLove, theWonderfulCross, likeARiverGlorious]
   ),
   generate2ndSection([
