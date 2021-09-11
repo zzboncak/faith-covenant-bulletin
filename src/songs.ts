@@ -414,20 +414,32 @@ export const godBlessYourChurchWithStrength: SubjectProps = {
   title: "God Bless Your Church with Strength!",
   isExpandable: true,
   type: "song",
-  content: `God bless your church with strength! Wherever we may be,
-  build up your servants as we work in common ministry.
-  Urge us from fledgling faith to venture and to soar 
-  through open skies to sing the praise of Christ, whom we adore.
+  content: `God bless your church with strength! 
+  Wherever we may be
+  Build up your servants as we work 
+  In common ministry
+  Urge us from fledgling faith 
+  To venture and to soar 
+  Through open skies to sing the praise 
+  Of Christ, whom we adore
   
-  God bless your church with life! May all our branches thrive
-  unblemished, wholesome, bearing fruit, abundantly alive.
-  From you, one holy vine, in freedom may we grow,
-  sustain us in our mission, Lord, your love and peace to show.
+  God bless your church with life! 
+  May all our branches thrive
+  Unblemished, wholesome, bearing fruit,
+  Abundantly alive
+  From you, one holy vine 
+  In freedom may we grow
+  Sustain us in our mission, Lord
+  Your love and peace to show
   
-  God bless your church with hope! Despite chaotic days,
-  may we in darkness shine to light a pathway through life's maze.
-  May justice be our aim and kindness ours to share,
-  in humbleness O may we walk, assured our God is there!`
+  God bless your church with hope! 
+  Despite chaotic days
+  May we in darkness shine to light 
+  A pathway through life's maze
+  May justice be our aim
+  And kindness ours to share
+  In humbleness O may we walk
+  Assured our God is there`
 };
 
 export const weAreTheBodyOfChrist: SubjectProps = {
@@ -3340,4 +3352,102 @@ export const youAreGodAloneLivingHope: SubjectProps = {
   You have broken every chain 
   There’s salvation in Your name 
   Jesus Christ my living hope`
+};
+
+export const comeAsYouAre: SubjectProps = {
+  title: "Come As You Are",
+  isExpandable: false
+};
+
+export const thisIsAmazingGrace: SubjectProps = {
+  title: "This is Amazing Grace",
+  isExpandable: true,
+  type: "song",
+  content: `Who breaks the power of sin and darkness 
+  Whose love is mighty and so much stronger 
+  The King of Glory the King of Glory
+  Who shakes the whole earth with holy thunder
+  And leaves us breathless in awe and wonder 
+  The King of Glory the King above all kings
+  
+  This is amazing grace 
+  This is unfailing love 
+  That You would take my place 
+  That You would bear my cross 
+  You laid down Your life 
+  That I would be set free
+  Oh Jesus I sing for
+  All that You've done for me
+
+  Who brings our chaos back into order 
+  Who makes the orphan a son and daughter 
+  The King of Glory the King of Glory
+  Who rules the nations with truth and justice 
+  Shines like the sun in all of its brilliance 
+  The King of Glory the King above all kings
+  
+  This is amazing grace 
+  This is unfailing love 
+  That You would take my place 
+  That You would bear my cross 
+  You laid down Your life 
+  That I would be set free
+  Oh Jesus I sing for
+  All that You've done for me
+
+  Worthy is the Lamb who was slain 
+  Worthy is the King who conquered the grave
+  Worthy is the Lamb who was slain 
+  Worthy is the King who conquered the grave
+  Worthy is the Lamb who was slain Worthy worthy worthy
+  
+  This is amazing grace 
+  This is unfailing love 
+  That You would take my place 
+  That You would bear my cross 
+  You laid down Your life 
+  That I would be set free
+  Oh Jesus I sing for
+  All that You've done for me`
+};
+
+export const weAreAllOneInMission: SubjectProps = {
+  title: "We Are All One In Mission",
+  isExpandable: true,
+  type: "song",
+  content: `We all are one in mission 
+  We all are one in call
+  Our varied gifts united
+  By Christ the Lord of all
+  A single great commission 
+  Compels us from above
+  To plan and work together 
+  That all may know Christ's love
+
+  We all are called for service 
+  To witness in God's name 
+  Our ministries are different 
+  Our purpose is the same 
+  To touch the lives of others
+  By God's surprising grace 
+  So people of all nations 
+  May feel God's warm embrace
+
+  We all behold one vision
+  A stark reality
+  The steward of salvation 
+  Was nailed upon a tree 
+  Yet resurrected Justice 
+  Gives rise that we may share 
+  Free reconciliation
+  And hope amid despair
+
+  Now let us be united 
+  And let our song be heard 
+  Now let us be a vessel 
+  For God's redeeming Word 
+  We all are one in mission 
+  We all are one in call 
+  Our varied gifts united 
+  By Christ the Lord of all`
 };

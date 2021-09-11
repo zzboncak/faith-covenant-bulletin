@@ -30,5 +30,6 @@ export enum OfferingSongs {
 
 export enum ScriptureReadingSongs {
   SPIRIT_OF_THE_LIVING_GOD = "Spirit of the Living God",
-  THY_WORD = "Thy Word"
+  THY_WORD = "Thy Word",
+  ANCIENT_WORDS = "Ancient Words"
 }

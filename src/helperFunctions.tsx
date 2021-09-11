@@ -111,6 +111,17 @@ export function generateScriptureReading(
         and a light unto my path`
       };
       break;
+    case ScriptureReadingSongs.ANCIENT_WORDS:
+      song = {
+        title: "Ancient Words",
+        isExpandable: true,
+        type: "song",
+        content: `Ancient words ever true
+        Changing me changing you
+        We have come with open hearts
+        O let the ancient words impart`
+      };
+      break;
   }
   const scriptureReading: SubsectionProps = {
     title: "Scripture Reading",
