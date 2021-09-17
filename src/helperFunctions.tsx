@@ -178,13 +178,17 @@ export function generateHymnOfPreparation(
 }
 
 export function generateHymnOfSending(
-  hymn: SubjectProps,
-  type: "song" | "hymn" = "hymn"
+  hymn: SubjectProps | SubjectProps[],
+  type: "song" | "hymn" = "hymn",
+  plural = false
 ): SubsectionProps {
+  const hymns = Array.isArray(hymn) ? hymn : [hymn];
   return {
-    title: `${type === "hymn" ? "Hymn" : "Song"} of Sending`,
+    title: `${type === "hymn" ? "Hymn" : "Song"}${
+      plural ? "s" : ""
+    } of Sending`,
     subtext: "*Congregation Standing",
-    subjects: [hymn]
+    subjects: hymns
   };
 }
 

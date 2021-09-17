@@ -3451,3 +3451,106 @@ export const weAreAllOneInMission: SubjectProps = {
   Our varied gifts united 
   By Christ the Lord of all`
 };
+
+export const goodGrace: SubjectProps = {
+  title: "Good Grace",
+  isExpandable: false
+};
+
+export const allThePeopleSaidAmen: SubjectProps = {
+  title: "All the People Said Amen",
+  isExpandable: true,
+  type: "song",
+  content: `You are not alone if you are lonely 
+  When you feel afraid you're not the only 
+  We are all the same in need of mercy 
+  To be forgiven and be free
+  It's all you got to lean on
+  But thank God it's all you need
+  
+  And all the people said amen whoa 
+  And all the people said amen 
+  Give thanks to the Lord
+  For His love never ends
+  And all the people said amen
+
+  If you're rich or poor well it don't matter 
+  Weak or strong you know love is what we're after
+  We're all broken but we're all in this together 
+  God knows we stumble and fall
+  And He so loved the world
+  He sent His son to save us all
+
+  And all the people said amen whoa 
+  And all the people said amen 
+  Give thanks to the Lord
+  For His love never ends
+  And all the people said amen
+
+  Blessed are the poor in spirit 
+  Who are torn apart 
+  Blessed are the persecuted 
+  And the pure in heart 
+  Blessed are the people hungry 
+  For another start
+  For theirs is the kingdom 
+  The kingdom of God`
+};
+
+export const comeThouFountOfEveryBlessing: SubjectProps = {
+  title: "Come Thou Fount of Every Blessing",
+  isExpandable: true,
+  type: "song",
+  content: `Come Thou fount of ev'ry blessing 
+  Tune my heart to sing Thy grace 
+  Streams of mercy never ceasing 
+  Call for songs of loudest praise 
+  Teach me some melodious sonnet 
+  Sung by flaming tongues above 
+  Praise the mount I'm fixed upon it 
+  Mount of Thy redeeming love
+
+  Here I raise mine Ebenezer 
+  Hither by Thy help I'm come 
+  And I hope by Thy good pleasure 
+  Safely to arrive at home 
+  Jesus sought me when a stranger 
+  Wand'ring from the fold of God 
+  He to rescue me from danger 
+  Interposed His precious blood
+  
+  O to grace how great a debtor 
+  Daily I'm constrained to be
+  Let Thy grace Lord like a fetter 
+  Bind my wand'ring heart to Thee 
+  Prone to wander Lord I feel it 
+  Prone to leave the God I love 
+  Here's my heart Lord take and seal it 
+  Seal it for Thy courts above`
+};
+
+export const changeMyHeartOGod: SubjectProps = {
+  title: "Change My Heart O God",
+  isExpandable: true,
+  type: "song",
+  content: `Change my heart oh God make it ever true 
+  Change my heart oh God may I be like You
+
+  You are the potter I am the clay 
+  Mold me and make me this is what I pray`
+};
+
+export const createInMeACleanHeart: SubjectProps = {
+  title: "Create in Me a Clean Heart",
+  isExpandable: true,
+  type: "song",
+  content: `Create in me a clean heart O God 
+  And renew a right spirit within me 
+  Create in me a clean heart O God 
+  And renew a right spirit within me
+
+  Cast me not away from Thy presence O Lord
+  And take not Thy Holy Spirit from me 
+  Restore unto me the joy of Thy salvation 
+  And renew a right spirit within me`
+};
