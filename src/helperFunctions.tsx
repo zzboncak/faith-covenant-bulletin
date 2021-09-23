@@ -261,14 +261,16 @@ export function generateGivingSection(
  */
 export function generate1stSection(
   gatheringSong: SubjectProps,
-  worshipSongs: SubjectProps[]
+  worshipSongs: SubjectProps[],
+  additionalSubsections: SubsectionProps[] = []
 ): SectionProps {
   const section1: SectionProps = {
     title: "God Gathers Us To Worship",
     subsections: [
       generateGatheringSong(gatheringSong),
       callToWorship,
-      generateWorshipSet(worshipSongs)
+      generateWorshipSet(worshipSongs),
+      ...additionalSubsections
     ]
   };
   return section1;

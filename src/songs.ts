@@ -3554,3 +3554,114 @@ export const createInMeACleanHeart: SubjectProps = {
   Restore unto me the joy of Thy salvation 
   And renew a right spirit within me`
 };
+
+export const manOfSorrows: SubjectProps = {
+  title: "Man of Sorrows",
+  isExpandable: true,
+  type: "song",
+  content: `Man of sorrows Lamb of God
+  By His own betrayed
+  The sin of man and wrath of God
+  Has been on Jesus laid
+  
+  Silent as He stood accused
+  Beaten mocked and scorned
+  Bowing to the Father's will
+  He took a crown of thorns
+  
+  Oh that rugged cross my salvation
+  Where Your love poured out over me
+  Now my soul cries out hallelujah
+  Praise and honour unto Thee
+  
+  Sent of heaven God's own Son
+  To purchase and redeem
+  And reconcile the very ones
+  Who nailed Him to that tree
+  
+  Oh that rugged cross my salvation
+  Where Your love poured out over me
+  Now my soul cries out hallelujah
+  Praise and honour unto Thee
+  
+  Now my debt is paid it is paid in full
+  By the precious blood that my Jesus spilled
+  Now the curse of sin has no hold on me
+  Whom the Son sets free oh is free indeed
+  
+  Now my debt is paid it is paid in full
+  By the precious blood that my Jesus spilled
+  Now the curse of sin has no hold on me
+  Whom the Son sets free oh is free indeed
+  
+  Oh that rugged cross my salvation
+  Where Your love poured out over me
+  Now my soul cries out hallelujah
+  Praise and honour unto Thee
+  
+  See the stone is rolled away
+  Behold the empty tomb
+  Hallelujah God be praised
+  He's risen from the grave`
+};
+
+export const allMySinsHaveBeenForgiven: SubjectProps = {
+  title: "All My Sins Have Been Forgiven",
+  isExpandable: true,
+  type: "song",
+  content: `All my sins have been forgiven
+  God is merciful to me
+  Faith has claimed the Savior's promise
+  Grace and pardon, full and free
+  O my soul, be ever praising
+  For the great Redeemer's love
+  Joyous songs to Him be raising
+  Unto God in heav'n above
+  
+  There is now no condemnation
+  I am fully reconciled
+  What a wonderful salvation
+  For a sinner so defiled
+  Now my soul shall live forever
+  No more can the Foe condemn
+  Nothing from God's love can sever
+  Peace and joy are found in Him`
+};
+
+export const atTheCrossLoveRanRed: SubjectProps = {
+  title: "At the Cross (Love Ran Red)",
+  isExpandable: true,
+  type: "song",
+  content: `There's a place
+  Where mercy reigns and never dies
+  There's a place
+  Where streams of grace flow deep and wide
+  Where all the love I've ever found
+  Comes like a flood comes flowing down
+  
+  At the cross at the cross
+  I surrender my life
+  I'm in awe of You I'm in awe of You
+  Where Your love ran red and my sin washed white
+  I owe all to You I owe all to You
+  
+  There's a place
+  Where sin and shame are powerless
+  Where my heart
+  Has peace with God and forgiveness
+  Where all the love I've ever found
+  Comes like a flood comes flowing down
+  
+  At the cross at the cross
+  I surrender my life
+  I'm in awe of You I'm in awe of You
+  Where Your love ran red and my sin washed white
+  I owe all to You I owe all to You
+  
+  Here my hope is found
+  Here on holy ground
+  Here I bow down here I bow down
+  Here arms open wide
+  Here You saved my life
+  Here I bow down here I bow`
+};
