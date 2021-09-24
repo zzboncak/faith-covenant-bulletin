@@ -42,6 +42,17 @@ const announcements = generateAnnouncements([
       HERE
     </a>{" "}
     to register.
+  </p>,
+  <p key={3}>
+    <strong>Community Night:</strong> Join us each Wednesday for
+    activities and fellowship opportunities for all ages. Come at 5:30
+    pm for an optional (outside) bring-your-own dinner. Childcare
+    (nursery-PreK) is provided from 5:45-7:45 pm. Kids Club (K-6th
+    grade) meets from 6-7:30 pm to play games, hang out together, and
+    learn about the Armor of God. Youth Group (7th-12th grade) also
+    meets from 6-7:30 pm to hang out, study God’s Word together, and
+    play games. Abide (adults) meets from 6-7pm for a time of worship
+    and prayer. Choir rehearses from 7-8 pm.
   </p>
 ]);
 
