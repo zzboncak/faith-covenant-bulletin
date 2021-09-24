@@ -156,7 +156,7 @@ export function generateAnnouncements(
     title: "Announcements",
     subjects: [
       {
-        title: "Click here to see",
+        title: "Tap here to see",
         isExpandable: true,
         content
       }
