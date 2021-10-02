@@ -3665,3 +3665,178 @@ export const atTheCrossLoveRanRed: SubjectProps = {
   Here You saved my life
   Here I bow down here I bow`
 };
+
+export const ancientOfDays: SubjectProps = {
+  title: "Ancient of Days",
+  isExpandable: true,
+  type: "song",
+  content: `Blessing and honor glory and power 
+  Be unto the Ancient of Days 
+  From ev'ry nation all of creation 
+  Bow before the Ancient of Days
+
+  Ev'ry tongue in heaven and earth 
+  Shall declare Your glory
+  Ev'ry knee shall bow at Your throne In worship
+  You will be exalted O God
+  And Your kingdom shall not pass away 
+  O Ancient of Days
+
+  Your kingdom shall reign 
+  Over all the earth
+  Sing unto the Ancient of Days 
+  For none can compare
+  To Your matchless worth 
+  Sing unto the Ancient of Days
+
+  Ev'ry tongue in heaven and earth 
+  Shall declare Your glory
+  Ev'ry knee shall bow at Your throne In worship
+  You will be exalted O God
+  And Your kingdom shall not pass away 
+  O Ancient of Days`
+};
+
+export const fromTheInsideOut: SubjectProps = {
+  title: "From the Inside Out",
+  isExpandable: true,
+  type: "song",
+  content: `A thousand times I've failed
+  Still Your mercy remains
+  And should I stumble again
+  Still I'm caught in Your grace 
+  Everlasting
+  Your light will shine when all else fades 
+  Never-ending
+  Your glory goes beyond all fame
+
+  Your will above all else
+  My purpose remains
+  The art of losing myself
+  In bringing You praise 
+  Everlasting
+  Your light will shine when all else fades 
+  Never-ending
+  Your glory goes beyond all fame
+
+  In my heart in my soul
+  Lord I give You control 
+  Consume me from the inside out Lord 
+  Let justice and praise 
+  Become my embrace
+  To love You from the inside out
+
+  Everlasting
+  Your light will shine when all else fades 
+  Never-ending
+  Your glory goes beyond all fame 
+  And the cry of my heart
+  Is to bring You praise
+  From the inside out
+  Lord my soul cries out`
+};
+
+export const theyllKnowWeAreChristiansByOurLove: SubjectProps = {
+  title: "They’ll Know We Are Christians By Our Love",
+  isExpandable: true,
+  type: "song",
+  content: `We are one in the Spirit 
+  We are one in the Lord 
+  We are one in the Spirit 
+  We are one in the Lord 
+  And we pray that all unity 
+  May one day be restored
+  
+  And they’ll know we are Christians 
+  By our love by our love
+  Yes they’ll know we are Christians 
+  By our love
+
+  We will walk with each other 
+  We will walk hand in hand 
+  We will walk with each other
+  We will walk hand in hand
+  And together we’ll spread the news 
+  That God is in our land
+
+  And they’ll know we are Christians 
+  By our love by our love
+  Yes they’ll know we are Christians 
+  By our love
+
+  We will work with each other 
+  We will work side by side
+  We will work with each other 
+  We will work side by side
+  And we’ll guard each man’s dignity 
+  And save each man’s pride
+  
+  And they’ll know we are Christians 
+  By our love by our love
+  Yes they’ll know we are Christians 
+  By our love
+
+  All praise to the Father 
+  From whom all things come 
+  And all praise to Christ Jesus 
+  His only Son
+  And all praise to the Spirit 
+  Who makes us one`
+};
+
+export const asWeGatherAtYourTable: SubjectProps = {
+  title: "As We Gather at Your Table",
+  isExpandable: true,
+  type: "song",
+  content: `As we gather at your table
+  As we listen to your word
+  Help us know, O God, your presence 
+  Let our hearts and minds be stirred 
+  Nourish us with sacred story
+  Till we claim it as our own 
+  Teach us through this holy banquet 
+  How to make Love’s victory known 
+
+  Turn our worship into witness
+  In the sacrament of life
+  Send us forth to love and serve you
+  Bringing peace where there is strife 
+  Give us, Christ, your great compassion 
+  To forgive as you forgave
+  May we still behold your image
+  In the world you died to save
+
+  Grant us vision, gracious Spirit 
+  Seeking guests to share that feast 
+  Where triumphant Love will welcome 
+  Those who had been last and least 
+  There no more will envy blind us 
+  Nor will pride our peace destroy 
+  As we join with saints and angels 
+  To repeat the sounding joy`
+};
+
+export const nowLetUsFromThisTableRise: SubjectProps = {
+  title: "Now Let Us from This Table Rise",
+  isExpandable: true,
+  type: "song",
+  content: `Now let us from this table rise 
+  Renewed in body mind and soul 
+  With Christ we die and live again 
+  His selfless love has made us whole
+
+  With minds alert upheld by grace
+  To spread the Word in speech and deed 
+  We follow in the steps of Christ
+  At one with man in hope and need
+
+  To fill each human house with love 
+  It is the sacrament of care
+  The work that Christ began to do 
+  We humbly pledge ourselves to share
+
+  Then grant us courage Father God 
+  To choose again the pilgrim way 
+  And help us to accept with joy 
+  The challenge of tomorrow's day`
+};
