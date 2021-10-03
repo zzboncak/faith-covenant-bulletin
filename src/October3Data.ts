@@ -61,7 +61,10 @@ export const october3service: SectionProps[] = [
       theyllKnowWeAreChristiansByOurLove,
       "song"
     ),
-    generateSermon("Pastor Nate Hickox", "")
+    generateSermon(
+      "Pastor Nate Hickox",
+      "Why We Need Christian Friends"
+    )
   ]),
   generate3rdSection([
     prayersOfThePeople,
