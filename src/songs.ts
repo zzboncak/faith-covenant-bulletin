@@ -3840,3 +3840,152 @@ export const nowLetUsFromThisTableRise: SubjectProps = {
   And help us to accept with joy 
   The challenge of tomorrow's day`
 };
+
+export const notForAMoment: SubjectProps = {
+  title: "Not for a Moment",
+  isExpandable: true,
+  type: "song",
+  content: `You were reaching through the storm 
+  Walking on the water
+  Even when I could not see
+  In the middle of it all
+  When I thought You were a thousand miles away
+  Not for a moment did You forsake me 
+  Not for a moment did You forsake me
+
+  After all You are constant
+  After all You are only good
+  After all You are sov'reign
+  Not for a moment will You forsake me
+  Not for a moment will You forsake me
+
+  You were singing in the dark 
+  Whispering Your promise
+  Even when I could not hear
+  I was held in Your arms 
+  Carried for a thousand miles to show 
+  Not for a moment did You forsake me 
+  Not for a moment did You forsake me
+
+  After all You are constant
+  After all You are only good
+  After all You are sov'reign
+  Not for a moment will You forsake me
+  Not for a moment will You forsake me
+
+  And ev'ry step ev'ry breath You are there 
+  Ev'ry tear ev'ry cry ev'ry prayer
+  In my hurt at my worst
+  When my world falls down
+  Not for a moment will You forsake me 
+  Not for a moment will You forsake me
+  
+  After all You are constant
+  After all You are only good
+  After all You are sov'reign
+  Not for a moment will You forsake me
+  Not for a moment will You forsake me`
+};
+
+export const yesIWill: SubjectProps = {
+  title: "Yes I Will",
+  isExpandable: true,
+  type: "song",
+  content: `I count on one thing
+  The same God that never fails 
+  Will not fail me now
+  You won't fail me now
+  In the waiting
+  The same God who's never late 
+  Is working all things out 
+  You're working all things out
+
+  Yes I will lift You high 
+  In the lowest valley 
+  Yes I will bless Your name 
+  Yes I will sing for joy 
+  When my heart is heavy 
+  All my days yes I will
+
+  I choose to praise
+  To glorify glorify
+  The name of all names 
+  That nothing can stand against
+  
+  I choose to praise
+  To glorify glorify
+  The name of all names 
+  That nothing can stand against
+  
+  Yes I will lift You high 
+  In the lowest valley 
+  Yes I will bless Your name 
+  Yes I will sing for joy 
+  When my heart is heavy 
+  All my days yes I will`
+};
+
+export const christBeMyLeader: SubjectProps = {
+  title: "Christ Be My Leader",
+  isExpandable: true,
+  type: "song",
+  content: `Christ be my leader by night as by day 
+  Safe through the darkness for He is the Way 
+  Gladly I follow, my future His care 
+  Darkness is daylight when Jesus is there
+
+  Christ be my teacher in age as in youth 
+  Drifting or doubting for He is the truth 
+  Grant me to trust Him though shifting as sand
+  Doubt cannot daunt me in Jesus I stand
+
+  Christ be my Savior in calm as in strife
+  Death cannot hold me for He is the life 
+  Nor darkness nor doubting nor sin and its stain
+  Can touch my salvation with Jesus I reign`
+};
+
+export const aMightyFortressIsOurGod: SubjectProps = {
+  title: "A Mighty Fortress is Our God",
+  isExpandable: true,
+  type: "song",
+  content: `A mighty fortress is our God 
+  A bulwark never failing 
+  Our helper He amid the flood 
+  Of mortal ills prevailing 
+  For still our ancient foe 
+  Doth seek to work us woe 
+  His craft and pow'r are great 
+  And armed with cruel hate 
+  On earth is not his equal
+
+  Did we in our own strength confide 
+  Our striving would be losing 
+  Were not the right Man on our side 
+  The Man of God's own choosing 
+  Dost ask who that may be 
+  Christ Jesus it is He
+  Lord Sabaoth His name 
+  From age to age the same 
+  And He must win the battle
+
+  And tho' this world with devils filled 
+  Should threaten to undo us
+  We will not fear for God hath willed 
+  His truth to triumph through us 
+  The prince of darkness grim 
+  We tremble not for him
+  His rage we can endure
+  For lo his doom is sure
+  One little word shall fell him
+
+  That Word above all earthly pow'rs 
+  No thanks to them abideth 
+  The Spirit and the gifts are ours 
+  Through Him who with us sideth 
+  Let goods and kindred go 
+  This mortal life also
+  The body they may kill 
+  God's truth abideth still
+  His kingdom is forever`
+};

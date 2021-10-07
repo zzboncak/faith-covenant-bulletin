@@ -4,33 +4,40 @@ import { Subsection } from "./subsection/Subsection";
 
 const announcements = generateAnnouncements([
   <p key={1}>
-    <strong>All-Church Family Meal:</strong> Stay after church today
-    (weather-permitting) for lunch. All are welcome to join and enjoy
-    this time of fellowship. This time together is a lot of fun and a
-    vital part of forming intentional community. If you are able,
-    please consider helping with cleanup after the meal or during the
-    meal to keep the food table clean. Please see Bethany Romero if
-    you can help.
+    <strong>Welcome to Faith Lunch,</strong> today after church. If
+    you are new to Faith Covenant Church, we hope you will join us for
+    a pizza lunch outside under the large shade tree. You will have
+    the opportunity to meet other new people, hear more about Pastor
+    Nate&apos;s story, and learn more about the church&apos;s
+    ministry. Children of all ages will go to the Nursery & Toddler
+    room. They will be given lunch. The younger children will play and
+    the older children will have a video.
   </p>,
   <p key={2}>
     <strong>
-      Volunteers needed for Trunk or Treat (Saturday, Oct. 23,
-      3:00-5:00 pm):
+      Trunk or Treat (Saturday, Oct. 23, 3:00-5:00 pm, rain or shine):
     </strong>{" "}
     Pumpkins, autumn leaves, and chilly air...fall is here! It is an
-    especially fun season for children. If we have enough volunteers,
-    we are hoping to host our third annual Trunk or Treat. Are you
-    available to serve? Our goal is to have at least 20 Trunks. We
-    also need candy donations, welcome hosts, and hay wagon hosts. You
-    can sign up to serve by clicking{" "}
+    especially fun season for children. Faith Covenant will be hosting
+    its third annual Trunk or Treat. The event is FREE. Invite your
+    friends! Click{" "}
     <a
-      href="https://faithecc.breezechms.com/forms/entries/497044"
+      href="https://faithecc.breezechms.com/form/AttendTrunkorTreat"
       target="_blank"
       rel="noreferrer"
     >
       HERE
-    </a>
-    . Please sign up by TODAY!
+    </a>{" "}
+    to let us know you are coming. Interested in helping or donating
+    candy? Click{" "}
+    <a
+      href="https://faithecc.breezechms.com/form/TRUNKorTREAT21"
+      target="_blank"
+      rel="noreferrer"
+    >
+      HERE
+    </a>{" "}
+    to let us know you&apos;d like to serve!
   </p>,
   <p key={3}>
     <strong>Community Night:</strong> Join us each Wednesday for
