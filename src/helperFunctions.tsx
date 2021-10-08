@@ -153,7 +153,7 @@ export function generateAnnouncements(
     content = <>{announcements as JSX.Element[]}</>;
   }
   const announcementsSection: SubsectionProps = {
-    title: "Announcements",
+    title: "Announcements & Sign Ups",
     subjects: [
       {
         title: "Tap here to see",
