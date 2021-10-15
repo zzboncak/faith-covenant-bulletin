@@ -1063,11 +1063,11 @@ export const battleBelong: SubjectProps = {
   Oh God the battle belongs to You
   
   And if You are for me
-  Who can be against me (yeah)
+  Who can be against me
   For Jesus there's nothing
   Impossible for You
   When all I see are the ashes
-  You see the beauty (thank You God)
+  You see the beauty
   When all I see is a cross
   God You see the empty tomb
   
@@ -3988,4 +3988,151 @@ export const aMightyFortressIsOurGod: SubjectProps = {
   The body they may kill 
   God's truth abideth still
   His kingdom is forever`
+};
+
+export const myLighthouse: SubjectProps = {
+  title: "My Lighthouse",
+  isExpandable: true,
+  type: "song",
+  content: `In my wrestling and in my doubts
+  In my failures You won't walk out 
+  Your great love will lead me through 
+  You are the peace in my troubled sea oh 
+  You are the peace in my troubled sea
+
+  In the silence You won't let go
+  In the questions Your truth will hold 
+  Your great love will lead me through 
+  You are the peace in my troubled sea oh 
+  You are the peace in my troubled sea
+
+  My Lighthouse my Lighthouse 
+  Shining in the darkness
+  I will follow You
+  My Lighthouse my Lighthouse
+  I will trust the promise
+  You will carry me safe to shore 
+  Safe to shore safe to shore safe to shore
+
+  I won't fear what tomorrow brings 
+  With each morning I'll rise and sing 
+  My God's love will lead me through 
+  You are the peace in my troubled sea oh 
+  You are the peace in my troubled sea
+
+  My Lighthouse my Lighthouse 
+  Shining in the darkness
+  I will follow You
+  My Lighthouse my Lighthouse
+  I will trust the promise
+  You will carry me safe to shore 
+  Safe to shore safe to shore safe to shore`
+};
+
+export const hereIBow: SubjectProps = {
+  title: "Here I Bow",
+  isExpandable: true,
+  type: "song",
+  content: `Where would I run
+  But to the throne of mercy 
+  Where would I kneel
+  But at this cross of grace 
+  How great the love
+  How strong the hand that holds us 
+  Beautiful so beautiful
+
+  So here I bow to lift You high 
+  Jesus be glorified
+  In all things for all my life
+  I am Yours forever Yours 
+  There is a King
+  Who bore the scars of healing
+  
+  There is a Son who came in grace and truth 
+  How great the love
+  That carries us to kindness 
+  Wonderful You’re wonderful
+
+  So here I bow to lift You high 
+  Jesus be glorified
+  In all things for all my life
+  I am Yours forever Yours 
+  There is a King
+  Who bore the scars of healing
+
+  God here and now be lifted high 
+  Right here and now be glorified 
+  God of Heaven and Earth 
+  God who brought me back to life 
+  I am Yours forever Yours
+
+  So here I bow to lift You high 
+  Jesus be glorified
+  In all things for all my life
+  I am Yours forever Yours 
+  There is a King
+  Who bore the scars of healing`
+};
+
+export const beStillMySoulTheLordIsOnYourSide: SubjectProps = {
+  title: "Be Still My Soul, The Lord is on Your Side",
+  isExpandable: true,
+  type: "song",
+  content: `Be still my soul the Lord is on your side 
+  Bear patiently the cross of grief or pain 
+  Leave to your God to order and provide 
+  In ev’ry change He faithful will remain 
+  Be still my soul your best your heav’nly Friend
+  Through thorny ways leads to a joyful end
+
+  Be still my soul your God will undertake 
+  To guide the future as He has the past 
+  Your hope your confidence let nothing shake
+  All now mysterious shall be bright at last 
+  Be still my soul the waves and winds still know
+  His voice who ruled them while He dwelt below
+
+  Be still my soul the hour is hast'ning on
+  When we shall be forever with the Lord 
+  When disappointment grief and fear are gone
+  Sorrow forgot love's purest joys restored 
+  Be still my soul when change and tears are past
+  All safe and blessed we shall meet at last`
+};
+
+export const godOfGraceAndGodofGlory: SubjectProps = {
+  title: "God of Grace and God of Glory",
+  isExpandable: true,
+  type: "song",
+  content: `God of grace and God of glory 
+  On your people pour your pow’r 
+  Crown your ancient church’s story 
+  Bring her bud to glorious flow’r 
+  Grant us wisdom, grant us courage 
+  For the facing of this hour
+  For the facing of this hour
+  
+  Lo! the hosts of evil ‘round us 
+  Scorn your Christ, assail his ways 
+  From the fears that long have bound us 
+  Free our hearts to faith and praise 
+  Grant us wisdom, grant us courage 
+  For the living of these days
+  For the living of these days
+
+  Cure your children’s warring madness 
+  Bend our pride to your control 
+  Shame our wanton, selfish gladness 
+  Rich in things and poor in soul 
+  Grant us wisdom, grant us courage 
+  Lest we miss your kingdom’s goal 
+  Lest we miss your kingdom’s goal
+
+  Save us from weak resignation 
+  To the evils we deplore
+  Let the search for your salvation 
+  Be our glory evermore
+  Grant us wisdom, grant us courage 
+  Serving you whom we adore 
+  Serving you whom we adore`
 };
