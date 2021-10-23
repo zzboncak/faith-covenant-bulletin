@@ -305,3 +305,10 @@ export function generate4thSection(
   };
   return section4;
 }
+
+export function genNonExpandableSE(title: string): SubjectProps {
+  return {
+    title,
+    isExpandable: false
+  };
+}
