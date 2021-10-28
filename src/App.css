@@ -29,6 +29,11 @@
   margin-top: -10px;
 }
 
+.register-button,
+.breeze_form_embed {
+  margin-top: 40px;
+}
+
 .helper-text {
   margin-top: 15px;
 }
