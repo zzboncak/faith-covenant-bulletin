@@ -16,10 +16,10 @@ export const App: React.FC = () => {
         <header className="App-header">
           <h1>Worship Bulletin</h1>
           <p className="date">
-            October 31, 2021: Twenty-Third Sunday after Pentecost
+            November 14, 2021: Twenty-Fifth Sunday after Pentecost
           </p>
           <sub>
-            <i>Worship Leader: Gene Frost</i>
+            <i>Worship Host: Pastor Nate Hickox</i>
           </sub>
           {!isRegisterVisible && (
             <button
@@ -47,7 +47,7 @@ export const App: React.FC = () => {
             </button>
           )}
         </header>
-        <div className="helper-text-container">
+        {/* <div className="helper-text-container">
           <p className="helper-text">
             <i>Tap on a section of the service to expand it.</i>
           </p>
@@ -58,7 +58,7 @@ export const App: React.FC = () => {
             title={section.title}
             subsections={section.subsections}
           />
-        ))}
+        ))} */}
         <a
           href="https://faithecc.breezechms.com/give/online"
           target="_blank"

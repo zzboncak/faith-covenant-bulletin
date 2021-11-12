@@ -4,29 +4,26 @@ import { Subsection } from "./subsection/Subsection";
 
 const announcements = generateAnnouncements([
   <p key={2}>
-    <strong>Congregational Meeting:</strong> There will be a short
-    congregational meeting on November 7th immediately following the
-    worship service. The agenda will include voting to accept new
-    members and some brief reports on church ministries. If you are a
-    church member, please plan on attending.
-  </p>,
-  <p key={1}>
-    <strong>Foundations Membership Class:</strong> Join us on November
-    14 from 4:00-6:30 pm if you are interested in joining our church
-    family or just want to learn more about Faith Covenant and our
-    denomination. You will learn about our church’s mission, vision,
-    and values and what it means to partner with us in the Lord’s work
-    through membership. Click{" "}
+    <strong>Christ the King Worship Night:</strong> Join us at 6:00 pm
+    on Sunday November 21 for a night of worship focused on our
+    heavenly King. If you need childcare, please let us know no later
+    than Wednesday November 17 by clicking{" "}
     <a
-      href="https://faithecc.breezechms.com/form/Foundations11.14.21"
+      href="https://faithecc.breezechms.com/form/d32c63"
       target="_blank"
       rel="noreferrer"
     >
       HERE
-    </a>{" "}
-    to let us know you are coming. If you need assistance with
-    childcare contact{" "}
-    <a href="mailto:outreach@faithecc.org">outreach@faithecc.org</a>.
+    </a>
+    .
+  </p>,
+  <p key={1}>
+    <strong>Thanksgiving Hike & Hymn Sing:</strong> Join us on
+    Thanksgiving morning for one of the longest standing traditions at
+    Faith Covenant! We&apos;ll meet at 9:00 am at the church and go on
+    a hike around Herrick Lake (sun, rain, or snow). We&apos;ll come
+    back to the church for coffee and hot chocolate and head to the
+    sanctuary for a service of thanksgiving and hymn singing.
   </p>,
   <p key={3}>
     <strong>Community Night:</strong> Join us each Wednesday for
