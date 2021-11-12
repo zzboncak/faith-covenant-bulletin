@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { Section } from "./components/section/Section";
 import "./App.css";
 import logo from "./images/Faith-Logo-Sqaure-2.jpg";
 import { Announcements } from "./components/Announcements";
-import { october31service } from "./October31Data";
 
 export const App: React.FC = () => {
   const [isRegisterVisible, setIsRegisterVisible] = useState<boolean>(
