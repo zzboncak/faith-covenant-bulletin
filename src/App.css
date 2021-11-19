@@ -59,6 +59,12 @@ footer {
   display: none;
 }
 
-.giving-link {
+.action-link {
+  display: block;
   font-size: 24px;
+  margin: 30px auto;
+}
+
+.announcement {
+  text-align: left;
 }
