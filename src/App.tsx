@@ -10,7 +10,7 @@ export const App: React.FC = () => {
         <header className="App-header">
           <h1>Sign Ups & Links</h1>
           <p className="date">
-            November 21, 2021: Twenty-Sixth Sunday after Pentecost
+            November 28, 2021: First Sunday of Advent
           </p>
         </header>
         <a
@@ -42,28 +42,20 @@ export const App: React.FC = () => {
         <h2>Announcements</h2>
         <section className="announcements-section">
           <p className="announcement">
-            <strong>Christ the King Worship Night:</strong> Join us at
-            6:00 pm on Sunday November 21 for a night of worship
-            focused on our heavenly King. If you need childcare,
-            please let us know no later than Wednesday November 17 by
-            clicking{" "}
+            <strong>Ladies’ Christmas Party:</strong> Come celebrate
+            the beginning of the Christmas season on December 3 at
+            6:00 pm. Women of all ages are invited! Ann Wolff is
+            hosting the party at her house, and she will provide
+            drinks and dessert. We invite you to bring a dish to share
+            and a gift to exchange. Click{" "}
             <a
-              href="https://faithecc.breezechms.com/form/d32c63"
+              href="https://faithecc.breezechms.com/form/fe6097"
               target="_blank"
               rel="noreferrer"
             >
               HERE
-            </a>
-            .
-          </p>
-          <p className="announcement">
-            <strong>Thanksgiving Hike & Hymn Sing:</strong> Join us on
-            Thanksgiving morning for one of the longest standing
-            traditions at Faith Covenant! We&apos;ll meet at 9:00 am
-            at the church and go on a hike around Herrick Lake (sun,
-            rain, or snow). We&apos;ll come back to the church for
-            coffee and hot chocolate and head to the sanctuary for a
-            service of thanksgiving and hymn singing.
+            </a>{" "}
+            to sign up.
           </p>
           <p className="announcement">
             <strong>Community Night:</strong> Join us each Wednesday
@@ -75,6 +67,16 @@ export const App: React.FC = () => {
             6:00-7:30 pm. <strong>Abide</strong> (adults) meets from
             6:00-7:00pm. <strong>Choir</strong> gathers to rehearse
             from 7:00-8:00pm.
+          </p>
+          <p className="announcement">
+            <strong>Men’s Retreat:</strong> Attention all men of Faith
+            — the Men’s Retreat at Covenant Point in the upper
+            peninsula of Michigan will be held February 25-27, 2022.
+            Please clear your calendar for this great annual event!
+            Registration will take place in January to take advantage
+            of the early-bird pricing of $120. Transportation will be
+            provided—don’t miss this great time of recreation and
+            fellowship!
           </p>
         </section>
         <div className="push"></div>
